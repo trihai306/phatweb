@@ -1,0 +1,2025 @@
+{
+  "company_info": {
+    "stats": {
+      "ceo": "PARK HAN SOON",
+      "founding_date": "26. 12. 2014",
+      "revenue": "2,000tỷ đồng\n(Năm 2020)",
+      "employees": "3,500người",
+      "meals_per_day": "250 nghìn suất ăn/ngày",
+      "business_areas": "Cung cấp suất ăn công nghiệp\nDịch vụ phục vụ đồ uống\nDịch vụ tư vấn quản lý\nHoạt động mua bán hàng hóa",
+      "canteen_count": "Vận hành 61 nhà ăn cung cấp suất ăn công nghiệp tại Việt Nam",
+      "hq_address": "Số 21, Đường 8, KCN Thương mại và Dịch vụ VSIP Bắc Ninh II, Xã Tam Giang, Huyện Yên Phong, Tỉnh Bắc Ninh, Việt Nam",
+      "intro": "Welstory Việt Nam hướng tới khách hàng lối sống khỏe mạnh thông qua dịch vụ ăn uống an toàn và chất lượng."
+    },
+    "tableRows": []
+  },
+  "sliders": [
+    {
+      "image": "/images/main/210508_img_slider_pohoto_01.jpg",
+      "title": "Mọi dịch vụ ẩm thực của Welstory Việt Nam đều hướng tới sức khỏe và sự hạnh phúc của quý khách hàng.",
+      "bg_color": "rgb(255, 153, 53)",
+      "image_url": "https://www.welstory.vn/images/main/210508_img_slider_pohoto_01.jpg",
+      "image_local": "images_main_210508_img_slider_pohoto_01.jpg"
+    },
+    {
+      "image": "/images/main/img_slider_pohoto_02.jpg",
+      "title": "Điều cơ bản của ẩm thực xuất phát từ sự tươi ngon và an toàn.",
+      "bg_color": "rgb(163, 182, 79)",
+      "image_url": "https://www.welstory.vn/images/main/img_slider_pohoto_02.jpg",
+      "image_local": "images_main_img_slider_pohoto_02.jpg"
+    },
+    {
+      "image": "/images/main/img_slider_pohoto_03.jpg",
+      "title": "Chúng tôi, doanh nghiệp chuyên nghiệp số một Hàn Quốc, sẽ tạo nên những món ăn ngon và tốt cho sức khỏe.",
+      "bg_color": "rgb(255, 153, 53)",
+      "image_url": "https://www.welstory.vn/images/main/img_slider_pohoto_03.jpg",
+      "image_local": "images_main_img_slider_pohoto_03.jpg"
+    },
+    {
+      "image": "/images/main/img_slider_pohoto_04.jpg",
+      "title": "Welstory cam kết cung cấp bữa ăn cân bằng dinh dưỡng, ngon miệng và an toàn.",
+      "bg_color": "rgb(163, 182, 79)",
+      "image_url": "https://www.welstory.vn/images/main/img_slider_pohoto_04.jpg",
+      "image_local": "images_main_img_slider_pohoto_04.jpg"
+    },
+    {
+      "image": null,
+      "title": null,
+      "bg_color": null
+    },
+    {
+      "image": null,
+      "title": null,
+      "bg_color": null
+    }
+  ],
+  "pages": [
+    {
+      "url": "https://www.welstory.vn/index.html",
+      "section": "homepage",
+      "headings": [
+        {
+          "tag": "h4",
+          "text": "Mọi dịch vụ ẩm thực của Welstory Việt Nam đều hướng tới sức khỏe và sự hạnh phúc của quý khách hàng."
+        },
+        {
+          "tag": "h4",
+          "text": "Điều cơ bản của ẩm thực xuất phát từ sự tươi ngon và an toàn."
+        },
+        {
+          "tag": "h4",
+          "text": "Chúng tôi, doanh nghiệp chuyên nghiệp số một Hàn Quốc, sẽ tạo nên những món ăn ngon và tốt cho sức khỏe."
+        },
+        {
+          "tag": "h4",
+          "text": "Welstory cam kết cung cấp bữa ăn cân bằng dinh dưỡng, ngon miệng và an toàn."
+        },
+        {
+          "tag": "h2",
+          "text": "Dịch vụ"
+        },
+        {
+          "tag": "h2",
+          "text": "Tại sao là chúng tôi"
+        },
+        {
+          "tag": "h2",
+          "text": "Các địa điểm làm\nviệc chính"
+        }
+      ],
+      "breadcrumb": [],
+      "sidebarNav": [],
+      "contentText": "Về chúng tôi\nDịch vụ\nTại sao là chúng tôi\nTuyển dụng\nLiên lạc với chúng tôi\n\nMọi dịch vụ ẩm thực của Welstory Việt Nam đều hướng tới sức khỏe và sự hạnh phúc của quý khách hàng.\n\nStop\nPrev\nNext\nDịch vụ\n\nChúng tôi cung cấp dịch vụ và những bữa ăn\nChất lượng cao với các thực đơn phù hợp với\nđặc trưng của từng vùng miền.\n\nMiền Bắc\nVới tổng số 61 nhà ăn, chúng tôi đang cung cấp dịch vụ ăn uống với quy mô 250 nghìn suất ăn mỗi ngày.\n\nMiền Nam\nChúng tôi cũng đã xây dựng góc ẩm thực Phù hợp với đặc trưng văn hóa ẩm thực Nam Bộ\n\nMiền Trung\nChúng tôi sẽ liên tục nghiên cứu và phát triển để cung cấp dịch vụ ăn uống tốt nhất.\n\nThực đơn\nChúng tôi cũng sẽ phát triển các thực đơn phù hợp với đặc trưng từng vùng miền để đẩy mạnh văn hóa suất ăn công nghiệp tại Việt Nam\n\nTại sao là chúng tôi\nThực phẩm tươi ngon\nThực phẩm an toàn\nHương vị thơm ngon\nDịch vụ khách hàng\n\nCác địa điểm làm\nviệc chính\n\nĐịa chỉ (Address):\nSố 21, Đường 8, KCN Thương mại và Dịch vụ VSIP Bắc Ninh II,\nXã Tam Giang, Huyện Yên Phong, Tỉnh Bắc Ninh, Việt Nam\nSố điện thoại : 0222-369-9930\ne-mail : cskh.welv@samsung.com\n\nTuyển dụng\nWelstory Việt Nam mở ra cơ hội thực hiện những ước mơ đến với mọi người\n\nHỏi trực tuyến\nChúng tôi sẽ nỗ lực hết sức để có những giải đáp nhanh chóng và hài lòng nhất đến khách hàng.\n\nPhương pháp xử lý thông tin cá nhân\n\n© 2016.SAMSUNG WELSTORY INC",
+      "images": [
+        {
+          "original": "https://www.welstory.vn/images/pimg_e.png",
+          "local": "images_pimg_e.png"
+        },
+        {
+          "original": "https://www.welstory.vn/images/common/h1_logo.png",
+          "local": "images_common_h1_logo.png"
+        },
+        {
+          "original": "https://www.welstory.vn/images/common/btn_global.png",
+          "local": "images_common_btn_global.png"
+        },
+        {
+          "original": "https://www.welstory.vn/images/common/btn_menu_open.png",
+          "local": "images_common_btn_menu_open.png"
+        },
+        {
+          "original": "https://www.welstory.vn/images/common/btn_global.png",
+          "local": "images_common_btn_global.png"
+        },
+        {
+          "original": "https://www.welstory.vn/images/main/210508_img_slider_pohoto_01.jpg",
+          "local": "images_main_210508_img_slider_pohoto_01.jpg"
+        },
+        {
+          "original": "https://www.welstory.vn/images/main/img_slider_pohoto_02.jpg",
+          "local": "images_main_img_slider_pohoto_02.jpg"
+        },
+        {
+          "original": "https://www.welstory.vn/images/main/img_slider_pohoto_03.jpg",
+          "local": "images_main_img_slider_pohoto_03.jpg"
+        },
+        {
+          "original": "https://www.welstory.vn/images/main/img_slider_pohoto_04.jpg",
+          "local": "images_main_img_slider_pohoto_04.jpg"
+        },
+        {
+          "original": "https://www.welstory.vn/images/main/img_m_service01.png",
+          "local": "images_main_img_m_service01.png"
+        },
+        {
+          "original": "https://www.welstory.vn/images/main/img_m_service02.png",
+          "local": "images_main_img_m_service02.png"
+        },
+        {
+          "original": "https://www.welstory.vn/images/main/bg_service02_on.png",
+          "local": "images_main_bg_service02_on.png"
+        },
+        {
+          "original": "https://www.welstory.vn/images/main/img_m_service03.png",
+          "local": "images_main_img_m_service03.png"
+        },
+        {
+          "original": "https://www.welstory.vn/images/main/img_m_service04.png",
+          "local": "images_main_img_m_service04.png"
+        },
+        {
+          "original": "https://www.welstory.vn/images/main/241108_img_major01.jpg",
+          "local": "images_main_241108_img_major01.jpg"
+        },
+        {
+          "original": "https://www.welstory.vn/images/main/210508_img_major02.jpg",
+          "local": "images_main_210508_img_major02.jpg"
+        },
+        {
+          "original": "https://www.welstory.vn/images/main/img_major03.jpg",
+          "local": "images_main_img_major03.jpg"
+        }
+      ],
+      "homepage_data": {
+        "sliders": [
+          {
+            "image": "/images/main/210508_img_slider_pohoto_01.jpg",
+            "title": "Mọi dịch vụ ẩm thực của Welstory Việt Nam đều hướng tới sức khỏe và sự hạnh phúc của quý khách hàng.",
+            "bg_color": "rgb(255, 153, 53)",
+            "image_url": "https://www.welstory.vn/images/main/210508_img_slider_pohoto_01.jpg",
+            "image_local": "images_main_210508_img_slider_pohoto_01.jpg"
+          },
+          {
+            "image": "/images/main/img_slider_pohoto_02.jpg",
+            "title": "Điều cơ bản của ẩm thực xuất phát từ sự tươi ngon và an toàn.",
+            "bg_color": "rgb(163, 182, 79)",
+            "image_url": "https://www.welstory.vn/images/main/img_slider_pohoto_02.jpg",
+            "image_local": "images_main_img_slider_pohoto_02.jpg"
+          },
+          {
+            "image": "/images/main/img_slider_pohoto_03.jpg",
+            "title": "Chúng tôi, doanh nghiệp chuyên nghiệp số một Hàn Quốc, sẽ tạo nên những món ăn ngon và tốt cho sức khỏe.",
+            "bg_color": "rgb(255, 153, 53)",
+            "image_url": "https://www.welstory.vn/images/main/img_slider_pohoto_03.jpg",
+            "image_local": "images_main_img_slider_pohoto_03.jpg"
+          },
+          {
+            "image": "/images/main/img_slider_pohoto_04.jpg",
+            "title": "Welstory cam kết cung cấp bữa ăn cân bằng dinh dưỡng, ngon miệng và an toàn.",
+            "bg_color": "rgb(163, 182, 79)",
+            "image_url": "https://www.welstory.vn/images/main/img_slider_pohoto_04.jpg",
+            "image_local": "images_main_img_slider_pohoto_04.jpg"
+          },
+          {
+            "image": null,
+            "title": null,
+            "bg_color": null
+          },
+          {
+            "image": null,
+            "title": null,
+            "bg_color": null
+          }
+        ],
+        "serviceCards": [
+          {
+            "image": "/images/main/img_m_service01.png",
+            "title": "Miền Bắc",
+            "description": "Với tổng số 61 nhà ăn, chúng tôi đang cung cấp dịch vụ ăn uống với quy mô 250 nghìn suất ăn mỗi ngày.",
+            "href": "contents/services/north.html"
+          },
+          {
+            "image": "/images/main/img_m_service02.png",
+            "title": "Miền Nam",
+            "description": "Chúng tôi cũng đã xây dựng góc ẩm thực Phù hợp với đặc trưng văn hóa ẩm thực Nam Bộ",
+            "href": "contents/services/south.html"
+          },
+          {
+            "image": "/images/main/img_m_service03.png",
+            "title": "Miền Trung",
+            "description": "Chúng tôi sẽ liên tục nghiên cứu và phát triển để cung cấp dịch vụ ăn uống tốt nhất.",
+            "href": "contents/services/midland.html"
+          },
+          {
+            "image": "/images/main/img_m_service04.png",
+            "title": "Thực đơn",
+            "description": "Chúng tôi cũng sẽ phát triển các thực đơn phù hợp với đặc trưng từng vùng miền để đẩy mạnh văn hóa suất ăn công nghiệp tại Việt Nam",
+            "href": "contents/services/menu.html"
+          }
+        ],
+        "strengthCards": [
+          {
+            "title": "Thực phẩm tươi ngon",
+            "href": "/contents/whyus/freshness.html",
+            "link_class": "link1"
+          },
+          {
+            "title": "Thực phẩm an toàn",
+            "href": "/contents/whyus/safety.html",
+            "link_class": "link2"
+          },
+          {
+            "title": "Hương vị thơm ngon",
+            "href": "/contents/whyus/tasty.html",
+            "link_class": "link3"
+          },
+          {
+            "title": "Dịch vụ khách hàng",
+            "href": "/contents/whyus/customer.html",
+            "link_class": "link4"
+          }
+        ],
+        "contactInfo": {
+          "raw": "Địa chỉ (Address):\nSố 21, Đường 8, KCN Thương mại và Dịch vụ VSIP Bắc Ninh II,\nXã Tam Giang, Huyện Yên Phong, Tỉnh Bắc Ninh, Việt Nam\nSố điện thoại : 0222-369-9930\ne-mail : cskh.welv@samsung.com",
+          "address": "Địa chỉ (Address):",
+          "phone": "Số điện thoại : 0222-369-9930",
+          "email": "e-mail : cskh.welv@samsung.com"
+        },
+        "links": {
+          "recruitment": "contents/careers/hrSystem.html",
+          "inquiry": "contents/contactus/inquiry.html"
+        }
+      }
+    },
+    {
+      "url": "https://www.welstory.vn/contents/aboutus/welstory.html",
+      "section": "about",
+      "headings": [
+        {
+          "tag": "h2",
+          "text": "Về chúng tôi"
+        },
+        {
+          "tag": "h3",
+          "text": "Welstory Việt Nam"
+        }
+      ],
+      "breadcrumb": [],
+      "sidebarNav": [],
+      "contentText": "Về chúng tôi\nDịch vụ\nTại sao là chúng tôi\nTuyển dụng\nLiên lạc với chúng tôi\n\nVề chúng tôi\nWelstory Việt Nam\nKinh doanh bền vững\nTầm nhìn\nLịch sử\nChứng nhận\nVề Samsung Welstory\nTrang chủ\nVề chúng tôi\nWelstory Việt Nam\nWelstory Việt Nam\n\nWelstory Việt Nam hướng tới khách hàng lối sống khỏe mạnh thông qua dịch vụ ăn uống an toàn và chất lượng.\n\nTổng Giám đốc\nPARK HAN SOON\nNgày thành lập\n26. 12. 2014\nDoanh thu\n2,000tỷ đồng\n(Năm 2020)\nSố lượng nhân viên\n3,500người\n\nSố lượng suất ăn trên 1 ngày\n250 nghìn suất ăn/ngày\nLĩnh vực kinh doanh\nCung cấp suất ăn công nghiệp\nDịch vụ phục vụ đồ uống\nDịch vụ tư vấn quản lý\nHoạt động mua bán hàng hóa\nNhà ăn\nVận hành 61 nhà ăn cung cấp suất ăn công nghiệp tại Việt Nam\nTrụ sở công ty\nSố 21, Đường 8, KCN Thương mại và Dịch vụ VSIP Bắc Ninh II, Xã Tam Giang, Huyện Yên Phong, Tỉnh Bắc Ninh, Việt Nam\n\nPhương pháp xử lý thông tin cá nhân\n\n© 2016.SAMSUNG WELSTORY INC",
+      "images": [
+        {
+          "original": "https://www.welstory.vn/images/common/h1_logo.png",
+          "local": "images_common_h1_logo.png"
+        },
+        {
+          "original": "https://www.welstory.vn/images/common/btn_global.png",
+          "local": "images_common_btn_global.png"
+        },
+        {
+          "original": "https://www.welstory.vn/images/common/btn_menu_open.png",
+          "local": "images_common_btn_menu_open.png"
+        },
+        {
+          "original": "https://www.welstory.vn/images/common/btn_global.png",
+          "local": "images_common_btn_global.png"
+        },
+        {
+          "original": "https://www.welstory.vn/images/sub/aboutus/241112_img_aboutus05.png",
+          "local": "images_sub_aboutus_241112_img_aboutus05.png"
+        },
+        {
+          "original": "https://www.welstory.vn/images/icon/btn_top.png",
+          "local": "images_icon_btn_top.png"
+        }
+      ],
+      "about_data": {
+        "stats": {
+          "ceo": "PARK HAN SOON",
+          "founding_date": "26. 12. 2014",
+          "revenue": "2,000tỷ đồng\n(Năm 2020)",
+          "employees": "3,500người",
+          "meals_per_day": "250 nghìn suất ăn/ngày",
+          "business_areas": "Cung cấp suất ăn công nghiệp\nDịch vụ phục vụ đồ uống\nDịch vụ tư vấn quản lý\nHoạt động mua bán hàng hóa",
+          "canteen_count": "Vận hành 61 nhà ăn cung cấp suất ăn công nghiệp tại Việt Nam",
+          "hq_address": "Số 21, Đường 8, KCN Thương mại và Dịch vụ VSIP Bắc Ninh II, Xã Tam Giang, Huyện Yên Phong, Tỉnh Bắc Ninh, Việt Nam",
+          "intro": "Welstory Việt Nam hướng tới khách hàng lối sống khỏe mạnh thông qua dịch vụ ăn uống an toàn và chất lượng."
+        },
+        "tableRows": []
+      }
+    },
+    {
+      "url": "https://www.welstory.vn/contents/aboutus/sustainability.html",
+      "section": "sustainability",
+      "headings": [
+        {
+          "tag": "h2",
+          "text": "Về chúng tôi"
+        },
+        {
+          "tag": "h3",
+          "text": "Kinh doanh bền vững"
+        },
+        {
+          "tag": "h4",
+          "text": "Triết lý kinh doanh"
+        },
+        {
+          "tag": "h5",
+          "text": "Trách nhiệm và tôn trọng khách hàng"
+        },
+        {
+          "tag": "h5",
+          "text": "Trách nhiệm đối với xã hội"
+        },
+        {
+          "tag": "h5",
+          "text": "Trách nhiệm với nhân viên"
+        },
+        {
+          "tag": "h5",
+          "text": "Văn hóa tổ chức vững mạnh"
+        },
+        {
+          "tag": "h5",
+          "text": "Cùng phát triển với những doanh nghiệp hợp tác"
+        },
+        {
+          "tag": "h4",
+          "text": "Kinh doanh tuân thủ theo pháp luật"
+        },
+        {
+          "tag": "h5",
+          "text": "Compliance\nProgram"
+        },
+        {
+          "tag": "h4",
+          "text": "Các hoạt động cống hiến cho xã hội"
+        }
+      ],
+      "breadcrumb": [],
+      "sidebarNav": [],
+      "contentText": "Về chúng tôi\nDịch vụ\nTại sao là chúng tôi\nTuyển dụng\nLiên lạc với chúng tôi\n\nVề chúng tôi\nWelstory Việt Nam\nKinh doanh bền vững\nTầm nhìn\nLịch sử\nChứng nhận\nVề Samsung Welstory\nTrang chủ\nVề chúng tôi\nKinh doanh bền vững\nKinh doanh bền vững\nTriết lý kinh doanh\n\nLà doanh nghiệp kinh doanh trung thực và minh bạch, Welstory Việt Nam luôn tuân thủ các quy định đạo đức như sau.\n\nTrách nhiệm và tôn trọng khách hàng\n\nLuôn cung cấp những sản phẩm và dịch vụ tốt nhất cho khách hàng, không ngừng sáng tạo ra những giá trị hữu ích cho khách hàng.\n\nTrách nhiệm đối với xã hội\n\nThực hiện tiêu chí là doanh nghiệp đi đầu trong việc cống hiến cho sự phát triển của xã hội và tạo nên cuộc sống sung túc tới mọi người.\n\nTrách nhiệm với nhân viên\n\nTôn trọng nhân quyền của nhân viên, đãi ngộ công bằng theo năng lực và công việc, luôn nỗ lực để nhân viên sẽ trở thành những nhân tài sáng tạo góp phần đóng góp vào sự phát triển của công ty.\n\nVăn hóa tổ chức vững mạnh\n\nChúng tôi sẽ xây dựng văn hóa tổ chức vững mạnh nơi những người đồng nghiệp khen ngợi, động viên lẫn nhau dựa trên sự tin tưởng và hiểu biết để cùng thoải mái làm việc.\n\nCùng phát triển với những doanh nghiệp hợp tác\n\nChúng tôi cùng các công ty hợp tác xây dựng mối quan hệ tin tưởng, tương hỗ, hợp tác và cùng tăng trưởng thông qua các giao dịch thương mại minh bạch và công bằng.\n\nKinh doanh tuân thủ theo pháp luật\n\nWelstory Việt Nam đang thực hiện chương trình “Tuân Thủ Pháp Luật(Compliance Program)” với mục đích hướng tất cả các nhân viên của công ty thực thi đúng các quy định kinh doanh của pháp luật\n\nCompliance\nProgram\nTổ chức chuyên nhiệm\nĐiều hành và hỗ trợ việc tuân thủ pháp luật\nÝ chí lãnh đạo điều hành kinh doanh·văn hóa tổ chức\nXây dựng văn hóa tổ chức với động lực triển khai việc kinh doanh tuân thủ pháp luật.\nQuy trình\nXây dựng quy trình hoạt động kinh doanh tuân thủ pháp luật\nHệ thống cổng thông tin\nHỗ trợ tuân thủ pháp luật thông qua hệ thống\nTiêu chuẩn · hướng dẫn điều hành\nĐưa ra tiêu chuẩn điều hành tuân thủ pháp luật và tiêu chuẩn quản lý những rủi ro về mặt pháp lý\nCác hoạt động cống hiến cho xã hội\n\nĐồng hành cùng sự phát triển của doanh nghiệp, Welstory Việt Nam luôn coi các hoạt động xã hội là\nmột phần trách nhiệm của mình. Trong hơn 7 năm thành lập công ty thường xuyên tổ chức\ncác buổi từ thiện hỗ trợ trẻ em nghèo vùng cao có hoàn cảnh khó khăn, hỗ trợ nhân viên ảnh hưởng\nbởi bão lũ, dịch bệnh Covid-19...\n\nPhương pháp xử lý thông tin cá nhân\n\n© 2016.SAMSUNG WELSTORY INC",
+      "images": [
+        {
+          "original": "https://www.welstory.vn/images/common/h1_logo.png",
+          "local": "images_common_h1_logo.png"
+        },
+        {
+          "original": "https://www.welstory.vn/images/common/btn_global.png",
+          "local": "images_common_btn_global.png"
+        },
+        {
+          "original": "https://www.welstory.vn/images/common/btn_menu_open.png",
+          "local": "images_common_btn_menu_open.png"
+        },
+        {
+          "original": "https://www.welstory.vn/images/common/btn_global.png",
+          "local": "images_common_btn_global.png"
+        },
+        {
+          "original": "https://www.welstory.vn/images/sub/aboutus/210508_img_aboutus13.jpg",
+          "local": "images_sub_aboutus_210508_img_aboutus13.jpg"
+        },
+        {
+          "original": "https://www.welstory.vn/images/sub/aboutus/210528_img_aboutus15.jpg",
+          "local": "images_sub_aboutus_210528_img_aboutus15.jpg"
+        },
+        {
+          "original": "https://www.welstory.vn/images/icon/btn_top.png",
+          "local": "images_icon_btn_top.png"
+        }
+      ]
+    },
+    {
+      "url": "https://www.welstory.vn/contents/aboutus/vision.html",
+      "section": "vision",
+      "headings": [
+        {
+          "tag": "h2",
+          "text": "Về chúng tôi"
+        },
+        {
+          "tag": "h3",
+          "text": "Tầm nhìn"
+        },
+        {
+          "tag": "h4",
+          "text": "Giá trị cốt lõi"
+        },
+        {
+          "tag": "h4",
+          "text": "Nguyên tắc kinh doanh"
+        }
+      ],
+      "breadcrumb": [],
+      "sidebarNav": [],
+      "contentText": "Về chúng tôi\nDịch vụ\nTại sao là chúng tôi\nTuyển dụng\nLiên lạc với chúng tôi\n\nVề chúng tôi\nWelstory Việt Nam\nKinh doanh bền vững\nTầm nhìn\nLịch sử\nChứng nhận\nVề Samsung Welstory\nTrang chủ\nVề chúng tôi\nTầm nhìn\nTầm nhìn\nDoanh nghiệp thực phẩm toàn cầu\nCống hiến cho hạnh phúc của nhân loại thông qua việc nâng cao chất lượng cuộc sống khỏe mạnh.\nGiá trị cốt lõi\n\nCOOK THE HEALTHY LIFE\n\nNguyên tắc kinh doanh\nNâng cao chất lượng cuộc sống khỏe mạnh của khách hàng\tĐịnh hướng cùng các nước láng giềng xây dựng xã hội khỏe mạnh\tDuy trì môi trường bền vững cho tương lai\n\nPhương pháp xử lý thông tin cá nhân\n\n© 2016.SAMSUNG WELSTORY INC",
+      "images": [
+        {
+          "original": "https://www.welstory.vn/images/common/h1_logo.png",
+          "local": "images_common_h1_logo.png"
+        },
+        {
+          "original": "https://www.welstory.vn/images/common/btn_global.png",
+          "local": "images_common_btn_global.png"
+        },
+        {
+          "original": "https://www.welstory.vn/images/common/btn_menu_open.png",
+          "local": "images_common_btn_menu_open.png"
+        },
+        {
+          "original": "https://www.welstory.vn/images/common/btn_global.png",
+          "local": "images_common_btn_global.png"
+        },
+        {
+          "original": "https://www.welstory.vn/images/sub/aboutus/img_aboutus29.jpg",
+          "local": "images_sub_aboutus_img_aboutus29.jpg"
+        },
+        {
+          "original": "https://www.welstory.vn/images/icon/btn_top.png",
+          "local": "images_icon_btn_top.png"
+        }
+      ]
+    },
+    {
+      "url": "https://www.welstory.vn/contents/aboutus/history.html",
+      "section": "history",
+      "headings": [
+        {
+          "tag": "h2",
+          "text": "Về chúng tôi"
+        },
+        {
+          "tag": "h3",
+          "text": "Lịch sử"
+        },
+        {
+          "tag": "h4",
+          "text": "2021"
+        },
+        {
+          "tag": "h4",
+          "text": "2020"
+        },
+        {
+          "tag": "h4",
+          "text": "2019"
+        },
+        {
+          "tag": "h4",
+          "text": "2018"
+        },
+        {
+          "tag": "h4",
+          "text": "2017"
+        },
+        {
+          "tag": "h4",
+          "text": "2016"
+        },
+        {
+          "tag": "h4",
+          "text": "2015"
+        },
+        {
+          "tag": "h4",
+          "text": "2014"
+        }
+      ],
+      "breadcrumb": [],
+      "sidebarNav": [],
+      "contentText": "Về chúng tôi\nDịch vụ\nTại sao là chúng tôi\nTuyển dụng\nLiên lạc với chúng tôi\n\nVề chúng tôi\nWelstory Việt Nam\nKinh doanh bền vững\nTầm nhìn\nLịch sử\nChứng nhận\nVề Samsung Welstory\nTrang chủ\nVề chúng tôi\nLịch sử\nLịch sử\n2021\nThành lập học viện ẩm thực miền Nam\n2020\nVận hành 63 bếp ăn\n2019\nVận hành 58 bếp ăn\n2018\nVận hành 53 bếp ăn\n2017\n01\nThành lập trung tâm điều vận\nThành lập viên nghiên cứu thực phẩm\n03\nThành lập học viện ẩm thực miền Bắc\n2016\n01\nThành lập chi nhánh Hồ Chí Minh\n2015\n12\nKhai trương nhà ăn số 1 tại miền Nam\n(Công ty điện tử Samsung Hồ Chí Minh)\n11\nThành lập văn phòng Hà Nội\n07\nTiếp nhận các nhà ăn từ doanh nghiệp cung cấp suất ăn công nghiệp chuyên nghiệp tại Việt Nam (23nhà ăn)\n04\nKhai trương nhà ăn số 1\n(Công ty điện tử Samsung, Tỉnh Thái Nguyên, miền Bắc Việt Nam)\n\n2014\n12\nThành lập Welstory Việt Nam (WELV) (Trụ sở công ty: tỉnh Bắc Ninh)\n\nPhương pháp xử lý thông tin cá nhân\n\n© 2016.SAMSUNG WELSTORY INC",
+      "images": [
+        {
+          "original": "https://www.welstory.vn/images/common/h1_logo.png",
+          "local": "images_common_h1_logo.png"
+        },
+        {
+          "original": "https://www.welstory.vn/images/common/btn_global.png",
+          "local": "images_common_btn_global.png"
+        },
+        {
+          "original": "https://www.welstory.vn/images/common/btn_menu_open.png",
+          "local": "images_common_btn_menu_open.png"
+        },
+        {
+          "original": "https://www.welstory.vn/images/common/btn_global.png",
+          "local": "images_common_btn_global.png"
+        },
+        {
+          "original": "https://www.welstory.vn/images/sub/aboutus/img_aboutus30.jpg",
+          "local": "images_sub_aboutus_img_aboutus30.jpg"
+        },
+        {
+          "original": "https://www.welstory.vn/images/sub/aboutus/img_aboutus31.jpg",
+          "local": "images_sub_aboutus_img_aboutus31.jpg"
+        },
+        {
+          "original": "https://www.welstory.vn/images/icon/btn_top.png",
+          "local": "images_icon_btn_top.png"
+        }
+      ]
+    },
+    {
+      "url": "https://www.welstory.vn/contents/aboutus/certificate.html",
+      "section": "certificate",
+      "headings": [
+        {
+          "tag": "h2",
+          "text": "Về chúng tôi"
+        },
+        {
+          "tag": "h3",
+          "text": "Chứng nhận"
+        },
+        {
+          "tag": "h4",
+          "text": "Năm 2016 được bình chọn là\n“Doanh nghiệp có thương hiệu uy tín nhất tại Hàn Quốc”"
+        },
+        {
+          "tag": "h5",
+          "text": "Doanh nghiệp có thương hiệu uy tín nhất tại Hàn Quốc là gì?"
+        },
+        {
+          "tag": "h4",
+          "text": "Giấy chứng nhận đủ điều kiện vệ sinh Sự an toàn thực phẩm"
+        }
+      ],
+      "breadcrumb": [],
+      "sidebarNav": [],
+      "contentText": "Về chúng tôi\nDịch vụ\nTại sao là chúng tôi\nTuyển dụng\nLiên lạc với chúng tôi\n\nVề chúng tôi\nWelstory Việt Nam\nKinh doanh bền vững\nTầm nhìn\nLịch sử\nChứng nhận\nVề Samsung Welstory\nTrang chủ\nVề chúng tôi\nChứng nhận\nChứng nhận\nNăm 2016 được bình chọn là\n“Doanh nghiệp có thương hiệu uy tín nhất tại Hàn Quốc”\nSamSung Welstory,\nchuyên gia hàng đầu trong lĩnh\nvực dịch vụ ẩm thực\nDoanh nghiệp có thương hiệu uy tín nhất tại Hàn Quốc là gì?\n\nLà chế độ bình chọn dựa trên đánh giá tổng thể về giá trị cổ phiếu, giá trị nhân viên, giá trị khách hàng, giá trị xã hội, giá trị hình ảnh của các doanh nghiệp . Đánh giá này do người tiêu dùng và các chuyên gia kinh tế, các nhà phân tích đánh giá về sự không ngừng nỗ lực cải cách và đạt được những thành quả kinh doanh xuất sắc, đồng thời thực hiện một cách trung thực có trách nhiệm đối với xã hội của doanh nghiệp.\n\n* Do Hiệp hội tư vấn kinh doanh Hàn Quốc (KMAC) chủ quản\nGiấy chứng nhận đủ điều kiện vệ sinh Sự an toàn thực phẩm\n\nWelstory Việt Nam luôn tuân thủ tất cả các quy định và thủ tục của pháp luật về an toàn vệ sinh cần thiết cho việc kinh doanh như kiểm tra vệ sinh tại toàn bộ các nhà ăn của công ty, kiểm tra sức khỏe nhân viên.\n\nPhương pháp xử lý thông tin cá nhân\n\n© 2016.SAMSUNG WELSTORY INC",
+      "images": [
+        {
+          "original": "https://www.welstory.vn/images/common/h1_logo.png",
+          "local": "images_common_h1_logo.png"
+        },
+        {
+          "original": "https://www.welstory.vn/images/common/btn_global.png",
+          "local": "images_common_btn_global.png"
+        },
+        {
+          "original": "https://www.welstory.vn/images/common/btn_menu_open.png",
+          "local": "images_common_btn_menu_open.png"
+        },
+        {
+          "original": "https://www.welstory.vn/images/common/btn_global.png",
+          "local": "images_common_btn_global.png"
+        },
+        {
+          "original": "https://www.welstory.vn/images/sub/aboutus/img_aboutus32.jpg",
+          "local": "images_sub_aboutus_img_aboutus32.jpg"
+        },
+        {
+          "original": "https://www.welstory.vn/images/sub/aboutus/img_aboutus33.jpg",
+          "local": "images_sub_aboutus_img_aboutus33.jpg"
+        },
+        {
+          "original": "https://www.welstory.vn/images/icon/btn_top.png",
+          "local": "images_icon_btn_top.png"
+        }
+      ]
+    },
+    {
+      "url": "https://www.welstory.vn/contents/aboutus/about01.html",
+      "section": "about01",
+      "headings": [
+        {
+          "tag": "h2",
+          "text": "Về chúng tôi"
+        },
+        {
+          "tag": "h3",
+          "text": "Về Samsung Welstory"
+        },
+        {
+          "tag": "h4",
+          "text": "Tổng quan về công ty"
+        }
+      ],
+      "breadcrumb": [],
+      "sidebarNav": [],
+      "contentText": "Về chúng tôi\nDịch vụ\nTại sao là chúng tôi\nTuyển dụng\nLiên lạc với chúng tôi\n\nVề chúng tôi\nWelstory Việt Nam\nKinh doanh bền vững\nTầm nhìn\nLịch sử\nChứng nhận\nVề Samsung Welstory\nTổng quan về công ty\nDịch vụ\nKinh doanh bền vững\nTrang chủ\nVề chúng tôi\nVề Samsung Welstory\nTổng quan về công ty\nVề Samsung Welstory\n\nCông ty Samsung Welstory bắt đầu kinh doanh dịch vụ ăn uống vào năm 1982. Hiện tại Samsung Welstory với tư cách là công ty số 1 lĩnh vực cung cấp suất ăn công nghiệp, chúng tôi đang đi tiên phong trong việc phát triển ngành công nghiệp ăn uống. Chúng tôi đã xây dựng hệ thống các tiêu chuẩn khoa học cho dịch vụ ăn uống nhằm xây dựng thói quen ăn uống lành mạnh, tạo dựng giá trị sức khoẻ cho nhân dân.\n\nBên cạnh đó chúng tôi cũng đã mở rộng cơ sở hạ tầng lưu thông hàng hóa tiên tiến nhất nhằm vận chuyển nguyên liệu thực phẩm đảm bảo độ tươi ngon. Với nền tảngcơ bản là đầu tư vào nghiên cứu phát triển ẩm thực (R&D)như xây dựng viện nghiên cứu thực phẩm và trường dạy nấu ăn, chúng tôi đang không ngừng nghiên cứu và phát triển với mục tiêu chủ đạo là xây dựng nền văn hóa ẩm thực mới.\n\nTổng quan về công ty\n\nChúng tôi sáng tạo nên văn hóa ẩm thực mới thông qua các bữa ăn lành mạnh được thay đổi hàng ngày và dịch vụ ăn uống cao cấp.\n\nTên doanh nghiệp\tCông ty cổ phần Samsung Welstory\nCEO\tTổng giám đốc Song Kue Jong\nNgày thành lập\t01. 12. 2013\nThời điểm bắt đầu kinh doanh\tNăm 1982\n※ mở dịch vụ cung cấp suất ăn cho Viện đào tạo tập đoàn Samsung\n\nSố nhân viên\t7,861 người\n※ số liệu năm 2020\n\nDoanh thu\t1970 tỷ 100 trăm triệu won ※ số liệu năm 2020\nSố lượng suất ăn\t1,000,000 suất/1 ngày\nSố lượng nhà ăn vận hành\t700 nhà ăn\nSố lượng địa điểm phân phối nguyên liệu thực phẩm\t5000 địa điểm\nTiếng Anh\n\nTải về\n\nTiếng Hàn\n\nTải về\n\nPhương pháp xử lý thông tin cá nhân\n\n© 2016.SAMSUNG WELSTORY INC",
+      "images": [
+        {
+          "original": "https://www.welstory.vn/images/common/h1_logo.png",
+          "local": "images_common_h1_logo.png"
+        },
+        {
+          "original": "https://www.welstory.vn/images/common/btn_global.png",
+          "local": "images_common_btn_global.png"
+        },
+        {
+          "original": "https://www.welstory.vn/images/common/btn_menu_open.png",
+          "local": "images_common_btn_menu_open.png"
+        },
+        {
+          "original": "https://www.welstory.vn/images/common/btn_global.png",
+          "local": "images_common_btn_global.png"
+        },
+        {
+          "original": "https://www.welstory.vn/images/icon/btn_top.png",
+          "local": "images_icon_btn_top.png"
+        }
+      ]
+    },
+    {
+      "url": "https://www.welstory.vn/contents/services/service.html",
+      "section": "service",
+      "headings": [
+        {
+          "tag": "h2",
+          "text": "Dịch vụ"
+        },
+        {
+          "tag": "h3",
+          "text": "Giới thiệu"
+        },
+        {
+          "tag": "h5",
+          "text": "Dịch vụ ăn uống miền Bắc"
+        },
+        {
+          "tag": "h5",
+          "text": "Dịch vụ ăn uống miền Nam"
+        },
+        {
+          "tag": "h5",
+          "text": "Dịch vụ ăn uống miền Trung"
+        },
+        {
+          "tag": "h4",
+          "text": "Thực đơn"
+        }
+      ],
+      "breadcrumb": [],
+      "sidebarNav": [],
+      "contentText": "Về chúng tôi\nDịch vụ\nTại sao là chúng tôi\nTuyển dụng\nLiên lạc với chúng tôi\n\nDịch vụ\nGiới thiệu\nMiền Bắc\nMiền Nam\nMiền Trung\nThực đơn\nTrang chủ\nDịch vụ\nGiới thiệu\nGiới thiệu\n\nWelstory Việt Nam với khoảng 61 nhà ăn trên toàn lãnh thổ Việt Nam hiện đang cung cấp 250 nghìn suất ăn mỗi ngày.\nThông qua hệ thống quản lý an toàn vệ sinh thực phẩm nghiêm ngặt triệt để, chúng tôi luôn sử dụng nguồn nguyên liệu tươi ngon và an toàn, đồng thời cung cấp dịch vụ và bữa ăn chất lượng cao như cung cấp thực đơn riêng phù hợp với đặc tính của từng khu vực, tiến hành đào tạo dịch vụ cho nhân viên...\n\nDịch vụ ăn uống miền Bắc\nBếp ăn đại diện :\nCông ty điện tử Samsung, Elentec, Hyosung\nXem tiếp\n\nDịch vụ ăn uống miền Nam\nBếp ăn đại diện :\nCông ty điện tử Samsung, Elentec, Hyosung\nXem tiếp\n\nDịch vụ ăn uống miền Trung\n\nChúng tôi sẽ đến với quý vị bằng dịch vụ ẩm thực chuyên biệt theo vùng miền làm hài lòng khách hàng.\n\nXem tiếp\nThực đơn\n\nHãy cùng đến với những thực đơn thơm ngon và lành mạnh của Welstory Việt Nam.\n\nXem tiếp\n\nPhương pháp xử lý thông tin cá nhân\n\n© 2016.SAMSUNG WELSTORY INC",
+      "images": [
+        {
+          "original": "https://www.welstory.vn/images/common/h1_logo.png",
+          "local": "images_common_h1_logo.png"
+        },
+        {
+          "original": "https://www.welstory.vn/images/common/btn_global.png",
+          "local": "images_common_btn_global.png"
+        },
+        {
+          "original": "https://www.welstory.vn/images/common/btn_menu_open.png",
+          "local": "images_common_btn_menu_open.png"
+        },
+        {
+          "original": "https://www.welstory.vn/images/common/btn_global.png",
+          "local": "images_common_btn_global.png"
+        },
+        {
+          "original": "https://www.welstory.vn/images/sub/service/img_service01.jpg",
+          "local": "images_sub_service_img_service01.jpg"
+        },
+        {
+          "original": "https://www.welstory.vn/images/sub/service/img_service02.jpg",
+          "local": "images_sub_service_img_service02.jpg"
+        },
+        {
+          "original": "https://www.welstory.vn/images/sub/service/img_service03.jpg",
+          "local": "images_sub_service_img_service03.jpg"
+        },
+        {
+          "original": "https://www.welstory.vn/images/sub/service/img_service04.jpg",
+          "local": "images_sub_service_img_service04.jpg"
+        },
+        {
+          "original": "https://www.welstory.vn/images/icon/btn_top.png",
+          "local": "images_icon_btn_top.png"
+        }
+      ]
+    },
+    {
+      "url": "https://www.welstory.vn/contents/services/north.html",
+      "section": "north",
+      "headings": [
+        {
+          "tag": "h2",
+          "text": "Dịch vụ"
+        },
+        {
+          "tag": "h3",
+          "text": "Miền Bắc"
+        },
+        {
+          "tag": "h4",
+          "text": "Nhà ăn đại diện"
+        },
+        {
+          "tag": "h5",
+          "text": "Nhà ăn SEVT 2"
+        },
+        {
+          "tag": "h5",
+          "text": "Nhà ăn SDV"
+        },
+        {
+          "tag": "h5",
+          "text": "Dreamtech"
+        },
+        {
+          "tag": "h5",
+          "text": "Glonics"
+        },
+        {
+          "tag": "h4",
+          "text": "Khách hàng chính"
+        }
+      ],
+      "breadcrumb": [],
+      "sidebarNav": [],
+      "contentText": "Về chúng tôi\nDịch vụ\nTại sao là chúng tôi\nTuyển dụng\nLiên lạc với chúng tôi\n\nDịch vụ\nGiới thiệu\nMiền Bắc\nMiền Nam\nMiền Trung\nThực đơn\nTrang chủ\nDịch vụ\nMiền Bắc\nMiền Bắc\n\nTại miền Bắc Việt Nam hiện có 54 nhà ăn đang cung cấp dịch vụ ăn uống với quy mô 210 nghìn suất ăn trên mỗi ngày\n\nNhà ăn đại diện\n\nNhà ăn SEVT 2\nCông ty Hàn Quốc\nĐịa điểm : Thái Nguyên\nQuy mô : 38 nghìn suất/ngày\nĐặc điểm : Là nhà ăn riêng với quy mô lớn nhất vận hành 23 quầy ăn trưa, 36 nghìn 8 trăm suất ăn một ngày, quy trình được hệ thống hóa hiệu quả, tự hào về khả năng sản xuất cao nhất thông qua hệ thống điều hành nhân lực.\nNhà ăn SDV\nCông ty Hàn Quốc\nĐịa điểm : Bắc Ninh\nQuy mô : 45 nghìn suất ăn/ngày\nĐặc điểm : Nhà ăn cung cấp dịch vụ chất lượng cao như vận hành phòng VIP riêng, nội thất sảnh ăn hiện đại…\nDreamtech\nCông ty Hàn Quốc\nĐịa điểm : Bắc Ninh\nQuy mô : 19 nghìn suất ăn/ngày\nĐặc điểm: Chúng tôi cung cấp thực đơn đa dạng với 6 khu ẩm thực chuyên về các món Việt Nam, Hàn Quốc.\nGlonics\nCông ty Hàn Quốc\nĐịa điểm : Thái Nguyên\nQuy mô : 7 nghìn suất ăn/ngày\nĐặc điểm : Vận hành 9 khu ẩm thực cao cấp chuyên các món Việt Nam, Hàn Quốc, Welstory Việt Nam đã tham gia ngay từ khâu thiết kế nhà ăn, xây dựng một môi trường ẩm thực hiện đại và giàu cảm xúc.\nKhách hàng chính\n\nPhương pháp xử lý thông tin cá nhân\n\n© 2016.SAMSUNG WELSTORY INC",
+      "images": [
+        {
+          "original": "https://www.welstory.vn/images/common/h1_logo.png",
+          "local": "images_common_h1_logo.png"
+        },
+        {
+          "original": "https://www.welstory.vn/images/common/btn_global.png",
+          "local": "images_common_btn_global.png"
+        },
+        {
+          "original": "https://www.welstory.vn/images/common/btn_menu_open.png",
+          "local": "images_common_btn_menu_open.png"
+        },
+        {
+          "original": "https://www.welstory.vn/images/common/btn_global.png",
+          "local": "images_common_btn_global.png"
+        },
+        {
+          "original": "https://www.welstory.vn/images/sub/service/img_service05.jpg",
+          "local": "images_sub_service_img_service05.jpg"
+        },
+        {
+          "original": "https://www.welstory.vn/images/sub/service/img_service06.jpg",
+          "local": "images_sub_service_img_service06.jpg"
+        },
+        {
+          "original": "https://www.welstory.vn/images/sub/service/img_service07.jpg",
+          "local": "images_sub_service_img_service07.jpg"
+        },
+        {
+          "original": "https://www.welstory.vn/images/sub/service/img_service09.jpg",
+          "local": "images_sub_service_img_service09.jpg"
+        },
+        {
+          "original": "https://www.welstory.vn/images/sub/service/img_service10.jpg",
+          "local": "images_sub_service_img_service10.jpg"
+        },
+        {
+          "original": "https://www.welstory.vn/images/sub/service/img_service11.jpg",
+          "local": "images_sub_service_img_service11.jpg"
+        },
+        {
+          "original": "https://www.welstory.vn/images/sub/service/img_service12.jpg",
+          "local": "images_sub_service_img_service12.jpg"
+        },
+        {
+          "original": "https://www.welstory.vn/images/sub/service/img_service13.jpg",
+          "local": "images_sub_service_img_service13.jpg"
+        },
+        {
+          "original": "https://www.welstory.vn/images/sub/service/img_service14.jpg",
+          "local": "images_sub_service_img_service14.jpg"
+        },
+        {
+          "original": "https://www.welstory.vn/images/sub/service/img_service15.jpg",
+          "local": "images_sub_service_img_service15.jpg"
+        },
+        {
+          "original": "https://www.welstory.vn/images/sub/service/img_HANSOL.png",
+          "local": "images_sub_service_img_HANSOL.png"
+        },
+        {
+          "original": "https://www.welstory.vn/images/sub/service/img_service17.jpg",
+          "local": "images_sub_service_img_service17.jpg"
+        },
+        {
+          "original": "https://www.welstory.vn/images/sub/service/img_service18.jpg",
+          "local": "images_sub_service_img_service18.jpg"
+        },
+        {
+          "original": "https://www.welstory.vn/images/sub/service/img_CAMMSYS.png",
+          "local": "images_sub_service_img_CAMMSYS.png"
+        },
+        {
+          "original": "https://www.welstory.vn/images/sub/service/img_service39.jpg",
+          "local": "images_sub_service_img_service39.jpg"
+        },
+        {
+          "original": "https://www.welstory.vn/images/icon/btn_top.png",
+          "local": "images_icon_btn_top.png"
+        }
+      ]
+    },
+    {
+      "url": "https://www.welstory.vn/contents/services/south.html",
+      "section": "south",
+      "headings": [
+        {
+          "tag": "h2",
+          "text": "Dịch vụ"
+        },
+        {
+          "tag": "h3",
+          "text": "Miền Nam"
+        },
+        {
+          "tag": "h5",
+          "text": "Nhà ăn SEHC 1"
+        },
+        {
+          "tag": "h5",
+          "text": "Nhà ăn SEHC 2"
+        },
+        {
+          "tag": "h5",
+          "text": "CHEMTROVINA CO., INC."
+        },
+        {
+          "tag": "h5",
+          "text": "Hyosung Corporation (Tire Cord)"
+        },
+        {
+          "tag": "h4",
+          "text": "Khách hàng chính"
+        }
+      ],
+      "breadcrumb": [],
+      "sidebarNav": [],
+      "contentText": "Về chúng tôi\nDịch vụ\nTại sao là chúng tôi\nTuyển dụng\nLiên lạc với chúng tôi\n\nDịch vụ\nGiới thiệu\nMiền Bắc\nMiền Nam\nMiền Trung\nThực đơn\nTrang chủ\nDịch vụ\nMiền Nam\nMiền Nam\n\nTháng 12 năm 2015, chúng tôi đã khai trương nhà ăn số 1 của công ty điện tử Samsung, đồng thời mở rộng cơ sở tại khu vực phía Nam. Chúng tôi đã thành lập bếp ăn và phát triển thực đơn phù hợp với đặc trưng văn hóa ẩm thưc của miền Nam đồng thời thúc đẩy văn hóa suất ăn công nghiệp tăng thêm một bậc.\n\nNhà ăn SEHC 1\nCông ty Hàn Quốc\nĐịa điểm : Thành phố Hồ Chí Minh\nQuy mô : 6 nghìn suất ăn/ngày\nĐặc điểm : Là nhà ăn đầu tiên ở khu vực miền Nam Việt Nam, chúng tôi đã tham gia vào ngay từ giai đoạn thiết kế đồng thời áp dụng kinh nghiệm chuyên môn từ công ty mẹ Samsung Welstory Hàn Quốc.\nNhà ăn SEHC 2\nCông ty Hàn Quốc\nĐịa điểm : Thành phố Hồ Chí Minh\nQuy mô : 6 nghìn suất ăn/ngày\nĐặc điểm : Là nhà ăn thứ 2 ở Việt Nam, được khai trương ngày 16/2, là nhà ăn hiện đại sử dụng thực đơn theo phong cách miền Nam của Welstory Việt Nam.\nCHEMTROVINA CO., INC.\nCông ty Hàn Quốc\nĐịa điểm: Đồng Nai\nQuy mô : 1nghìn suất ăn / ngày\nĐặc điểm: là nhà ăn có sự đặc trưng riêng về sử dụng & quản lý vệ sinh an toàn thực phẩm nghiêm ngặt như: quy trình rửa tay, khử trùng nhà ăn\nHyosung Corporation (Tire Cord)\nCông ty Hàn Quốc\nĐịa điểm : Đồng Nai\nQuy mô : 2nghìn suất ăn / ngày\nĐặc điểm : là nhà ăn nhận được phản ánh có tỷ lệ khách hàng nam sử dụng dịch vụ cao nên nhà ăn đã và đang dần đáp ứng, cải thiện thêm giá trị suất ăn giàu protein như tăng thịt, cá, trứng, sữa… v.v…\nKhách hàng chính\n\nPhương pháp xử lý thông tin cá nhân\n\n© 2016.SAMSUNG WELSTORY INC",
+      "images": [
+        {
+          "original": "https://www.welstory.vn/images/common/h1_logo.png",
+          "local": "images_common_h1_logo.png"
+        },
+        {
+          "original": "https://www.welstory.vn/images/common/btn_global.png",
+          "local": "images_common_btn_global.png"
+        },
+        {
+          "original": "https://www.welstory.vn/images/common/btn_menu_open.png",
+          "local": "images_common_btn_menu_open.png"
+        },
+        {
+          "original": "https://www.welstory.vn/images/common/btn_global.png",
+          "local": "images_common_btn_global.png"
+        },
+        {
+          "original": "https://www.welstory.vn/images/sub/service/img_service19.jpg",
+          "local": "images_sub_service_img_service19.jpg"
+        },
+        {
+          "original": "https://www.welstory.vn/images/sub/service/img_service20.jpg",
+          "local": "images_sub_service_img_service20.jpg"
+        },
+        {
+          "original": "https://www.welstory.vn/images/sub/service/img_service43.jpg",
+          "local": "images_sub_service_img_service43.jpg"
+        },
+        {
+          "original": "https://www.welstory.vn/images/sub/service/img_service42.jpg",
+          "local": "images_sub_service_img_service42.jpg"
+        },
+        {
+          "original": "https://www.welstory.vn/images/sub/service/img_CHEMTRONICS.png",
+          "local": "images_sub_service_img_CHEMTRONICS.png"
+        },
+        {
+          "original": "https://www.welstory.vn/images/icon/btn_top.png",
+          "local": "images_icon_btn_top.png"
+        }
+      ]
+    },
+    {
+      "url": "https://www.welstory.vn/contents/services/midland.html",
+      "section": "midland",
+      "headings": [
+        {
+          "tag": "h2",
+          "text": "Dịch vụ"
+        },
+        {
+          "tag": "h3",
+          "text": "Miền Trung"
+        }
+      ],
+      "breadcrumb": [],
+      "sidebarNav": [],
+      "contentText": "Về chúng tôi\nDịch vụ\nTại sao là chúng tôi\nTuyển dụng\nLiên lạc với chúng tôi\n\nDịch vụ\nGiới thiệu\nMiền Bắc\nMiền Nam\nMiền Trung\nThực đơn\nTrang chủ\nDịch vụ\nMiền Trung\nMiền Trung\n\nWelstory Việt Nam cũng sẽ sớm đến với các khách hàng khu vực miền Trung.Với nền tảng năng lực vận hành tiên tiến, chúng tôi đang nỗ lực mang lại dịch vụ ăn uống được chuyên biệt hóa theo từng vùng miền. Chúng tôi sẽ không ngừng nghiên cứu phong cách ẩm thực miền Trung để cung cấp các dịch vụ và sản phẩm làm hài lòng khách hàng.\n\nPhương pháp xử lý thông tin cá nhân\n\n© 2016.SAMSUNG WELSTORY INC",
+      "images": [
+        {
+          "original": "https://www.welstory.vn/images/common/h1_logo.png",
+          "local": "images_common_h1_logo.png"
+        },
+        {
+          "original": "https://www.welstory.vn/images/common/btn_global.png",
+          "local": "images_common_btn_global.png"
+        },
+        {
+          "original": "https://www.welstory.vn/images/common/btn_menu_open.png",
+          "local": "images_common_btn_menu_open.png"
+        },
+        {
+          "original": "https://www.welstory.vn/images/common/btn_global.png",
+          "local": "images_common_btn_global.png"
+        },
+        {
+          "original": "https://www.welstory.vn/images/sub/service/img_service36.jpg",
+          "local": "images_sub_service_img_service36.jpg"
+        },
+        {
+          "original": "https://www.welstory.vn/images/sub/service/img_service37.jpg",
+          "local": "images_sub_service_img_service37.jpg"
+        },
+        {
+          "original": "https://www.welstory.vn/images/icon/btn_top.png",
+          "local": "images_icon_btn_top.png"
+        }
+      ]
+    },
+    {
+      "url": "https://www.welstory.vn/contents/services/menu.html",
+      "section": "menu",
+      "headings": [
+        {
+          "tag": "h2",
+          "text": "Dịch vụ"
+        },
+        {
+          "tag": "h3",
+          "text": "Dịch vụ khách hàng"
+        },
+        {
+          "tag": "h5",
+          "text": "Bữa ăn kiểu Bắc Bộ"
+        },
+        {
+          "tag": "h5",
+          "text": "Bữa ăn kiểu Nam Bộ"
+        },
+        {
+          "tag": "h5",
+          "text": "Bữa ăn đặc biệt VIP / bữa ăn dành cho bà bầu"
+        },
+        {
+          "tag": "h5",
+          "text": "Set ăn phổ biến phong cách Hàn Quốc/ Món ăn lẻ"
+        }
+      ],
+      "breadcrumb": [],
+      "sidebarNav": [],
+      "contentText": "Về chúng tôi\nDịch vụ\nTại sao là chúng tôi\nTuyển dụng\nLiên lạc với chúng tôi\n\nDịch vụ\nGiới thiệu\nMiền Bắc\nMiền Nam\nMiền Trung\nThực đơn\nTrang chủ\nDịch vụ\nThực đơn\nDịch vụ khách hàng\n\nWelstory Việt Nam là công ty duy nhất có kinh nghiệm trong việc xây dựng thực đơn theo vùng miền, chúng tôi cung cấp bữa ăn đặc biệt và chất lượng cao theo văn hóa ẩm thực từng vùng miền của Việt Nam, Hàn Quốc và bữa ăn đặc biệt.\n\nChúng tôi cung cấp bữa ăn an toàn thông qua hệ thống quản lý an toàn vệ sinh thực phẩm hiện đại, tuân thủ nghiêm ngặt quy trình đảm bảo chất lượng\tChúng tôi sử dụng công thức và quy trình nấu ăn theo tiêu chuẩn, cung cấp dịch vụ ăn uống với chất lượng đồng đều ngay cả với quy mô lớn.\tTừng người từng người đều có thể cảm nhận được thức ăn nóng sốt như vừa được nấu xong, chỉ riêng Welstory Việt nam mới có bí quyết để cung cấp thức ăn ở nhiệt độ ngon nhất.\n\nBữa ăn kiểu Bắc Bộ\nMùi và vị thiên về tính nhạt, món ăn đơn giản hơn so với các vùng miền khác.\nNhiều món ăn đơn giản, thanh đạm được tạo nên chủ yếu bằng việc sử dụng nhiều rau, cá nước ngọt.\n\nBữa ăn kiểu Nam Bộ\nBữa ăn sử dụng các nguyên liệu với màu sắc rực rỡ, chủ yếu là vị ngọt và chua\nKết hợp thực đơn chủ yếu sử dụng hải sản, rau.\n\nBữa ăn đặc biệt VIP / bữa ăn dành cho bà bầu\nChúng tôi cung cấp suất ăn cho các sự kiện theo yêu cầu của khách (đơn giá riêng).\nChúng tôi cung cấp suất ăn được lựa chọn kỹ không phụ gia thực phẩm MSG(gia vị hoá học) vì sức khỏe khách hang\nChúng tôi cung cấp suất ăn đặc biệt cho bà bầu không chỉ vì riêng sức khỏe sản phụ mà còn vì sự an toàn của thai nhi.\n\nSet ăn phổ biến phong cách Hàn Quốc/ Món ăn lẻ\nDo bếp trưởng người Hàn Quốc trực tiếp chỉ đạo, so với các công ty cung cấp suất ăn khác thì món ăn của chúng tôi mang đậm hương vị và phong cách ẩm thực Hàn Quốc.\nChúng tôi cung cấp bữa ăn Hàn Quốc gần gũi với hương vị gia đình cho các khách hàng Hàn Quốc sống và làm việc ở các quốc gia khác.\nThay vì sử dụng MSG(gia vị hoá học), chúng tôi sử dụng tối đa các gia vị thiên nhiên (như tảo bẹ, cá cơm…) không chỉ vì sức khỏe khách hàng mà còn để giữ được hương vị Hàn Quốc một cách nguyên bản nhất.\nChúng tôi địa phương hóa những công thức dịch vụ ẩm thực được cung cấp tại Hàn Quốc, qua đó cung cấp những món ăn Hàn Quốc đa dạng nhiều màu sắc.\nChúng tôi thực hiện đúng theo truyền thống các món ăn mà khách hàng nam giới Hàn Quốc độ tuổi trung niên ưa chuộng như canh khoai tây, canh bò hầm cay.\n\nPhương pháp xử lý thông tin cá nhân\n\n© 2016.SAMSUNG WELSTORY INC",
+      "images": [
+        {
+          "original": "https://www.welstory.vn/images/common/h1_logo.png",
+          "local": "images_common_h1_logo.png"
+        },
+        {
+          "original": "https://www.welstory.vn/images/common/btn_global.png",
+          "local": "images_common_btn_global.png"
+        },
+        {
+          "original": "https://www.welstory.vn/images/common/btn_menu_open.png",
+          "local": "images_common_btn_menu_open.png"
+        },
+        {
+          "original": "https://www.welstory.vn/images/common/btn_global.png",
+          "local": "images_common_btn_global.png"
+        },
+        {
+          "original": "https://www.welstory.vn/images/sub/service/img_service24.jpg",
+          "local": "images_sub_service_img_service24.jpg"
+        },
+        {
+          "original": "https://www.welstory.vn/images/sub/service/img_service25.jpg",
+          "local": "images_sub_service_img_service25.jpg"
+        },
+        {
+          "original": "https://www.welstory.vn/images/sub/service/img_service26.jpg",
+          "local": "images_sub_service_img_service26.jpg"
+        },
+        {
+          "original": "https://www.welstory.vn/images/sub/service/img_service27.jpg",
+          "local": "images_sub_service_img_service27.jpg"
+        },
+        {
+          "original": "https://www.welstory.vn/images/icon/btn_top.png",
+          "local": "images_icon_btn_top.png"
+        }
+      ]
+    },
+    {
+      "url": "https://www.welstory.vn/contents/whyus/whyus.html",
+      "section": "whyus",
+      "headings": [
+        {
+          "tag": "h2",
+          "text": "Tại sao là chúng tôi"
+        },
+        {
+          "tag": "h3",
+          "text": "Giới thiệu"
+        }
+      ],
+      "breadcrumb": [],
+      "sidebarNav": [],
+      "contentText": "Về chúng tôi\nDịch vụ\nTại sao là chúng tôi\nTuyển dụng\nLiên lạc với chúng tôi\n\nTại sao là chúng tôi\nGiới thiệu\nThực phẩm tươi ngon\nThực phẩm an toàn\nHương vị thơm ngon\nDịch vụ khách hàng\nTrang chủ\nTại sao là chúng tôi\nGiới thiệu\nGiới thiệu\nThực phẩm\ntươi ngon\nĐổi mới hệ thống ăn uống với nguyên liệu thực phẩm tươi ngon gần gũi với thiên nhiên\nThực phẩm\nan toàn\nSự an tâm có thể thấy được bằng mắt, nguyên liệu xuất xứ rõ ràng, hệ thống lành mạnh\nHương vị\nthơm ngon\nCông thức nấu ăn vượt trội mang tính khoa học\nDịch vụ\nkhách hàng\nnắm bắt được tâm lý khách hàng, tạo niềm vui trong từng bữa ăn\n\n7 nghìn 8 trăm nhân viên\nSố lượng nhân viên\nSamsung Welstory\n20 nghìn công thức\nSố công thức món ăn Việt mà Samsung Welstory sở hữu\nVị trí số 1\nDoanh nghiệp hàng đầu Hàn Quốc trong lĩnh vực cung cấp suất ăn công nghiệp, doanh nghiệp được ngưỡng mộ nhất đứng số một trong lĩnh vực dịch vụ ẩm thực\n1 triệu suất ăn\nSamsung Welstory cung cấp 1 triệu suất ăn mỗi ngày trên toàn cầu\n700 nhà ăn\nSố nhà ăn cung cấp suất ăn công nghiệp của\nSamsung Welstory\n\nPhương pháp xử lý thông tin cá nhân\n\n© 2016.SAMSUNG WELSTORY INC",
+      "images": [
+        {
+          "original": "https://www.welstory.vn/images/common/h1_logo.png",
+          "local": "images_common_h1_logo.png"
+        },
+        {
+          "original": "https://www.welstory.vn/images/common/btn_global.png",
+          "local": "images_common_btn_global.png"
+        },
+        {
+          "original": "https://www.welstory.vn/images/common/btn_menu_open.png",
+          "local": "images_common_btn_menu_open.png"
+        },
+        {
+          "original": "https://www.welstory.vn/images/common/btn_global.png",
+          "local": "images_common_btn_global.png"
+        },
+        {
+          "original": "https://www.welstory.vn/images/sub/whyus/241112_bg_overview12.png",
+          "local": "images_sub_whyus_241112_bg_overview12.png"
+        },
+        {
+          "original": "https://www.welstory.vn/images/icon/btn_top.png",
+          "local": "images_icon_btn_top.png"
+        }
+      ]
+    },
+    {
+      "url": "https://www.welstory.vn/contents/whyus/freshness.html",
+      "section": "freshness",
+      "headings": [
+        {
+          "tag": "h2",
+          "text": "Tại sao là chúng tôi"
+        },
+        {
+          "tag": "h3",
+          "text": "Thực phẩm tươi ngon"
+        },
+        {
+          "tag": "h4",
+          "text": "Cung cấp nguyên liệu thực phẩm tươi ngon và an toàn"
+        },
+        {
+          "tag": "h5",
+          "text": "Hạng mục kiểm tra để lựa chọn nhà cung cấp nguyên liệu thực phẩm"
+        },
+        {
+          "tag": "h4",
+          "text": "Hệ thống vận chuyển luôn đảm bảo tính tươi ngon của thực phẩm"
+        },
+        {
+          "tag": "h4",
+          "text": "Viện nghiên cứu thực phẩm Samsung Welstory"
+        }
+      ],
+      "breadcrumb": [],
+      "sidebarNav": [],
+      "contentText": "Về chúng tôi\nDịch vụ\nTại sao là chúng tôi\nTuyển dụng\nLiên lạc với chúng tôi\n\nTại sao là chúng tôi\nGiới thiệu\nThực phẩm tươi ngon\nThực phẩm an toàn\nHương vị thơm ngon\nDịch vụ khách hàng\nTrang chủ\nTại sao là chúng tôi\nThực phẩm tươi ngon\nThực phẩm tươi ngon\nCung cấp nguyên liệu thực phẩm tươi ngon và an toàn\n\nNgay tại Việt Nam, chúng tôi cũng áp dụng tiêu chuẩn đảm bảo chất lượng rất kỹ lưỡng (Quality Assurance) của Samsung Welstory Hàn Quốc\nChúng tôi cung cấp nguồn nguyên liệu tươi ngon và an toàn mỗi ngày thông qua việc hợp tác với nhiều công ty cung cấp nguyên liệu thực phẩm hàng đầu của Việt Nam đáp ứng được những tiêu chuẩn này.\n\nKhi lựa chọn công ty cung cấp nguyên liệu thực phẩm, chúng tôi đều có những đánh giá nghiêm ngặt về việc tuân thủ pháp luật cũng như tuân thủ tiêu chuẩn quản lý vệ sinh an toàn thực phẩm của các công ty này, Theo đó, Welstory Việt Nam chỉ lựa chọn hợp tác với những công ty đáp ứng được các tiêu chuẩn đánh giá cụ thể của chúng tôi.\n\nHạng mục kiểm tra để lựa chọn nhà cung cấp nguyên liệu thực phẩm\nCó tuân thủ các quy định của pháp luật hay không?\nCó xây dựng hệ thống kinh doanh chất lượng hay không?\nCơ sở sản xuất và quản lý môi trường\nQuy trình quản lý sản phẩm\nQuản lý quá trình chế biến sản phẩm\nĐánh giá một cách tổng quát như đánh giá mức độ vệ sinh trong quá trình chế biến của người lao động\n\nKhông dừng lại ở việc chỉ đánh giá bước đầu tiên, chúng tôi còn có các đợt kiểm tra định kỳ theo quý đối với các nhà cung cấp nguyên vật liệu, qua đó không ngừng quản lý việc đánh giá và yêu cầu cải thiện những hạng mục chưa đạt.\n\nHệ thống vận chuyển luôn đảm bảo tính tươi ngon của thực phẩm\n\nTrong suốt quá trình từ khi nguyên liệu được xuất kho, vận chuyển và nhập kho tại nhà ăn, nhiệt độ luôn được quản lý chặt chẽ.\nVới việc duy trì nhiệt độ thích hợp trong suốt quá trình vận chuyển, độ tươi ngon và an toàn của nguyên liệu được đảm bảo ở mức cao nhất.\n\nViện nghiên cứu thực phẩm Samsung Welstory\n\nViện nghiên cứu thực phẩm Samsung Welstory là cơ quan nghiên cứu chuyên môn về thực phẩm tốt nhất thông qua việc được nhận các chứng nhận từ cơ quan nhà nước như Sở an toàn dược phẩm thực phẩm Hàn Quốc, Viện quản lý chất lượng nông sản. Welstory Việt Nam cũng đang nỗ lực thành lập viện nghiên cứu thực phẩm sử dụng năng lực phát triển nghiên cứu của Samsung Welstory, đồng thời quản lý an toàn vệ sinh nghiêm ngặt tại các nhà ăn và nghiên cứu ẩm thực.\n\nBiên bản bổ nhiệm là cơ quan kiểm tra các cuộc thi về thí nghiệm thực vật\nBiên bản bổ nhiệm là cơ quan chứng nhận quản lý nông sản xuất sắc.\nGiấy chứng nhận là Viện nghiên cứu xây dựng doanh nghiệp\n\nBên cạnh đó Viện nghiên cứu thực phẩm Samsung Welstory cũng đang hợp tác với cơ quan địa phương của 8 nước gồm Việt Nam, Trung Quốc, Philippines, Thái Lan, Mỹ, Nhật Bản, Thổ Nhĩ Kỳ, Chile để quản lý chất lượng nguyên liệu thực phẩm nhập khẩu từ các nước này.\n\nPhương pháp xử lý thông tin cá nhân\n\n© 2016.SAMSUNG WELSTORY INC",
+      "images": [
+        {
+          "original": "https://www.welstory.vn/images/common/h1_logo.png",
+          "local": "images_common_h1_logo.png"
+        },
+        {
+          "original": "https://www.welstory.vn/images/common/btn_global.png",
+          "local": "images_common_btn_global.png"
+        },
+        {
+          "original": "https://www.welstory.vn/images/common/btn_menu_open.png",
+          "local": "images_common_btn_menu_open.png"
+        },
+        {
+          "original": "https://www.welstory.vn/images/common/btn_global.png",
+          "local": "images_common_btn_global.png"
+        },
+        {
+          "original": "https://www.welstory.vn/images/sub/whyus/img_whyus01.jpg",
+          "local": "images_sub_whyus_img_whyus01.jpg"
+        },
+        {
+          "original": "https://www.welstory.vn/images/sub/whyus/img_whyus02.jpg",
+          "local": "images_sub_whyus_img_whyus02.jpg"
+        },
+        {
+          "original": "https://www.welstory.vn/images/sub/whyus/img_whyus13.jpg",
+          "local": "images_sub_whyus_img_whyus13.jpg"
+        },
+        {
+          "original": "https://www.welstory.vn/images/sub/whyus/img_whyus14.jpg",
+          "local": "images_sub_whyus_img_whyus14.jpg"
+        },
+        {
+          "original": "https://www.welstory.vn/images/sub/whyus/img_whyus15.jpg",
+          "local": "images_sub_whyus_img_whyus15.jpg"
+        },
+        {
+          "original": "https://www.welstory.vn/images/sub/whyus/img_whyus16.jpg",
+          "local": "images_sub_whyus_img_whyus16.jpg"
+        },
+        {
+          "original": "https://www.welstory.vn/images/icon/btn_top.png",
+          "local": "images_icon_btn_top.png"
+        }
+      ]
+    },
+    {
+      "url": "https://www.welstory.vn/contents/whyus/safety.html",
+      "section": "safety",
+      "headings": [
+        {
+          "tag": "h2",
+          "text": "Tại sao là chúng tôi"
+        },
+        {
+          "tag": "h3",
+          "text": "Thực phẩm an toàn"
+        },
+        {
+          "tag": "h4",
+          "text": "Hoạt động quản lý an toàn vệ sinh thực phẩm"
+        },
+        {
+          "tag": "h5",
+          "text": "Xây dựng hệ thống giám sát do công ty mẹ chủ quản"
+        },
+        {
+          "tag": "h5",
+          "text": "Lập bộ tiêu chuẩn quản lý chuyên dụng ở Việt Nam (64 hạng mục)"
+        },
+        {
+          "tag": "h5",
+          "text": "Phát triển 58 loại tiêu chuẩn POP để quản lý an toàn vệ sinh thực phẩm, áp dụng cho các nhà ăn"
+        },
+        {
+          "tag": "h5",
+          "text": "Thực hiện kiểm tra vệ sinh định kì toàn bộ các nhà ăn đồng thời họp điều hành an toàn vệ sinh"
+        },
+        {
+          "tag": "h5",
+          "text": "Kiểm tra vệ sinh cặn kẽ toàn bộ các nhà ăn đồng thời thực hiện chế độ thăm quan nhà ăn xuất sắc (B/M)"
+        },
+        {
+          "tag": "h4",
+          "text": "Hoạt động an toàn vệ sinh thực tiễn lấy nhà ăn làm trọng tâm"
+        },
+        {
+          "tag": "h5",
+          "text": "Rửa tay theo quy định 2 tiếng một lần (sử dụng chuông báo rửa tay)"
+        },
+        {
+          "tag": "h5",
+          "text": "Khử trùng rau củ quả tươi"
+        },
+        {
+          "tag": "h5",
+          "text": "Đảm bảonhiệt độ trọng tâm trên 85℃"
+        },
+        {
+          "tag": "h5",
+          "text": "Sử dụng lửa nghiêm ngặt và kiểm tra thiết bị phòng cháy (sử dụng thiết bị báo cháy thông minh)"
+        }
+      ],
+      "breadcrumb": [],
+      "sidebarNav": [],
+      "contentText": "Về chúng tôi\nDịch vụ\nTại sao là chúng tôi\nTuyển dụng\nLiên lạc với chúng tôi\n\nTại sao là chúng tôi\nGiới thiệu\nThực phẩm tươi ngon\nThực phẩm an toàn\nHương vị thơm ngon\nDịch vụ khách hàng\nTrang chủ\nTại sao là chúng tôi\nThực phẩm an toàn\nThực phẩm an toàn\nHoạt động quản lý an toàn vệ sinh thực phẩm\nXây dựng hệ thống giám sát do công ty mẹ chủ quản\nMỗi tháng 1 lần đội quản lý an toàn vệ sinh thực phẩm của Samsung Welstory sẽ thực hiện giám sát hoạt động quản lý vệ sinh của công ty Samsung Welstory Việt Nam\nCác hoạt động an toàn vệ sinh của Welstory Việt Nam như kiểm tra/đào tạo/vấn đề phát sinh… cần phải được báo cáo với Samsung Welstory Hàn Quốc (hàng tháng).\nChuyên gia về đảm bảo vệ sinh của Samsung Welstory Hàn Quốc sẽ tiến hành kiểm tra vệ sinh định kì tại các nhà ăn của công ty Welstory Việt Nam\nLập bộ tiêu chuẩn quản lý chuyên dụng ở Việt Nam (64 hạng mục)\n\nXây dựng danh sách các hạng mục kiểm tra và tiêu chuẩn quản lý dành riêng cho ngành công nghiệp cung cấp suất ăn ở Việt Nam gồm 64 hạng mục áp dụng các tiêu chuẩn quản lý của Welstory Việt Nam và các quy định an toàn thực phẩm của Việt Nam cho quy trình nấu ăn.\n\nPhát triển 58 loại tiêu chuẩn POP để quản lý an toàn vệ sinh thực phẩm, áp dụng cho các nhà ăn\n\nNhằm nâng cao nhận thức về an toàn vệ sinh cá nhân cho người lao động đồng thời để khách hàng có thể yên tâm ăn uống, toàn bộ các nhà ăn phải dán poster liên quan tới an toàn vệ sinh thực phẩm đồng thời tiến hành đào tạo toàn bộ nhân viên.\nVí dụ: Sử dụng riêng biệt dao/thớt/tạp dề/ găng tay cao su, phương pháp sát khuẩn tay.\n\nThực hiện kiểm tra vệ sinh định kì toàn bộ các nhà ăn đồng thời họp điều hành an toàn vệ sinh\nĐội an toàn vệ sinh thực phẩm thực hiện kiểm tra định kỳ và kiểm tra thường xuyên (mỗi tháng trên 2 lần) toàn bộ các nhà ăn của Welstory Việt Nam.\nGiám đốc công ty, đội an toàn vệ sinh, các nhóm trưởng điều hành phải họp định kỳ hàng tháng (mỗi tháng trên 1 lần) về các vấn đề như tiến hành đào tạo,kết quả thực tế khi kiểm tra và vấn đề cần cải thiện.\nKiểm tra vệ sinh cặn kẽ toàn bộ các nhà ăn đồng thời thực hiện chế độ thăm quan nhà ăn xuất sắc (B/M)\n\nSau khi kiểm tra vệ sinh chặt chẽ toàn bộ các nhà ăn, thực thi chế độ thăm quan(B/M ) nhà ăn xuất sắc, chia sẻ kinh nghiệm (theo quý)\n\nHoạt động an toàn vệ sinh thực tiễn lấy nhà ăn làm trọng tâm\nRửa tay theo quy định 2 tiếng một lần (sử dụng chuông báo rửa tay)\nThực hiện rửa tay 2 tiếng một lần trước và sau khi làm việc * Chỉ cần rửa tay đúng cách có thể tiêu diệt tới 99% vi khuẩn\nTrang bị dụng cụ cần thiết cho việc rửa tay (nước sát khuẩn tay, bàn chải cọ móng tay, vật dụng làm khô tay)\nKhử trùng rau củ quả tươi\n\nCác loại rau củ quả tươi cần phải được ngâm tối thiểu 5 phút trong nước và dung dịch rửa chuyên dùng cho thực phẩm, và phải được rửa từ 3 lần trở lên.\n\nĐảm bảonhiệt độ trọng tâm trên 85℃\n\nKhi nấu các loại thực phẩm như cá, thịt, thịt gia cầm, trứng sau khi nấu ăn cần xác định nhiệt độ trọng tâm của thức ăn trên 85℃.\n\nSử dụng lửa nghiêm ngặt và kiểm tra thiết bị phòng cháy (sử dụng thiết bị báo cháy thông minh)\nKhi sử dụng lửa phải bật thiết bị “báo cháy thông minh” - phát minh của Samsung Welstory, đồng thời nghiêm cấm người lao động rời khỏi vị trí làm việc.\nNgười lao động cuối cùng sau khi kiểm tra thiết bị phòng cháy lần cuối thì ghi lại vào sổ theo\nSản phẩm do Samsung Welstory tự phát minh nhằm quản lý an toàn vệ sinh tại các nhà ăn\n\nGiấy chứng nhận\n\nSử dụng dung dịch khử trùng (New clean easy)\nđể phòng ngừa virus Noro\t\nSử dụng thiết bị thông báo tự động để nhắc nhở việc rửa tay cách 2 tiếng / lần\t\n\nDuy nhất trong ngành\n\nChuông báo thông minh chuyên dụng đề phòng người đang sử dụng lửa rời khỏi vị trí \n\nDuy nhất trong ngành\n\nBình chữa cháy chất lỏng chuyên dụng dùng trong trường hợp hỏa hoạn do dầu ăn (công ty có nghĩa vụ lắp đặt)\t\n2 dụng cụ bảo hộ an toàn lao động ( Dụng cụ chống đứt tay và chống trơn )\nTài liệu thông báo cho nhà ăn liên quan tới quản lý an toàn vệ sinh\nGolden Rules\nCác hạng mục trọng tâm cần thực hiện ở nhà ăn\t6S\nTuân thủ quy định cơ bản để hình thành thói quen đúng\tPhương pháp rửa tay\nđúng cách\n\nPhương pháp xử lý thông tin cá nhân\n\n© 2016.SAMSUNG WELSTORY INC",
+      "images": [
+        {
+          "original": "https://www.welstory.vn/images/common/h1_logo.png",
+          "local": "images_common_h1_logo.png"
+        },
+        {
+          "original": "https://www.welstory.vn/images/common/btn_global.png",
+          "local": "images_common_btn_global.png"
+        },
+        {
+          "original": "https://www.welstory.vn/images/common/btn_menu_open.png",
+          "local": "images_common_btn_menu_open.png"
+        },
+        {
+          "original": "https://www.welstory.vn/images/common/btn_global.png",
+          "local": "images_common_btn_global.png"
+        },
+        {
+          "original": "https://www.welstory.vn/images/sub/whyus/img_whyus05.jpg",
+          "local": "images_sub_whyus_img_whyus05.jpg"
+        },
+        {
+          "original": "https://www.welstory.vn/images/sub/whyus/img_whyus06.jpg",
+          "local": "images_sub_whyus_img_whyus06.jpg"
+        },
+        {
+          "original": "https://www.welstory.vn/images/sub/whyus/img_whyus07.jpg",
+          "local": "images_sub_whyus_img_whyus07.jpg"
+        },
+        {
+          "original": "https://www.welstory.vn/images/sub/whyus/img_whyus08.jpg",
+          "local": "images_sub_whyus_img_whyus08.jpg"
+        },
+        {
+          "original": "https://www.welstory.vn/images/sub/whyus/img_whyus09.jpg",
+          "local": "images_sub_whyus_img_whyus09.jpg"
+        },
+        {
+          "original": "https://www.welstory.vn/images/sub/whyus/img_whyus10.jpg",
+          "local": "images_sub_whyus_img_whyus10.jpg"
+        },
+        {
+          "original": "https://www.welstory.vn/images/sub/whyus/img_whyus11.jpg",
+          "local": "images_sub_whyus_img_whyus11.jpg"
+        },
+        {
+          "original": "https://www.welstory.vn/images/sub/whyus/img_whyus12.jpg",
+          "local": "images_sub_whyus_img_whyus12.jpg"
+        },
+        {
+          "original": "https://www.welstory.vn/images/icon/btn_top.png",
+          "local": "images_icon_btn_top.png"
+        }
+      ]
+    },
+    {
+      "url": "https://www.welstory.vn/contents/whyus/tasty.html",
+      "section": "tasty",
+      "headings": [
+        {
+          "tag": "h2",
+          "text": "Tại sao là chúng tôi"
+        },
+        {
+          "tag": "h3",
+          "text": "Hương vị thơm ngon"
+        },
+        {
+          "tag": "h4",
+          "text": "Xây dựng thực đơn"
+        },
+        {
+          "tag": "h5",
+          "text": "Hợp tác phát triển thực đơn cùng với trường đào tạo nấu ăn ở Việt Nam"
+        },
+        {
+          "tag": "h5",
+          "text": "Hợp tác với khoa Quản trị chế biến món ăn của trường cao đẳng du lịch Hà Nội"
+        },
+        {
+          "tag": "h5",
+          "text": "Sở hữu 20 nghìn thực đơn món ăn Hàn Quốc"
+        },
+        {
+          "tag": "h5",
+          "text": "Sử dụng chuyên gia nấu món ăn Hàn Quốc"
+        },
+        {
+          "tag": "h5",
+          "text": "Quy trình phát triển Dịch vụ khách hàng Samsung Welstory"
+        },
+        {
+          "tag": "h4",
+          "text": "Vận hành hiệp hội nghiên cứu thực phẩm và đồ uống"
+        },
+        {
+          "tag": "h4",
+          "text": "Vận hành Ban quản lý nhà ăn"
+        },
+        {
+          "tag": "h4",
+          "text": "Học viện nấu ăn"
+        }
+      ],
+      "breadcrumb": [],
+      "sidebarNav": [],
+      "contentText": "Về chúng tôi\nDịch vụ\nTại sao là chúng tôi\nTuyển dụng\nLiên lạc với chúng tôi\n\nTại sao là chúng tôi\nGiới thiệu\nThực phẩm tươi ngon\nThực phẩm an toàn\nHương vị thơm ngon\nDịch vụ khách hàng\nTrang chủ\nTại sao là chúng tôi\nHương vị thơm ngon\nHương vị thơm ngon\nXây dựng thực đơn\nHợp tác phát triển thực đơn cùng với trường đào tạo nấu ăn ở Việt Nam\n\nChúng tôi đã ký biên bản ghi nhớ(MOU) với trường dạy nấu ăn Hoa Mai nổi tiếng ở Hà Nội và đã tạo ra hơn 3 nghìn công thức nấu ăn theo tiêu chuẩn Việt Nam phù hợp với khẩu vị khách hàng Việt Nam.\n\nHợp tác với khoa Quản trị chế biến món ăn của trường cao đẳng du lịch Hà Nội\n\nTháng 6 năm 2016, chúng tôi đã ký biên bản ghi nhớ (MOU) hợp tác song phương trong các lĩnh vực khác với trường Cao đẳng du lịch Hà Nội, về việc phát triển công thức thực đơn tiêu chuẩn và thực đơn mới, tạo cơ hội làm việc tại công ty cho các sinh viên ưu tú.\n\nSở hữu 20 nghìn thực đơn món ăn Hàn Quốc\n\nChúng tôi đang xây dựng công thức nấu món ăn Hàn Quốc (20 nghìn món) của Samsung Welstory Hàn Quốc theo khẩu vị phù hợp với người Việt Nam.\n\nSử dụng chuyên gia nấu món ăn Hàn Quốc\n\nCác đầu bếp của Samsung Welstory và chuyên gia tư vấn món ăn Hàn Quốc được phái cử sang Việt Nam để đào tạo nấu ăn nhằm nâng cao tay nghề nấu món ăn Hàn Quốc và cải thiện các mòn ăn.\n\nQuy trình phát triển Dịch vụ khách hàng Samsung Welstory\nThử nghiệm α\nNgười phát triển Dịch vụ khách hàng\ntự đánh giá nội bộ\nNấu thử nghiệm, kiểm tra môi trường nấu ăn\nThử nghiệm β\nĐánh giá của chuyên gia ẩm thực\nChuyên gia ẩm thực mở cuộc đánh giá chất lượng thực đơn lấy ý kiến khách hàng\nThử nghiệm γ\nĐánh giá của khách hàng\nKhách hàng trực tiếp đánh giá thực đơn được ứng dụng\nVận hành hiệp hội nghiên cứu thực phẩm và đồ uống\nTiến hành hoạt động nghiên cứu xu hướng ẩm thực đối với cán bộ nghiệp vụ thông qua hình thức thăm các nhà hàng nổi tiếng ở Việt Nam, nghiên cứu phát triển công thức nấu, vv…\nPhát triển thực đơn/ công thức nấu của bếp và đưa vào áp dụng thực tế trong quy trình nấu ăn.\nKiểm tra thực đơn theo định kỳ và tiến hành họp cải tiến.\nVận hành Ban quản lý nhà ăn\nTiến hành trao đổi thường xuyên với khách hàng qua SNS, v…v…\nThực hiện khảo sát định kỳ mức độ yêu thích, hài lòng của khách hàng về thực đơn (1lần/ tháng)\nXác nhận nhu cầu của khách hàng thông qua họp điều hành nhà ăn và thực hiện cải tiến kịp thời\nHọc viện nấu ăn\nChúng tôi chia sẻ công thức nấu ăn với Học viện nấu ăn Samsung Welstory ở Hàn Quốc về thực đơn món ăn Việt Nam, Hàn Quốc, Quốc tế để cùng nhau hợp tác nghiên cứu phát triển.\nTham gia cuộc thi nấu ăn Samsung Welstory một năm 1 lần\nĐội đạt giải nhất của Welstory Việt Nam sẽ được tham dự vòng chung kết Welstoryard tại Hàn Quốc và có cơ hội được thăm quan Hàn Quốc.\nHọc viện nấu ăn Welstory Việt Nam mới được thành lập, sẽ đưa chương trình giảng dạy của Samsung Welstory Hàn Quốc vào đào tạo các chuyên gia nấu ăn Việt Nam\n\nPhương pháp xử lý thông tin cá nhân\n\n© 2016.SAMSUNG WELSTORY INC",
+      "images": [
+        {
+          "original": "https://www.welstory.vn/images/common/h1_logo.png",
+          "local": "images_common_h1_logo.png"
+        },
+        {
+          "original": "https://www.welstory.vn/images/common/btn_global.png",
+          "local": "images_common_btn_global.png"
+        },
+        {
+          "original": "https://www.welstory.vn/images/common/btn_menu_open.png",
+          "local": "images_common_btn_menu_open.png"
+        },
+        {
+          "original": "https://www.welstory.vn/images/common/btn_global.png",
+          "local": "images_common_btn_global.png"
+        },
+        {
+          "original": "https://www.welstory.vn/images/sub/whyus/img_whyus33.jpg",
+          "local": "images_sub_whyus_img_whyus33.jpg"
+        },
+        {
+          "original": "https://www.welstory.vn/images/sub/whyus/img_whyus17.jpg",
+          "local": "images_sub_whyus_img_whyus17.jpg"
+        },
+        {
+          "original": "https://www.welstory.vn/images/sub/whyus/img_whyus18.jpg",
+          "local": "images_sub_whyus_img_whyus18.jpg"
+        },
+        {
+          "original": "https://www.welstory.vn/images/sub/whyus/img_whyus19.jpg",
+          "local": "images_sub_whyus_img_whyus19.jpg"
+        },
+        {
+          "original": "https://www.welstory.vn/images/sub/whyus/img_whyus20.jpg",
+          "local": "images_sub_whyus_img_whyus20.jpg"
+        },
+        {
+          "original": "https://www.welstory.vn/images/sub/whyus/img_whyus21.jpg",
+          "local": "images_sub_whyus_img_whyus21.jpg"
+        },
+        {
+          "original": "https://www.welstory.vn/images/sub/whyus/210528_img_whyus22.jpg",
+          "local": "images_sub_whyus_210528_img_whyus22.jpg"
+        },
+        {
+          "original": "https://www.welstory.vn/images/sub/whyus/210528_img_whyus23.jpg",
+          "local": "images_sub_whyus_210528_img_whyus23.jpg"
+        },
+        {
+          "original": "https://www.welstory.vn/images/sub/whyus/210528_img_whyus24.jpg",
+          "local": "images_sub_whyus_210528_img_whyus24.jpg"
+        },
+        {
+          "original": "https://www.welstory.vn/images/icon/btn_top.png",
+          "local": "images_icon_btn_top.png"
+        }
+      ]
+    },
+    {
+      "url": "https://www.welstory.vn/contents/whyus/customer.html",
+      "section": "customer",
+      "headings": [
+        {
+          "tag": "h2",
+          "text": "Tại sao là chúng tôi"
+        },
+        {
+          "tag": "h3",
+          "text": "Dịch vụ khách hàng"
+        },
+        {
+          "tag": "h4",
+          "text": "Dịch vụ chăm sóc khách hàng đặc biệt"
+        },
+        {
+          "tag": "h5",
+          "text": "Tổ chức chương trình nâng cao sự hài lòng cho khách hàng"
+        },
+        {
+          "tag": "h5",
+          "text": "Cung cấp bữa ăn đặc biệt dành cho phụ nữ mang thai, sinh nhật của khách hàng"
+        },
+        {
+          "tag": "h4",
+          "text": "Giao tiếp với khách hàng"
+        },
+        {
+          "tag": "h5",
+          "text": "Khảo sát định kỳ mức độ hài lòng của khách hàng"
+        },
+        {
+          "tag": "h5",
+          "text": "Không ngừng trao đổi thông tin với khách hàng thông qua các kênh SNS, online."
+        }
+      ],
+      "breadcrumb": [],
+      "sidebarNav": [],
+      "contentText": "Về chúng tôi\nDịch vụ\nTại sao là chúng tôi\nTuyển dụng\nLiên lạc với chúng tôi\n\nTại sao là chúng tôi\nGiới thiệu\nThực phẩm tươi ngon\nThực phẩm an toàn\nHương vị thơm ngon\nDịch vụ khách hàng\nTrang chủ\nTại sao là chúng tôi\nDịch vụ khách hàng\nDịch vụ khách hàng\nDịch vụ chăm sóc khách hàng đặc biệt\nTổ chức chương trình nâng cao sự hài lòng cho khách hàng\nTổ chức các sự kiện khi khánh thành bếp mới\nSự kiện kỷ niệm ngày thành lập công ty, các sự kiện theo định kỳ nhân dịp kỷ niệm các ngày lễ lớn của quốc gia\nCung cấp bữa ăn đặc biệt dành cho phụ nữ mang thai, sinh nhật của khách hàng\nCung cấp bữa ăn đặc biệt cho phụ nữ mang thai (lối(line) xếp hàng dành riêng cho phụ nữ mang thai, cung cấp thêm thực phẩm bổ dưỡng)\nCung cấp bữa ăn đặc biệt vào ngày sinh nhật của khách hàng (tổ chức tiệc sinh nhật, cung cấp bánh sinh nhật ,quà sinh nhật)\n\n \n\nGiao tiếp với khách hàng\nKhảo sát định kỳ mức độ hài lòng của khách hàng\nThực hiện khảo sát mỗi tháng 1 lần mức độ hài lòng của khách hàng, đồng thời không ngừng lấy ý kiến khách hàng về thực đơn, mùi vị thức ăn, phong cách phục vụ của nhân viên, vệ sinh, v..v.. và tiến hành cải thiện.\nThực hiện cải tiến trang thiết bị, máy móc, thực đơn, vv… thông qua khảo sát CSI định kỳ năm 1 lần, trên tiêu chuẩn dịch vụ khách hàng của công ty Mẹ.\nKhông ngừng trao đổi thông tin với khách hàng thông qua các kênh SNS, online.\n\nThông qua các kênh trao đổi online, thu thập và tiến hành cải tiến kịp thời các ý kiến phàn nàn từ khách hàng\n\nPhương pháp xử lý thông tin cá nhân\n\n© 2016.SAMSUNG WELSTORY INC",
+      "images": [
+        {
+          "original": "https://www.welstory.vn/images/common/h1_logo.png",
+          "local": "images_common_h1_logo.png"
+        },
+        {
+          "original": "https://www.welstory.vn/images/common/btn_global.png",
+          "local": "images_common_btn_global.png"
+        },
+        {
+          "original": "https://www.welstory.vn/images/common/btn_menu_open.png",
+          "local": "images_common_btn_menu_open.png"
+        },
+        {
+          "original": "https://www.welstory.vn/images/common/btn_global.png",
+          "local": "images_common_btn_global.png"
+        },
+        {
+          "original": "https://www.welstory.vn/images/sub/whyus/img_whyus26.jpg",
+          "local": "images_sub_whyus_img_whyus26.jpg"
+        },
+        {
+          "original": "https://www.welstory.vn/images/sub/whyus/img_whyus27.jpg",
+          "local": "images_sub_whyus_img_whyus27.jpg"
+        },
+        {
+          "original": "https://www.welstory.vn/images/sub/whyus/img_whyus28.jpg",
+          "local": "images_sub_whyus_img_whyus28.jpg"
+        },
+        {
+          "original": "https://www.welstory.vn/images/icon/btn_top.png",
+          "local": "images_icon_btn_top.png"
+        }
+      ]
+    },
+    {
+      "url": "https://www.welstory.vn/contents/careers/hrSystem.html",
+      "section": "hrSystem",
+      "headings": [
+        {
+          "tag": "h2",
+          "text": "Tuyển dụng"
+        },
+        {
+          "tag": "h3",
+          "text": "Giới thiệu tuyển dụng"
+        },
+        {
+          "tag": "h4",
+          "text": "Tuyển chọn nhân tài"
+        },
+        {
+          "tag": "h5",
+          "text": "Welstory Việt Nam\nTuyển chọn nhân tài"
+        },
+        {
+          "tag": "h4",
+          "text": "Văn hóa tổ chức lành mạnh"
+        },
+        {
+          "tag": "h4",
+          "text": "Quy trình tuyển dụng"
+        },
+        {
+          "tag": "h5",
+          "text": "Vị trí tuyển dụng"
+        },
+        {
+          "tag": "h5",
+          "text": "Quy trình tuyển dụng"
+        }
+      ],
+      "breadcrumb": [],
+      "sidebarNav": [],
+      "contentText": "Về chúng tôi\nDịch vụ\nTại sao là chúng tôi\nTuyển dụng\nLiên lạc với chúng tôi\n\nTuyển dụng\nGiới thiệu tuyển dụng\nThông báo tuyển dụng\nTrang chủ\nTuyển dụng\nGiới thiệu tuyển dụng\nGiới thiệu tuyển dụng\nTuyển chọn nhân tài\nWelstory Việt Nam\nTuyển chọn nhân tài\nTuyển chọn nhân tài\nĐi đầu trong việc cải cách và thay\nđổi thông qua việc học tập và sáng tạo.\nKhả năng giao tiếp\nCó khả năng giao tiếp và cộng tác với tinh thần cởi mở\nTính chuyên môn\nCó chuyên môn trong lĩnh vực do bản thân đảm nhận và sở hữu năng lực phát triển toàn cầu\nĐịnh hướng khách hàng\nCó thể thấu hiểu được mong muốn của khách hàng đồng thời tôn trọng mong muốn đó.\nVăn hóa tổ chức lành mạnh\n\nDựa trên nền tảng trao đổi đầy sáng tạo và sự tín nhiệm lẫn nhau giữa các nhân viên chúng tôi nỗ lực sức mình vì thành quả cao nhất.\n\n01\nQuản lý bản thân\nlối sống đúng mực của bản thân\n\t02\nQuản lý công việc\ncông việc có giá trị\n\t03\nQuản lý tổ chức\nđồng hành cùng đồng nghiệp\n\t04\nQuản lý thành quả\nsự phát triển đángtự hào của công ty\n\t\n\nPhần của buổi lễ toàn bộ nhân viên tham gia kỉ niệm ngày thành lập công ty\n\nQuy trình tuyển dụng\n\nChúng tôi thường xuyên tuyển dụng nhân sự có và chưa có kinh nghiệm\n\nVị trí tuyển dụng\nKhối Canteen: Bếp trưởng, Bếp phó, Nấu chính, Phụ bếp, Dinh dưỡng viên, Giám sát,...\nKhối Văn phòng: Các vị trí Phòng Kế toán tài chính, Hành chính nhân sự, Mua hàng, Kinh doanh, Menu, Điều hành, An toàn vệ sinh, IT…\nQuy trình tuyển dụng\nViết đơn xin việc\tXét hồ sơ\tPhỏng vấn\tKiểm tra sức khỏe\tThông báo trúng tuyển\n\nPhương pháp xử lý thông tin cá nhân\n\n© 2016.SAMSUNG WELSTORY INC",
+      "images": [
+        {
+          "original": "https://www.welstory.vn/images/common/h1_logo.png",
+          "local": "images_common_h1_logo.png"
+        },
+        {
+          "original": "https://www.welstory.vn/images/common/btn_global.png",
+          "local": "images_common_btn_global.png"
+        },
+        {
+          "original": "https://www.welstory.vn/images/common/btn_menu_open.png",
+          "local": "images_common_btn_menu_open.png"
+        },
+        {
+          "original": "https://www.welstory.vn/images/common/btn_global.png",
+          "local": "images_common_btn_global.png"
+        },
+        {
+          "original": "https://www.welstory.vn/images/sub/careers/210528_img_careers.jpg",
+          "local": "images_sub_careers_210528_img_careers.jpg"
+        },
+        {
+          "original": "https://www.welstory.vn/images/icon/btn_top.png",
+          "local": "images_icon_btn_top.png"
+        }
+      ]
+    },
+    {
+      "url": "https://www.welstory.vn/contents/contactus/offices_v01.html",
+      "section": "offices",
+      "headings": [
+        {
+          "tag": "h2",
+          "text": "Liên lạc với chúng tôi"
+        },
+        {
+          "tag": "h3",
+          "text": "Các địa điểm làm việc chính"
+        },
+        {
+          "tag": "h5",
+          "text": "CÔNG TY TNHH WELSTORY VIỆT NAM"
+        },
+        {
+          "tag": "h5",
+          "text": "CHI NHÁNH CÔNG TY TNHH WELSTORY VIỆT NAM"
+        }
+      ],
+      "breadcrumb": [],
+      "sidebarNav": [],
+      "contentText": "Về chúng tôi\nDịch vụ\nTại sao là chúng tôi\nTuyển dụng\nLiên lạc với chúng tôi\n\nLiên lạc với chúng tôi\nCác địa điểm làm việc chính\nHỏi trực tuyến\nTrang chủ\nLiên lạc với chúng tôi\nCác địa điểm làm việc chính\nCác địa điểm làm việc chính\n\nWelstory Việt Nam sẽ mở rộng dịch vụ ăn uống lành mạnh tới toàn lãnh thổ Việt Nam, đồng thời sẽ đi tiên phong trong việc phát triển ngành công nghiệp ẩm thực và thay đổi thói quen ăn uống của người Việt.\n\nViệt Nam\t\nTrung Quốc\n\t\nHàn Quốc\n\nCÔNG TY TNHH WELSTORY VIỆT NAM\n\nĐịa chỉ (Address) : Số 21, Đường 8, KCN Thương mại và Dịch vụ VSIP\nBắc Ninh II, Xã Tam Giang, Huyện Yên Phong,\nTỉnh Bắc Ninh, Việt Nam\n\nSố điện thoại 0222-3699-930\ne-mail cskh.welv@samsung.com\n\nCHI NHÁNH CÔNG TY TNHH WELSTORY VIỆT NAM\n\nĐịa chỉ (Address) : Số 139D-139E đường Dương Đình Hội, Phường Phước Long B, Thành phố Thủ Đức, Thành phố Hồ Chí Minh, Việt Nam\n\nSố điện thoại 09-1949-7006\ne-mail cskh.welv@samsung.com\n\nPhương pháp xử lý thông tin cá nhân\n\n© 2016.SAMSUNG WELSTORY INC",
+      "images": [
+        {
+          "original": "https://www.welstory.vn/images/common/h1_logo.png",
+          "local": "images_common_h1_logo.png"
+        },
+        {
+          "original": "https://www.welstory.vn/images/common/btn_global.png",
+          "local": "images_common_btn_global.png"
+        },
+        {
+          "original": "https://www.welstory.vn/images/common/btn_menu_open.png",
+          "local": "images_common_btn_menu_open.png"
+        },
+        {
+          "original": "https://www.welstory.vn/images/common/btn_global.png",
+          "local": "images_common_btn_global.png"
+        },
+        {
+          "original": "https://www.welstory.vn/images/sub/contactus/img_contactus01.jpg",
+          "local": "images_sub_contactus_img_contactus01.jpg"
+        },
+        {
+          "original": "https://www.welstory.vn/images/sub/contactus/241108_img_contactus02.jpg",
+          "local": "images_sub_contactus_241108_img_contactus02.jpg"
+        },
+        {
+          "original": "https://www.welstory.vn/images/sub/contactus/241108_img_contactus02.jpg",
+          "local": "images_sub_contactus_241108_img_contactus02.jpg"
+        },
+        {
+          "original": "https://www.welstory.vn/images/icon/btn_top.png",
+          "local": "images_icon_btn_top.png"
+        }
+      ]
+    },
+    {
+      "url": "https://www.welstory.vn/contents/contactus/inquiry.html",
+      "section": "inquiry",
+      "headings": [
+        {
+          "tag": "h2",
+          "text": "Liên lạc với chúng tôi"
+        },
+        {
+          "tag": "h3",
+          "text": "Hỏi trực tuyến"
+        },
+        {
+          "tag": "h5",
+          "text": "Đồng ý với việc thu thập và sử dụng thông tin cá nhân[cần sự đồng ý]"
+        },
+        {
+          "tag": "h5",
+          "text": "Liên hệ tư vấn với Welstory Việt Nam"
+        }
+      ],
+      "breadcrumb": [],
+      "sidebarNav": [],
+      "contentText": "Về chúng tôi\nDịch vụ\nTại sao là chúng tôi\nTuyển dụng\nLiên lạc với chúng tôi\n\nLiên lạc với chúng tôi\nCác địa điểm làm việc chính\nHỏi trực tuyến\nTrang chủ\nLiên lạc với chúng tôi\nHỏi trực tuyến\nHỏi trực tuyến\n\nCảm ơn các quý vị đã quan tâm tới Welstory Việt Nam. Mời quý vị ghi nội dung cần tư vấn theo các hạng mục ở dưới.\n\nĐồng ý với việc thu thập và sử dụng thông tin cá nhân[cần sự đồng ý]\n1. Những hạng mục và cách thu thập thông tin cá nhân sẽ được công ty tiến hành như sau.\nPhân loại\tHạng mục bắt buộc\tMục đích thu thập và sử dụng\nHỏi trực tuyến\tHạng mục hỏi đáp, Tên, Số điện thoạ, Email, Địa chỉ, Đề mục tư vấn, Nội dung tư vấn\tNhằm tư vấn trực tuyến các nội dung khác ngoài nội dung cung cấp suất ăn công nghiệp, cung cấp nguyên liệu thực phẩm\n2. Thời gian xử lý và lưu thông tin cá nhân\n\n- Thông tin cá nhân liên quan đến tư vấn trực tuyến: Lưu trữ riêng sau khi kết thúc tư vấn và hủy bỏ sau 3 năm lưu trữ hồ sơ tranh chấp theo pháp luật liên quan\n\n* Quý khách có quyền từ chối việc thu thập và sử dụng thông tin cá nhân của mình, trong trường hợp từ chối quý khách không thể nhận được tư vấn trực tuyến.\n\nTôi đồng ý.\nTôi không đồng ý.\nMục hỏi đáp*\t\nTư vấn cung cấp suất ăn công nghiệp ủy thác\nTư vấn cung cấp nguyên liệu thực phẩm\nÝ kiến khách hàng\n\nTên*\t\nSố điện thoạ*\t\nE-mail*\t\nĐịa chỉ *\t\nTiêu đề tư vấn*\t\nNội dung*\t\n \nLiên hệ tư vấn với Welstory Việt Nam\nĐịa chỉ liên lạc\tBắc Ninh\tThành phố Hồ Chí Minh\nNgười phụ trách Hàn Quốc\n(Sales marketing)\t+84-356-877-011\t+82-7071-641-158\nNgười phụ trách Việt Nam\n(Sales marketing)\t+84-981-047-477\n+84-222-369-9930\t+84-985-521-511\n\nPhương pháp xử lý thông tin cá nhân\n\n© 2016.SAMSUNG WELSTORY INC",
+      "images": [
+        {
+          "original": "https://www.welstory.vn/images/common/h1_logo.png",
+          "local": "images_common_h1_logo.png"
+        },
+        {
+          "original": "https://www.welstory.vn/images/common/btn_global.png",
+          "local": "images_common_btn_global.png"
+        },
+        {
+          "original": "https://www.welstory.vn/images/common/btn_menu_open.png",
+          "local": "images_common_btn_menu_open.png"
+        },
+        {
+          "original": "https://www.welstory.vn/images/common/btn_global.png",
+          "local": "images_common_btn_global.png"
+        },
+        {
+          "original": "https://www.welstory.vn/images/icon/btn_top.png",
+          "local": "images_icon_btn_top.png"
+        }
+      ]
+    }
+  ],
+  "services": [
+    {
+      "image": "/images/main/img_m_service01.png",
+      "title": "Miền Bắc",
+      "description": "Với tổng số 61 nhà ăn, chúng tôi đang cung cấp dịch vụ ăn uống với quy mô 250 nghìn suất ăn mỗi ngày.",
+      "href": "contents/services/north.html"
+    },
+    {
+      "image": "/images/main/img_m_service02.png",
+      "title": "Miền Nam",
+      "description": "Chúng tôi cũng đã xây dựng góc ẩm thực Phù hợp với đặc trưng văn hóa ẩm thực Nam Bộ",
+      "href": "contents/services/south.html"
+    },
+    {
+      "image": "/images/main/img_m_service03.png",
+      "title": "Miền Trung",
+      "description": "Chúng tôi sẽ liên tục nghiên cứu và phát triển để cung cấp dịch vụ ăn uống tốt nhất.",
+      "href": "contents/services/midland.html"
+    },
+    {
+      "image": "/images/main/img_m_service04.png",
+      "title": "Thực đơn",
+      "description": "Chúng tôi cũng sẽ phát triển các thực đơn phù hợp với đặc trưng từng vùng miền để đẩy mạnh văn hóa suất ăn công nghiệp tại Việt Nam",
+      "href": "contents/services/menu.html"
+    }
+  ],
+  "strengths": [
+    {
+      "title": "Thực phẩm tươi ngon",
+      "href": "/contents/whyus/freshness.html",
+      "link_class": "link1"
+    },
+    {
+      "title": "Thực phẩm an toàn",
+      "href": "/contents/whyus/safety.html",
+      "link_class": "link2"
+    },
+    {
+      "title": "Hương vị thơm ngon",
+      "href": "/contents/whyus/tasty.html",
+      "link_class": "link3"
+    },
+    {
+      "title": "Dịch vụ khách hàng",
+      "href": "/contents/whyus/customer.html",
+      "link_class": "link4"
+    }
+  ],
+  "statistics": [],
+  "images_downloaded": [
+    {
+      "original": "https://www.welstory.vn/images/pimg_e.png",
+      "local": "images_pimg_e.png"
+    },
+    {
+      "original": "https://www.welstory.vn/images/common/h1_logo.png",
+      "local": "images_common_h1_logo.png"
+    },
+    {
+      "original": "https://www.welstory.vn/images/common/btn_global.png",
+      "local": "images_common_btn_global.png"
+    },
+    {
+      "original": "https://www.welstory.vn/images/common/btn_menu_open.png",
+      "local": "images_common_btn_menu_open.png"
+    },
+    {
+      "original": "https://www.welstory.vn/images/main/210508_img_slider_pohoto_01.jpg",
+      "local": "images_main_210508_img_slider_pohoto_01.jpg"
+    },
+    {
+      "original": "https://www.welstory.vn/images/main/img_slider_pohoto_02.jpg",
+      "local": "images_main_img_slider_pohoto_02.jpg"
+    },
+    {
+      "original": "https://www.welstory.vn/images/main/img_slider_pohoto_03.jpg",
+      "local": "images_main_img_slider_pohoto_03.jpg"
+    },
+    {
+      "original": "https://www.welstory.vn/images/main/img_slider_pohoto_04.jpg",
+      "local": "images_main_img_slider_pohoto_04.jpg"
+    },
+    {
+      "original": "https://www.welstory.vn/images/main/img_m_service01.png",
+      "local": "images_main_img_m_service01.png"
+    },
+    {
+      "original": "https://www.welstory.vn/images/main/img_m_service02.png",
+      "local": "images_main_img_m_service02.png"
+    },
+    {
+      "original": "https://www.welstory.vn/images/main/bg_service02_on.png",
+      "local": "images_main_bg_service02_on.png"
+    },
+    {
+      "original": "https://www.welstory.vn/images/main/img_m_service03.png",
+      "local": "images_main_img_m_service03.png"
+    },
+    {
+      "original": "https://www.welstory.vn/images/main/img_m_service04.png",
+      "local": "images_main_img_m_service04.png"
+    },
+    {
+      "original": "https://www.welstory.vn/images/main/241108_img_major01.jpg",
+      "local": "images_main_241108_img_major01.jpg"
+    },
+    {
+      "original": "https://www.welstory.vn/images/main/210508_img_major02.jpg",
+      "local": "images_main_210508_img_major02.jpg"
+    },
+    {
+      "original": "https://www.welstory.vn/images/main/img_major03.jpg",
+      "local": "images_main_img_major03.jpg"
+    },
+    {
+      "original": "https://www.welstory.vn/images/sub/aboutus/241112_img_aboutus05.png",
+      "local": "images_sub_aboutus_241112_img_aboutus05.png"
+    },
+    {
+      "original": "https://www.welstory.vn/images/icon/btn_top.png",
+      "local": "images_icon_btn_top.png"
+    },
+    {
+      "original": "https://www.welstory.vn/images/sub/aboutus/210508_img_aboutus13.jpg",
+      "local": "images_sub_aboutus_210508_img_aboutus13.jpg"
+    },
+    {
+      "original": "https://www.welstory.vn/images/sub/aboutus/210528_img_aboutus15.jpg",
+      "local": "images_sub_aboutus_210528_img_aboutus15.jpg"
+    },
+    {
+      "original": "https://www.welstory.vn/images/sub/aboutus/img_aboutus29.jpg",
+      "local": "images_sub_aboutus_img_aboutus29.jpg"
+    },
+    {
+      "original": "https://www.welstory.vn/images/sub/aboutus/img_aboutus30.jpg",
+      "local": "images_sub_aboutus_img_aboutus30.jpg"
+    },
+    {
+      "original": "https://www.welstory.vn/images/sub/aboutus/img_aboutus31.jpg",
+      "local": "images_sub_aboutus_img_aboutus31.jpg"
+    },
+    {
+      "original": "https://www.welstory.vn/images/sub/aboutus/img_aboutus32.jpg",
+      "local": "images_sub_aboutus_img_aboutus32.jpg"
+    },
+    {
+      "original": "https://www.welstory.vn/images/sub/aboutus/img_aboutus33.jpg",
+      "local": "images_sub_aboutus_img_aboutus33.jpg"
+    },
+    {
+      "original": "https://www.welstory.vn/images/sub/service/img_service01.jpg",
+      "local": "images_sub_service_img_service01.jpg"
+    },
+    {
+      "original": "https://www.welstory.vn/images/sub/service/img_service02.jpg",
+      "local": "images_sub_service_img_service02.jpg"
+    },
+    {
+      "original": "https://www.welstory.vn/images/sub/service/img_service03.jpg",
+      "local": "images_sub_service_img_service03.jpg"
+    },
+    {
+      "original": "https://www.welstory.vn/images/sub/service/img_service04.jpg",
+      "local": "images_sub_service_img_service04.jpg"
+    },
+    {
+      "original": "https://www.welstory.vn/images/sub/service/img_service05.jpg",
+      "local": "images_sub_service_img_service05.jpg"
+    },
+    {
+      "original": "https://www.welstory.vn/images/sub/service/img_service06.jpg",
+      "local": "images_sub_service_img_service06.jpg"
+    },
+    {
+      "original": "https://www.welstory.vn/images/sub/service/img_service07.jpg",
+      "local": "images_sub_service_img_service07.jpg"
+    },
+    {
+      "original": "https://www.welstory.vn/images/sub/service/img_service09.jpg",
+      "local": "images_sub_service_img_service09.jpg"
+    },
+    {
+      "original": "https://www.welstory.vn/images/sub/service/img_service10.jpg",
+      "local": "images_sub_service_img_service10.jpg"
+    },
+    {
+      "original": "https://www.welstory.vn/images/sub/service/img_service11.jpg",
+      "local": "images_sub_service_img_service11.jpg"
+    },
+    {
+      "original": "https://www.welstory.vn/images/sub/service/img_service12.jpg",
+      "local": "images_sub_service_img_service12.jpg"
+    },
+    {
+      "original": "https://www.welstory.vn/images/sub/service/img_service13.jpg",
+      "local": "images_sub_service_img_service13.jpg"
+    },
+    {
+      "original": "https://www.welstory.vn/images/sub/service/img_service14.jpg",
+      "local": "images_sub_service_img_service14.jpg"
+    },
+    {
+      "original": "https://www.welstory.vn/images/sub/service/img_service15.jpg",
+      "local": "images_sub_service_img_service15.jpg"
+    },
+    {
+      "original": "https://www.welstory.vn/images/sub/service/img_HANSOL.png",
+      "local": "images_sub_service_img_HANSOL.png"
+    },
+    {
+      "original": "https://www.welstory.vn/images/sub/service/img_service17.jpg",
+      "local": "images_sub_service_img_service17.jpg"
+    },
+    {
+      "original": "https://www.welstory.vn/images/sub/service/img_service18.jpg",
+      "local": "images_sub_service_img_service18.jpg"
+    },
+    {
+      "original": "https://www.welstory.vn/images/sub/service/img_CAMMSYS.png",
+      "local": "images_sub_service_img_CAMMSYS.png"
+    },
+    {
+      "original": "https://www.welstory.vn/images/sub/service/img_service39.jpg",
+      "local": "images_sub_service_img_service39.jpg"
+    },
+    {
+      "original": "https://www.welstory.vn/images/sub/service/img_service19.jpg",
+      "local": "images_sub_service_img_service19.jpg"
+    },
+    {
+      "original": "https://www.welstory.vn/images/sub/service/img_service20.jpg",
+      "local": "images_sub_service_img_service20.jpg"
+    },
+    {
+      "original": "https://www.welstory.vn/images/sub/service/img_service43.jpg",
+      "local": "images_sub_service_img_service43.jpg"
+    },
+    {
+      "original": "https://www.welstory.vn/images/sub/service/img_service42.jpg",
+      "local": "images_sub_service_img_service42.jpg"
+    },
+    {
+      "original": "https://www.welstory.vn/images/sub/service/img_CHEMTRONICS.png",
+      "local": "images_sub_service_img_CHEMTRONICS.png"
+    },
+    {
+      "original": "https://www.welstory.vn/images/sub/service/img_service36.jpg",
+      "local": "images_sub_service_img_service36.jpg"
+    },
+    {
+      "original": "https://www.welstory.vn/images/sub/service/img_service37.jpg",
+      "local": "images_sub_service_img_service37.jpg"
+    },
+    {
+      "original": "https://www.welstory.vn/images/sub/service/img_service24.jpg",
+      "local": "images_sub_service_img_service24.jpg"
+    },
+    {
+      "original": "https://www.welstory.vn/images/sub/service/img_service25.jpg",
+      "local": "images_sub_service_img_service25.jpg"
+    },
+    {
+      "original": "https://www.welstory.vn/images/sub/service/img_service26.jpg",
+      "local": "images_sub_service_img_service26.jpg"
+    },
+    {
+      "original": "https://www.welstory.vn/images/sub/service/img_service27.jpg",
+      "local": "images_sub_service_img_service27.jpg"
+    },
+    {
+      "original": "https://www.welstory.vn/images/sub/whyus/241112_bg_overview12.png",
+      "local": "images_sub_whyus_241112_bg_overview12.png"
+    },
+    {
+      "original": "https://www.welstory.vn/images/sub/whyus/img_whyus01.jpg",
+      "local": "images_sub_whyus_img_whyus01.jpg"
+    },
+    {
+      "original": "https://www.welstory.vn/images/sub/whyus/img_whyus02.jpg",
+      "local": "images_sub_whyus_img_whyus02.jpg"
+    },
+    {
+      "original": "https://www.welstory.vn/images/sub/whyus/img_whyus13.jpg",
+      "local": "images_sub_whyus_img_whyus13.jpg"
+    },
+    {
+      "original": "https://www.welstory.vn/images/sub/whyus/img_whyus14.jpg",
+      "local": "images_sub_whyus_img_whyus14.jpg"
+    },
+    {
+      "original": "https://www.welstory.vn/images/sub/whyus/img_whyus15.jpg",
+      "local": "images_sub_whyus_img_whyus15.jpg"
+    },
+    {
+      "original": "https://www.welstory.vn/images/sub/whyus/img_whyus16.jpg",
+      "local": "images_sub_whyus_img_whyus16.jpg"
+    },
+    {
+      "original": "https://www.welstory.vn/images/sub/whyus/img_whyus05.jpg",
+      "local": "images_sub_whyus_img_whyus05.jpg"
+    },
+    {
+      "original": "https://www.welstory.vn/images/sub/whyus/img_whyus06.jpg",
+      "local": "images_sub_whyus_img_whyus06.jpg"
+    },
+    {
+      "original": "https://www.welstory.vn/images/sub/whyus/img_whyus07.jpg",
+      "local": "images_sub_whyus_img_whyus07.jpg"
+    },
+    {
+      "original": "https://www.welstory.vn/images/sub/whyus/img_whyus08.jpg",
+      "local": "images_sub_whyus_img_whyus08.jpg"
+    },
+    {
+      "original": "https://www.welstory.vn/images/sub/whyus/img_whyus09.jpg",
+      "local": "images_sub_whyus_img_whyus09.jpg"
+    },
+    {
+      "original": "https://www.welstory.vn/images/sub/whyus/img_whyus10.jpg",
+      "local": "images_sub_whyus_img_whyus10.jpg"
+    },
+    {
+      "original": "https://www.welstory.vn/images/sub/whyus/img_whyus11.jpg",
+      "local": "images_sub_whyus_img_whyus11.jpg"
+    },
+    {
+      "original": "https://www.welstory.vn/images/sub/whyus/img_whyus12.jpg",
+      "local": "images_sub_whyus_img_whyus12.jpg"
+    },
+    {
+      "original": "https://www.welstory.vn/images/sub/whyus/img_whyus33.jpg",
+      "local": "images_sub_whyus_img_whyus33.jpg"
+    },
+    {
+      "original": "https://www.welstory.vn/images/sub/whyus/img_whyus17.jpg",
+      "local": "images_sub_whyus_img_whyus17.jpg"
+    },
+    {
+      "original": "https://www.welstory.vn/images/sub/whyus/img_whyus18.jpg",
+      "local": "images_sub_whyus_img_whyus18.jpg"
+    },
+    {
+      "original": "https://www.welstory.vn/images/sub/whyus/img_whyus19.jpg",
+      "local": "images_sub_whyus_img_whyus19.jpg"
+    },
+    {
+      "original": "https://www.welstory.vn/images/sub/whyus/img_whyus20.jpg",
+      "local": "images_sub_whyus_img_whyus20.jpg"
+    },
+    {
+      "original": "https://www.welstory.vn/images/sub/whyus/img_whyus21.jpg",
+      "local": "images_sub_whyus_img_whyus21.jpg"
+    },
+    {
+      "original": "https://www.welstory.vn/images/sub/whyus/210528_img_whyus22.jpg",
+      "local": "images_sub_whyus_210528_img_whyus22.jpg"
+    },
+    {
+      "original": "https://www.welstory.vn/images/sub/whyus/210528_img_whyus23.jpg",
+      "local": "images_sub_whyus_210528_img_whyus23.jpg"
+    },
+    {
+      "original": "https://www.welstory.vn/images/sub/whyus/210528_img_whyus24.jpg",
+      "local": "images_sub_whyus_210528_img_whyus24.jpg"
+    },
+    {
+      "original": "https://www.welstory.vn/images/sub/whyus/img_whyus26.jpg",
+      "local": "images_sub_whyus_img_whyus26.jpg"
+    },
+    {
+      "original": "https://www.welstory.vn/images/sub/whyus/img_whyus27.jpg",
+      "local": "images_sub_whyus_img_whyus27.jpg"
+    },
+    {
+      "original": "https://www.welstory.vn/images/sub/whyus/img_whyus28.jpg",
+      "local": "images_sub_whyus_img_whyus28.jpg"
+    },
+    {
+      "original": "https://www.welstory.vn/images/sub/careers/210528_img_careers.jpg",
+      "local": "images_sub_careers_210528_img_careers.jpg"
+    },
+    {
+      "original": "https://www.welstory.vn/images/sub/contactus/img_contactus01.jpg",
+      "local": "images_sub_contactus_img_contactus01.jpg"
+    },
+    {
+      "original": "https://www.welstory.vn/images/sub/contactus/241108_img_contactus02.jpg",
+      "local": "images_sub_contactus_241108_img_contactus02.jpg"
+    }
+  ],
+  "contact_info": {
+    "raw": "Địa chỉ (Address):\nSố 21, Đường 8, KCN Thương mại và Dịch vụ VSIP Bắc Ninh II,\nXã Tam Giang, Huyện Yên Phong, Tỉnh Bắc Ninh, Việt Nam\nSố điện thoại : 0222-369-9930\ne-mail : cskh.welv@samsung.com",
+    "address": "Địa chỉ (Address):",
+    "phone": "Số điện thoại : 0222-369-9930",
+    "email": "e-mail : cskh.welv@samsung.com"
+  },
+  "links": {
+    "recruitment": "contents/careers/hrSystem.html",
+    "inquiry": "contents/contactus/inquiry.html"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "welstory-scraper",
+  "version": "1.0.0",
+  "description": "Playwright scraper for welstory.vn",
+  "main": "scrape-welstory.js",
+  "scripts": {
+    "scrape": "node scrape-welstory.js"
+  },
+  "dependencies": {
+    "playwright": "^1.44.0"
+  }
+}

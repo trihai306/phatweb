@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /admin/*
+Disallow: /storage/
+
+Sitemap: https://phatfood.vn/sitemap.xml
