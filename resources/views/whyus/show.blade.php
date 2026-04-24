@@ -78,7 +78,7 @@
                     <div class="mt-8 bg-accent rounded-2xl p-8 text-center">
                         <h3 class="text-xl font-bold text-dark mb-3">Bạn có muốn trải nghiệm dịch vụ của chúng tôi?</h3>
                         <p class="text-gray-600 text-sm mb-6">
-                            Liên hệ với PhatFood ngay hôm nay để được tư vấn miễn phí về giải pháp phù hợp nhất cho doanh nghiệp của bạn.
+                            Liên hệ với DAT PHAT ngay hôm nay để được tư vấn miễn phí về giải pháp phù hợp nhất cho doanh nghiệp của bạn.
                         </p>
                         <div class="flex flex-col sm:flex-row gap-3 justify-center">
                             <a href="{{ route('contact.inquiry') }}" class="btn-primary">

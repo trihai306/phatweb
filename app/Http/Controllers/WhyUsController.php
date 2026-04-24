@@ -13,9 +13,9 @@ class WhyUsController extends Controller
 {
     public function index()
     {
-        $brandName = CompanyInfo::getValue('brand_name', 'PhatFood');
+        $brandName = CompanyInfo::getValue('brand_name', 'DAT PHAT');
         SEOMeta::setTitle("Tại sao là chúng tôi - {$brandName} Việt Nam");
-        SEOMeta::setDescription(Setting::get('seo_description', 'PhatFood cung cấp dịch vụ suất ăn công nghiệp chất lượng cao, an toàn vệ sinh thực phẩm với thực đơn phù hợp đặc trưng từng vùng miền.'));
+        SEOMeta::setDescription(Setting::get('seo_description', 'DAT PHAT cung cấp dịch vụ suất ăn công nghiệp chất lượng cao, an toàn vệ sinh thực phẩm với thực đơn phù hợp đặc trưng từng vùng miền.'));
         OpenGraph::setTitle("Tại sao là chúng tôi - {$brandName}");
 
         return view('whyus.index', [
@@ -28,7 +28,7 @@ class WhyUsController extends Controller
     {
         $strength = Strength::where('slug', $slug)->firstOrFail();
 
-        SEOMeta::setTitle(($strength->meta_title ?: $strength->title) . ' - PhatFood');
+        SEOMeta::setTitle(($strength->meta_title ?: $strength->title) . ' - DAT PHAT');
         SEOMeta::setDescription($strength->meta_description ?: $strength->description);
 
         return view('whyus.show', [

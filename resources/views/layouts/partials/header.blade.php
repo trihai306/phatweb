@@ -5,7 +5,7 @@
     <div class="container-main">
         <div class="flex items-center justify-between h-20">
             <a href="{{ route('home') }}" class="flex-shrink-0 group">
-                <img src="{{ asset('images/logo-sm.png') }}" alt="{{ App\Models\CompanyInfo::getValue('brand_name', 'PhatFood') }}" class="h-12 w-auto">
+                <img src="{{ asset('images/logo-sm.png') }}" alt="{{ App\Models\CompanyInfo::getValue('brand_name', 'DAT PHAT') }}" class="h-12 w-auto">
             </a>
 
             <nav class="hidden lg:flex items-center gap-1">

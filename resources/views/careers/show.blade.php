@@ -132,7 +132,7 @@
                             </div>
                             <h3 class="font-bold text-lg mb-2">Ứng tuyển ngay</h3>
                             <p class="text-white/80 text-sm mb-5">
-                                Gửi hồ sơ của bạn để PhatFood xem xét và liên hệ sớm nhất.
+                                Gửi hồ sơ của bạn để DAT PHAT xem xét và liên hệ sớm nhất.
                             </p>
                             <a href="{{ route('contact.inquiry') }}?subject={{ urlencode('Ứng tuyển: ' . ($career->title ?? '')) }}"
                                class="block w-full py-3 bg-white text-primary font-bold rounded-xl hover:bg-accent transition-colors text-sm">

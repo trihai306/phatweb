@@ -13,9 +13,9 @@ class ServiceController extends Controller
 {
     public function index()
     {
-        $brandName = CompanyInfo::getValue('brand_name', 'PhatFood');
+        $brandName = CompanyInfo::getValue('brand_name', 'DAT PHAT');
         SEOMeta::setTitle("Dịch vụ - {$brandName} Việt Nam");
-        SEOMeta::setDescription(Setting::get('seo_description', 'PhatFood cung cấp dịch vụ suất ăn công nghiệp chất lượng cao, an toàn vệ sinh thực phẩm với thực đơn phù hợp đặc trưng từng vùng miền.'));
+        SEOMeta::setDescription(Setting::get('seo_description', 'DAT PHAT cung cấp dịch vụ suất ăn công nghiệp chất lượng cao, an toàn vệ sinh thực phẩm với thực đơn phù hợp đặc trưng từng vùng miền.'));
         OpenGraph::setTitle("Dịch vụ - {$brandName}");
 
         return view('services.index', [
@@ -28,7 +28,7 @@ class ServiceController extends Controller
     {
         $service = Service::where('slug', $slug)->firstOrFail();
 
-        SEOMeta::setTitle(($service->meta_title ?: $service->title) . ' - PhatFood');
+        SEOMeta::setTitle(($service->meta_title ?: $service->title) . ' - DAT PHAT');
         SEOMeta::setDescription($service->meta_description ?: $service->description);
 
         return view('services.show', [
@@ -39,9 +39,9 @@ class ServiceController extends Controller
 
     public function menu()
     {
-        $brandName = CompanyInfo::getValue('brand_name', 'PhatFood');
+        $brandName = CompanyInfo::getValue('brand_name', 'DAT PHAT');
         SEOMeta::setTitle("Thực đơn - {$brandName} Việt Nam");
-        SEOMeta::setDescription(Setting::get('seo_description', 'PhatFood cung cấp dịch vụ suất ăn công nghiệp chất lượng cao, an toàn vệ sinh thực phẩm với thực đơn phù hợp đặc trưng từng vùng miền.'));
+        SEOMeta::setDescription(Setting::get('seo_description', 'DAT PHAT cung cấp dịch vụ suất ăn công nghiệp chất lượng cao, an toàn vệ sinh thực phẩm với thực đơn phù hợp đặc trưng từng vùng miền.'));
 
         return view('services.menu', [
             'menus' => FoodMenu::active()->orderBy('sort_order')->get(),

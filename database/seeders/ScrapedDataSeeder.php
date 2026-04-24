@@ -75,7 +75,7 @@ class ScrapedDataSeeder extends Seeder
                         'title' => $title,
                         'content' => $content ?: null,
                         'section' => $section,
-                        'meta_title' => $title . ' - PhatFood',
+                        'meta_title' => $title . ' - DAT PHAT',
                     ]
                 );
             }

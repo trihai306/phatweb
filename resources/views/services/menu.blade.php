@@ -29,7 +29,7 @@
         <div class="container-main relative text-center">
             <h1 class="text-3xl md:text-5xl font-extrabold text-white mb-4">Thực đơn</h1>
             <p class="text-white/80 text-base md:text-lg max-w-2xl mx-auto">
-                Khám phá thực đơn phong phú, đa dạng được chế biến từ nguyên liệu tươi ngon và an toàn của PhatFood
+                Khám phá thực đơn phong phú, đa dạng được chế biến từ nguyên liệu tươi ngon và an toàn của DAT PHAT
             </p>
         </div>
     </section>

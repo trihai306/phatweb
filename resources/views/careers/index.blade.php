@@ -32,10 +32,10 @@
                 Cơ hội nghề nghiệp
             </div>
             <h1 class="text-4xl md:text-6xl font-extrabold text-white mb-5 leading-tight">
-                Gia nhập <span class="text-primary">PhatFood</span>
+                Gia nhập <span class="text-primary">DAT PHAT</span>
             </h1>
             <p class="text-white/75 text-lg max-w-2xl mx-auto leading-relaxed">
-                PhatFood mở ra cơ hội thực hiện những ước mơ cho mọi người.
+                DAT PHAT mở ra cơ hội thực hiện những ước mơ cho mọi người.
                 Cùng chúng tôi kiến tạo những bữa ăn ý nghĩa cho người lao động Việt Nam.
             </p>
         </div>

@@ -32,10 +32,10 @@
                 Thế mạnh của chúng tôi
             </div>
             <h1 class="text-4xl md:text-6xl font-extrabold text-white mb-5 leading-tight">
-                Tại sao là <span class="text-primary">PhatFood?</span>
+                Tại sao là <span class="text-primary">DAT PHAT?</span>
             </h1>
             <p class="text-white/75 text-lg max-w-2xl leading-relaxed">
-                Những giá trị cốt lõi và thế mạnh đặc biệt giúp PhatFood trở thành lựa chọn hàng đầu của các doanh nghiệp.
+                Những giá trị cốt lõi và thế mạnh đặc biệt giúp DAT PHAT trở thành lựa chọn hàng đầu của các doanh nghiệp.
             </p>
         </div>
     </section>
@@ -60,13 +60,13 @@
                     {{-- Section intro --}}
                     <div class="mb-10">
                         <p class="text-xs font-bold text-primary uppercase tracking-widest mb-2">Lý do chọn chúng tôi</p>
-                        <h2 class="text-2xl md:text-3xl font-bold text-dark mb-3">Thế mạnh của PhatFood</h2>
+                        <h2 class="text-2xl md:text-3xl font-bold text-dark mb-3">Thế mạnh của DAT PHAT</h2>
                         <div class="flex items-center gap-3 mb-5">
                             <div class="w-12 h-1 bg-primary rounded-full"></div>
                             <div class="w-3 h-1 bg-primary/30 rounded-full"></div>
                         </div>
                         <p class="text-gray-600 leading-relaxed max-w-2xl">
-                            Với hơn 10 năm kinh nghiệm trong ngành dịch vụ suất ăn công nghiệp, PhatFood cam kết mang đến
+                            Với hơn 10 năm kinh nghiệm trong ngành dịch vụ suất ăn công nghiệp, DAT PHAT cam kết mang đến
                             những giá trị vượt trội và sự hài lòng tối đa cho từng khách hàng.
                         </p>
                     </div>
@@ -154,7 +154,7 @@
 
                             <div class="relative">
                                 <p class="text-primary text-xs font-bold uppercase tracking-widest mb-2">Thống kê</p>
-                                <h3 class="text-xl md:text-2xl font-extrabold text-white mb-10">PhatFood trong những con số</h3>
+                                <h3 class="text-xl md:text-2xl font-extrabold text-white mb-10">DAT PHAT trong những con số</h3>
 
                                 <div class="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8">
                                     @foreach($statistics as $stat)

@@ -12,9 +12,9 @@ class CareerController extends Controller
 {
     public function index()
     {
-        $brandName = CompanyInfo::getValue('brand_name', 'PhatFood');
+        $brandName = CompanyInfo::getValue('brand_name', 'DAT PHAT');
         SEOMeta::setTitle("Tuyển dụng - {$brandName} Việt Nam");
-        SEOMeta::setDescription(Setting::get('seo_description', 'PhatFood cung cấp dịch vụ suất ăn công nghiệp chất lượng cao, an toàn vệ sinh thực phẩm với thực đơn phù hợp đặc trưng từng vùng miền.'));
+        SEOMeta::setDescription(Setting::get('seo_description', 'DAT PHAT cung cấp dịch vụ suất ăn công nghiệp chất lượng cao, an toàn vệ sinh thực phẩm với thực đơn phù hợp đặc trưng từng vùng miền.'));
         OpenGraph::setTitle("Tuyển dụng - {$brandName}");
 
         return view('careers.index', [
@@ -26,7 +26,7 @@ class CareerController extends Controller
     {
         $career = Career::where('slug', $slug)->firstOrFail();
 
-        SEOMeta::setTitle(($career->meta_title ?: $career->title) . ' - Tuyển dụng PhatFood');
+        SEOMeta::setTitle(($career->meta_title ?: $career->title) . ' - Tuyển dụng DAT PHAT');
         SEOMeta::setDescription($career->meta_description ?: $career->description);
 
         return view('careers.show', [

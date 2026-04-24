@@ -60,7 +60,7 @@
                             {{-- Eyebrow label --}}
                             <div class="flex items-center gap-3 mb-6" style="opacity: 0; animation: slideUpFade 0.8s ease forwards 0.2s;">
                                 <div style="width: 40px; height: 2px; background: #19592F;"></div>
-                                <span class="text-sm font-semibold tracking-widest uppercase" style="color: #7FBF3F;">PhatFood Việt Nam</span>
+                                <span class="text-sm font-semibold tracking-widest uppercase" style="color: #7FBF3F;">DAT PHAT Việt Nam</span>
                             </div>
 
                             <h1 class="font-bold leading-tight mb-6"
@@ -107,13 +107,13 @@
                         <div class="max-w-3xl text-white" style="padding-top: 80px;">
                             <div class="flex items-center gap-3 mb-6">
                                 <div style="width: 40px; height: 2px; background: #19592F;"></div>
-                                <span class="text-sm font-semibold tracking-widest uppercase" style="color: #7FBF3F;">PhatFood Việt Nam</span>
+                                <span class="text-sm font-semibold tracking-widest uppercase" style="color: #7FBF3F;">DAT PHAT Việt Nam</span>
                             </div>
                             <h1 class="font-bold leading-tight mb-6" style="font-size: clamp(2rem, 5vw, 4rem); text-shadow: 0 2px 20px rgba(0,0,0,0.3);">
                                 Điều cơ bản của ẩm thực xuất phát từ sự tươi ngon và an toàn.
                             </h1>
                             <p class="mb-10" style="font-size: 1.2rem; color: rgba(255,255,255,0.88);">
-                                PhatFood — Dịch vụ suất ăn công nghiệp hàng đầu Việt Nam
+                                DAT PHAT — Dịch vụ suất ăn công nghiệp hàng đầu Việt Nam
                             </p>
                             <div class="flex flex-wrap gap-4">
                                 <a href="{{ route('services.index') }}" class="btn-primary" style="font-size: 1rem; padding: 0.875rem 2rem; box-shadow: 0 4px 20px rgba(25,89,47,0.4);">
@@ -298,7 +298,7 @@
                 <div style="width:32px; height:3px; background:#19592F; border-radius:2px;"></div>
             </div>
             <h2 class="section-title" style="font-size: clamp(1.75rem, 3vw, 2.75rem);">
-                Tại sao chọn <span style="color:#19592F;">PhatFood</span>?
+                Tại sao chọn <span style="color:#19592F;">DAT PHAT</span>?
             </h2>
             <p class="section-subtitle mx-auto mt-4" style="max-width: 560px; color:#666;">
                 Chúng tôi cam kết mang đến những bữa ăn ngon, an toàn và đúng giờ với đội ngũ chuyên nghiệp nhiều năm kinh nghiệm.
@@ -437,7 +437,7 @@
                                 <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
                             </svg>
                         </div>
-                        <h3 class="font-bold text-xl">Văn phòng PhatFood</h3>
+                        <h3 class="font-bold text-xl">Văn phòng DAT PHAT</h3>
                         <p class="mt-1 opacity-80 text-sm">Việt Nam</p>
                     </div>
 
@@ -529,7 +529,7 @@
                                 Tuyển dụng
                             </h3>
                             <p class="leading-relaxed" style="color:#666; font-size:0.9375rem;">
-                                PhatFood Việt Nam mở ra cơ hội thực hiện những ước mơ đến với mọi người. Hãy cùng chúng tôi tạo nên những bữa ăn ý nghĩa.
+                                DAT PHAT Việt Nam mở ra cơ hội thực hiện những ước mơ đến với mọi người. Hãy cùng chúng tôi tạo nên những bữa ăn ý nghĩa.
                             </p>
                         </div>
                         <div class="flex-shrink-0 self-center transition-all duration-300 group-hover:translate-x-1" style="color:#19592F;">

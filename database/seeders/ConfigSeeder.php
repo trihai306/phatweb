@@ -12,8 +12,8 @@ class ConfigSeeder extends Seeder
     {
         // CompanyInfo defaults
         $companyInfos = [
-            ['key' => 'company_name',            'value' => 'Công ty TNHH Dịch vụ Thực phẩm PhatFood',                                                                                                       'group' => 'general'],
-            ['key' => 'brand_name',              'value' => 'PhatFood',                                                                                                                                       'group' => 'general'],
+            ['key' => 'company_name',            'value' => 'Công ty TNHH Dịch vụ Thực phẩm DAT PHAT',                                                                                                       'group' => 'general'],
+            ['key' => 'brand_name',              'value' => 'DAT PHAT',                                                                                                                                       'group' => 'general'],
             ['key' => 'ceo_name',                'value' => 'Nguyễn Văn Phát',                                                                                                                                'group' => 'general'],
             ['key' => 'founding_year',           'value' => '2013',                                                                                                                                           'group' => 'general'],
             ['key' => 'tagline',                 'value' => 'Hướng tới khách hàng lối sống khỏe mạnh thông qua dịch vụ ăn uống an toàn và chất lượng.',                                                      'group' => 'general'],
@@ -38,9 +38,9 @@ class ConfigSeeder extends Seeder
 
         // Setting defaults
         $settings = [
-            ['key' => 'seo_title',          'value' => 'PhatFood - Dịch vụ suất ăn công nghiệp hàng đầu Việt Nam',                                                                                     'group' => 'seo'],
-            ['key' => 'seo_description',    'value' => 'PhatFood cung cấp dịch vụ suất ăn công nghiệp chất lượng cao, an toàn vệ sinh thực phẩm với thực đơn phù hợp đặc trưng từng vùng miền.',      'group' => 'seo'],
-            ['key' => 'seo_keywords',       'value' => 'suất ăn công nghiệp, dịch vụ ăn uống, PhatFood, suất ăn doanh nghiệp',                                                                        'group' => 'seo'],
+            ['key' => 'seo_title',          'value' => 'DAT PHAT - Dịch vụ suất ăn công nghiệp hàng đầu Việt Nam',                                                                                     'group' => 'seo'],
+            ['key' => 'seo_description',    'value' => 'DAT PHAT cung cấp dịch vụ suất ăn công nghiệp chất lượng cao, an toàn vệ sinh thực phẩm với thực đơn phù hợp đặc trưng từng vùng miền.',      'group' => 'seo'],
+            ['key' => 'seo_keywords',       'value' => 'suất ăn công nghiệp, dịch vụ ăn uống, DAT PHAT, suất ăn doanh nghiệp',                                                                        'group' => 'seo'],
             ['key' => 'seo_og_image',       'value' => '',                                                                                                                                              'group' => 'seo'],
             ['key' => 'primary_color',      'value' => '#19592F',                                                                                                                                       'group' => 'appearance'],
             ['key' => 'primary_dark_color', 'value' => '#12472A',                                                                                                                                       'group' => 'appearance'],

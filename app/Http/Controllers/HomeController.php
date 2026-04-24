@@ -16,9 +16,9 @@ class HomeController extends Controller
 {
     public function index()
     {
-        $siteName = Setting::get('seo_title', 'PhatFood - Dịch vụ suất ăn công nghiệp hàng đầu Việt Nam');
-        $siteDescription = Setting::get('seo_description', 'PhatFood cung cấp dịch vụ suất ăn công nghiệp chất lượng cao, an toàn vệ sinh thực phẩm với thực đơn phù hợp đặc trưng từng vùng miền.');
-        $seoKeywords = Setting::get('seo_keywords', 'suất ăn công nghiệp, dịch vụ ăn uống, PhatFood, suất ăn doanh nghiệp');
+        $siteName = Setting::get('seo_title', 'DAT PHAT - Dịch vụ suất ăn công nghiệp hàng đầu Việt Nam');
+        $siteDescription = Setting::get('seo_description', 'DAT PHAT cung cấp dịch vụ suất ăn công nghiệp chất lượng cao, an toàn vệ sinh thực phẩm với thực đơn phù hợp đặc trưng từng vùng miền.');
+        $seoKeywords = Setting::get('seo_keywords', 'suất ăn công nghiệp, dịch vụ ăn uống, DAT PHAT, suất ăn doanh nghiệp');
 
         SEOMeta::setTitle($siteName);
         SEOMeta::setDescription($siteDescription);
@@ -32,7 +32,7 @@ class HomeController extends Controller
         }
 
         JsonLd::setType('Organization');
-        JsonLd::setTitle(Setting::get('seo_title', 'PhatFood'));
+        JsonLd::setTitle(Setting::get('seo_title', 'DAT PHAT'));
 
         return view('home', [
             'sliders' => Slider::active()->ordered()->get(),

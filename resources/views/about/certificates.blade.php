@@ -29,7 +29,7 @@
         <div class="container-main relative">
             <h1 class="text-3xl md:text-4xl font-extrabold text-white mb-3">Chứng nhận &amp; Giải thưởng</h1>
             <p class="text-white/80 text-base max-w-2xl">
-                Những chứng nhận về chất lượng và an toàn thực phẩm mà PhatFood đã đạt được
+                Những chứng nhận về chất lượng và an toàn thực phẩm mà DAT PHAT đã đạt được
             </p>
         </div>
     </section>

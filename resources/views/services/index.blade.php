@@ -17,7 +17,7 @@
         @php $firstService = $services->first(); @endphp
         @if($firstService && $firstService->image && file_exists(storage_path('app/public/' . $firstService->image)))
             <img src="{{ asset('storage/' . $firstService->image) }}"
-                 alt="Dịch vụ PhatFood"
+                 alt="Dịch vụ DAT PHAT"
                  class="absolute inset-0 w-full h-full object-cover"
                  loading="eager">
         @else
@@ -39,7 +39,7 @@
         <div class="relative container-main py-24 md:py-32">
             <div class="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/20 text-white/90 text-xs font-semibold px-4 py-2 rounded-full mb-6 uppercase tracking-widest">
                 <span class="w-2 h-2 bg-primary rounded-full animate-pulse"></span>
-                PhatFood Vietnam
+                DAT PHAT Vietnam
             </div>
             <h1 class="text-4xl md:text-6xl font-extrabold text-white mb-5 leading-tight max-w-2xl">
                 Dịch vụ <span class="text-primary">của chúng tôi</span>
@@ -71,7 +71,7 @@
                             </svg>
                         </div>
                         <h3 class="font-bold text-base mb-2">Xem thực đơn</h3>
-                        <p class="text-white/75 text-xs leading-relaxed mb-4">Khám phá các thực đơn phong phú, đa dạng vùng miền của PhatFood.</p>
+                        <p class="text-white/75 text-xs leading-relaxed mb-4">Khám phá các thực đơn phong phú, đa dạng vùng miền của DAT PHAT.</p>
                         <a href="{{ route('services.menu') }}"
                            class="inline-flex items-center gap-2 text-sm font-bold bg-white text-primary px-4 py-2.5 rounded-xl hover:bg-accent transition-colors w-full justify-center">
                             Xem thực đơn
@@ -94,7 +94,7 @@
                             <div class="w-3 h-1 bg-primary/30 rounded-full"></div>
                         </div>
                         <p class="text-gray-600 leading-relaxed mt-4 max-w-2xl">
-                            PhatFood cung cấp dịch vụ suất ăn công nghiệp toàn diện với thực đơn đặc trưng của từng vùng miền
+                            DAT PHAT cung cấp dịch vụ suất ăn công nghiệp toàn diện với thực đơn đặc trưng của từng vùng miền
                             Bắc - Trung - Nam, đảm bảo an toàn vệ sinh thực phẩm và dinh dưỡng hợp lý cho người lao động.
                         </p>
                     </div>

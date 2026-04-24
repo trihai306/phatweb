@@ -27,7 +27,7 @@ class DatabaseSeeder extends Seeder
         ]);
 
         $companyInfos = [
-            ['key' => 'company_name', 'value' => 'PhatFood Việt Nam', 'group' => 'general'],
+            ['key' => 'company_name', 'value' => 'DAT PHAT Việt Nam', 'group' => 'general'],
             ['key' => 'ceo', 'value' => 'PARK HAN SOON', 'group' => 'general'],
             ['key' => 'founded', 'value' => '26.12.2014', 'group' => 'general'],
             ['key' => 'revenue', 'value' => '2,000 tỷ đồng (Năm 2020)', 'group' => 'general'],
@@ -40,15 +40,15 @@ class DatabaseSeeder extends Seeder
         }
 
         $settings = [
-            ['key' => 'site_name', 'value' => 'PhatFood Việt Nam', 'group' => 'general'],
+            ['key' => 'site_name', 'value' => 'DAT PHAT Việt Nam', 'group' => 'general'],
             ['key' => 'site_description', 'value' => 'Dịch vụ suất ăn công nghiệp hàng đầu Việt Nam', 'group' => 'seo'],
-            ['key' => 'site_keywords', 'value' => 'suất ăn công nghiệp, dịch vụ ăn uống, PhatFood', 'group' => 'seo'],
+            ['key' => 'site_keywords', 'value' => 'suất ăn công nghiệp, dịch vụ ăn uống, DAT PHAT', 'group' => 'seo'],
         ];
         foreach ($settings as $setting) {
             Setting::create($setting);
         }
 
-        Slider::create(['title' => 'Điều cơ bản của ẩm thực xuất phát từ sự tươi ngon và an toàn', 'subtitle' => 'PhatFood - Dịch vụ suất ăn công nghiệp hàng đầu Việt Nam', 'image' => 'sliders/slide1.jpg', 'sort_order' => 0]);
+        Slider::create(['title' => 'Điều cơ bản của ẩm thực xuất phát từ sự tươi ngon và an toàn', 'subtitle' => 'DAT PHAT - Dịch vụ suất ăn công nghiệp hàng đầu Việt Nam', 'image' => 'sliders/slide1.jpg', 'sort_order' => 0]);
         Slider::create(['title' => 'Chất lượng là ưu tiên hàng đầu', 'subtitle' => 'Chúng tôi cam kết mang đến những bữa ăn ngon, sạch và an toàn', 'image' => 'sliders/slide2.jpg', 'sort_order' => 1]);
 
         Service::create(['title' => 'Miền Bắc', 'description' => 'Với tổng số 61 nhà ăn, chúng tôi đang cung cấp dịch vụ ăn uống với quy mô 250 nghìn suất ăn mỗi ngày.', 'content' => '<p>Dịch vụ ăn uống miền Bắc với các bếp ăn đại diện tại công ty điện tử Samsung, Elentec, Hyosung.</p>', 'image' => 'services/north.jpg', 'sort_order' => 0]);
@@ -69,13 +69,13 @@ class DatabaseSeeder extends Seeder
         Statistic::create(['label' => 'Công thức món ăn', 'value' => '20,000', 'unit' => 'công thức', 'icon' => '📋', 'sort_order' => 3]);
         Statistic::create(['label' => 'Doanh thu', 'value' => '2,000', 'unit' => 'tỷ đồng', 'icon' => '📊', 'sort_order' => 4]);
 
-        Page::create(['title' => 'Về chúng tôi', 'slug' => 've-chung-toi', 'section' => 'aboutus', 'excerpt' => 'PhatFood Việt Nam hướng tới khách hàng lối sống khỏe mạnh thông qua dịch vụ ăn uống an toàn và chất lượng.', 'content' => '<p>PhatFood Việt Nam hướng tới khách hàng lối sống khỏe mạnh thông qua dịch vụ ăn uống an toàn và chất lượng.</p>', 'sort_order' => 0, 'meta_title' => 'Về chúng tôi - PhatFood Việt Nam']);
-        Page::create(['title' => 'Kinh doanh bền vững', 'slug' => 'kinh-doanh-ben-vung', 'section' => 'aboutus', 'content' => '<p>PhatFood cam kết phát triển kinh doanh bền vững, bảo vệ môi trường.</p>', 'sort_order' => 1]);
+        Page::create(['title' => 'Về chúng tôi', 'slug' => 've-chung-toi', 'section' => 'aboutus', 'excerpt' => 'DAT PHAT Việt Nam hướng tới khách hàng lối sống khỏe mạnh thông qua dịch vụ ăn uống an toàn và chất lượng.', 'content' => '<p>DAT PHAT Việt Nam hướng tới khách hàng lối sống khỏe mạnh thông qua dịch vụ ăn uống an toàn và chất lượng.</p>', 'sort_order' => 0, 'meta_title' => 'Về chúng tôi - DAT PHAT Việt Nam']);
+        Page::create(['title' => 'Kinh doanh bền vững', 'slug' => 'kinh-doanh-ben-vung', 'section' => 'aboutus', 'content' => '<p>DAT PHAT cam kết phát triển kinh doanh bền vững, bảo vệ môi trường.</p>', 'sort_order' => 1]);
         Page::create(['title' => 'Tầm nhìn', 'slug' => 'tam-nhin', 'section' => 'aboutus', 'content' => '<p>Trở thành công ty cung cấp dịch vụ suất ăn công nghiệp số 1 tại Việt Nam.</p>', 'sort_order' => 2]);
-        Page::create(['title' => 'Lịch sử', 'slug' => 'lich-su', 'section' => 'aboutus', 'content' => '<p>Lịch sử phát triển của PhatFood Việt Nam.</p>', 'sort_order' => 3]);
+        Page::create(['title' => 'Lịch sử', 'slug' => 'lich-su', 'section' => 'aboutus', 'content' => '<p>Lịch sử phát triển của DAT PHAT Việt Nam.</p>', 'sort_order' => 3]);
         Page::create(['title' => 'Chứng nhận', 'slug' => 'chung-nhan', 'section' => 'aboutus', 'content' => '<p>Các chứng nhận chất lượng và an toàn thực phẩm.</p>', 'sort_order' => 4]);
 
-        HistoryMilestone::create(['year' => '2014', 'title' => 'Thành lập công ty', 'description' => 'PhatFood Việt Nam chính thức được thành lập vào ngày 26/12/2014', 'sort_order' => 0]);
+        HistoryMilestone::create(['year' => '2014', 'title' => 'Thành lập công ty', 'description' => 'DAT PHAT Việt Nam chính thức được thành lập vào ngày 26/12/2014', 'sort_order' => 0]);
         HistoryMilestone::create(['year' => '2016', 'title' => 'Mở rộng miền Bắc', 'description' => 'Mở rộng dịch vụ suất ăn tại các KCN khu vực miền Bắc', 'sort_order' => 1]);
         HistoryMilestone::create(['year' => '2018', 'title' => 'Phát triển miền Nam', 'description' => 'Mở rộng dịch vụ vào thị trường miền Nam Việt Nam', 'sort_order' => 2]);
         HistoryMilestone::create(['year' => '2020', 'title' => 'Doanh thu 2,000 tỷ đồng', 'description' => 'Đạt mốc doanh thu 2,000 tỷ đồng với 3,500 nhân viên', 'sort_order' => 3]);

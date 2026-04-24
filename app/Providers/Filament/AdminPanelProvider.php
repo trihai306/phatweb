@@ -29,7 +29,7 @@ class AdminPanelProvider extends PanelProvider
             ->id('admin')
             ->path('admin')
             ->login()
-            ->brandName('PhatFood Admin')
+            ->brandName('DAT PHAT Admin')
             ->colors([
                 'primary' => Color::Orange,
             ])

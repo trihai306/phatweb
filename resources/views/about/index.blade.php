@@ -33,7 +33,7 @@
                 {{-- Tag --}}
                 <div class="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/20 text-white/90 text-xs font-semibold px-4 py-2 rounded-full mb-6 uppercase tracking-widest">
                     <span class="w-2 h-2 bg-primary rounded-full animate-pulse"></span>
-                    PhatFood Vietnam
+                    DAT PHAT Vietnam
                 </div>
                 <h1 class="text-4xl md:text-6xl font-extrabold text-white mb-5 leading-tight">
                     Về <span class="text-primary">chúng tôi</span>
@@ -79,19 +79,19 @@
                                 <div>
                                     <p class="text-xs font-bold text-primary uppercase tracking-widest mb-1">Giám đốc điều hành</p>
                                     <h2 class="text-xl md:text-2xl font-bold text-dark">Nguyễn Văn Phát</h2>
-                                    <p class="text-gray-500 text-sm mt-1">Thành lập PhatFood từ năm 2013</p>
+                                    <p class="text-gray-500 text-sm mt-1">Thành lập DAT PHAT từ năm 2013</p>
                                 </div>
                             </div>
 
                             <h2 class="text-2xl md:text-3xl font-bold text-dark mb-3">
-                                Công ty TNHH Dịch vụ Thực phẩm <span class="text-primary">PhatFood</span>
+                                Công ty TNHH Dịch vụ Thực phẩm <span class="text-primary">DAT PHAT</span>
                             </h2>
                             <div class="flex items-center gap-3 mb-6">
                                 <div class="w-12 h-1 bg-primary rounded-full"></div>
                                 <div class="w-3 h-1 bg-primary/30 rounded-full"></div>
                             </div>
                             <p class="text-gray-600 leading-relaxed text-base mb-8">
-                                PhatFood là doanh nghiệp chuyên cung cấp dịch vụ suất ăn công nghiệp hàng đầu tại Việt Nam.
+                                DAT PHAT là doanh nghiệp chuyên cung cấp dịch vụ suất ăn công nghiệp hàng đầu tại Việt Nam.
                                 Với hơn một thập kỷ kinh nghiệm, chúng tôi tự hào phục vụ hàng chục nghìn suất ăn mỗi ngày
                                 cho các khu công nghiệp, nhà máy và doanh nghiệp trên toàn quốc.
                             </p>
@@ -154,7 +154,7 @@
 
                             <div class="relative">
                                 <p class="text-primary text-xs font-bold uppercase tracking-widest mb-2">Con số ấn tượng</p>
-                                <h3 class="text-xl md:text-2xl font-extrabold text-white mb-8">PhatFood trong những con số</h3>
+                                <h3 class="text-xl md:text-2xl font-extrabold text-white mb-8">DAT PHAT trong những con số</h3>
 
                                 <div class="grid grid-cols-2 md:grid-cols-{{ min(count($statistics), 4) }} gap-6">
                                     @foreach($statistics as $stat)

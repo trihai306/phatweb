@@ -3,7 +3,7 @@
     <div class="container-main py-16 md:py-20">
         <div class="flex flex-col md:flex-row items-center justify-between gap-8">
             <div class="text-white text-center md:text-left">
-                <h2 class="text-2xl md:text-3xl font-extrabold mb-2">Sẵn sàng hợp tác cùng PhatFood?</h2>
+                <h2 class="text-2xl md:text-3xl font-extrabold mb-2">Sẵn sàng hợp tác cùng DAT PHAT?</h2>
                 <p class="text-white/80 text-lg">Liên hệ ngay để được tư vấn giải pháp suất ăn công nghiệp tốt nhất.</p>
             </div>
             <div class="flex flex-col sm:flex-row gap-4">
@@ -25,7 +25,7 @@
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
             <div>
                 <a href="{{ route('home') }}" class="inline-block mb-5">
-                    <img src="{{ asset('images/logo-footer.png') }}" alt="{{ App\Models\CompanyInfo::getValue('brand_name', 'PhatFood') }}" class="h-9 w-auto brightness-0 invert">
+                    <img src="{{ asset('images/logo-footer.png') }}" alt="{{ App\Models\CompanyInfo::getValue('brand_name', 'DAT PHAT') }}" class="h-9 w-auto brightness-0 invert">
                 </a>
                 <p class="text-gray-500 leading-relaxed mb-6 text-sm">
                     {{ App\Models\CompanyInfo::getValue('tagline', 'Hướng tới khách hàng lối sống khỏe mạnh thông qua dịch vụ ăn uống an toàn và chất lượng.') }}
@@ -90,7 +90,7 @@
         </div>
 
         <div class="border-t border-gray-800/50 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
-            <p class="text-gray-600 text-sm">&copy; {{ date('Y') }} {{ App\Models\CompanyInfo::getValue('brand_name', 'PhatFood') }} Việt Nam. All rights reserved.</p>
+            <p class="text-gray-600 text-sm">&copy; {{ date('Y') }} {{ App\Models\CompanyInfo::getValue('brand_name', 'DAT PHAT') }} Việt Nam. All rights reserved.</p>
             <div class="flex gap-6 text-sm text-gray-600">
                 <a href="#" class="hover:text-primary transition-colors">Chính sách bảo mật</a>
                 <a href="#" class="hover:text-primary transition-colors">Điều khoản sử dụng</a>

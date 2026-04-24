@@ -15,9 +15,9 @@ class AboutController extends Controller
 {
     public function index()
     {
-        $brandName = CompanyInfo::getValue('brand_name', 'PhatFood');
+        $brandName = CompanyInfo::getValue('brand_name', 'DAT PHAT');
         SEOMeta::setTitle("Về chúng tôi - {$brandName} Việt Nam");
-        SEOMeta::setDescription(Setting::get('seo_description', 'PhatFood cung cấp dịch vụ suất ăn công nghiệp chất lượng cao, an toàn vệ sinh thực phẩm với thực đơn phù hợp đặc trưng từng vùng miền.'));
+        SEOMeta::setDescription(Setting::get('seo_description', 'DAT PHAT cung cấp dịch vụ suất ăn công nghiệp chất lượng cao, an toàn vệ sinh thực phẩm với thực đơn phù hợp đặc trưng từng vùng miền.'));
         OpenGraph::setTitle("Về chúng tôi - {$brandName}");
 
         return view('about.index', [
@@ -32,7 +32,7 @@ class AboutController extends Controller
     {
         $page = Page::where('slug', $slug)->where('section', 'aboutus')->firstOrFail();
 
-        SEOMeta::setTitle(($page->meta_title ?: $page->title) . ' - PhatFood');
+        SEOMeta::setTitle(($page->meta_title ?: $page->title) . ' - DAT PHAT');
         SEOMeta::setDescription($page->meta_description ?: $page->excerpt);
 
         $view = match ($slug) {
