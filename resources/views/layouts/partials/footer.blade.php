@@ -25,9 +25,7 @@
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
             <div>
                 <a href="{{ route('home') }}" class="inline-block mb-5">
-                    <span class="text-2xl font-extrabold tracking-tight">
-                        <span class="text-primary">Phat</span><span class="text-white">Food</span>
-                    </span>
+                    <img src="{{ asset('images/logo-footer.png') }}" alt="{{ App\Models\CompanyInfo::getValue('brand_name', 'PhatFood') }}" class="h-9 w-auto brightness-0 invert">
                 </a>
                 <p class="text-gray-500 leading-relaxed mb-6 text-sm">
                     {{ App\Models\CompanyInfo::getValue('tagline', 'Hướng tới khách hàng lối sống khỏe mạnh thông qua dịch vụ ăn uống an toàn và chất lượng.') }}
