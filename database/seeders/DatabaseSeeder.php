@@ -165,11 +165,10 @@ class DatabaseSeeder extends Seeder
         Strength::create(['title' => 'Hương vị thơm ngon', 'description' => 'Công thức nấu ăn vượt trội mang tính khoa học', 'content' => '<p>Công thức nấu ăn được nghiên cứu khoa học.</p>', 'image' => 'strengths/tasty.jpg', 'icon' => null, 'sort_order' => 2]);
         Strength::create(['title' => 'Dịch vụ khách hàng', 'description' => 'Nắm bắt được tâm lý khách hàng, tạo niềm vui trong từng bữa ăn', 'content' => '<p>Dịch vụ khách hàng tận tâm và chuyên nghiệp.</p>', 'image' => 'strengths/service.jpg', 'icon' => null, 'sort_order' => 3]);
 
-        Statistic::create(['label' => 'Nhân viên', 'value' => '3,500', 'unit' => 'người', 'icon' => null, 'sort_order' => 0]);
-        Statistic::create(['label' => 'Suất ăn mỗi ngày', 'value' => '250,000', 'unit' => 'suất ăn/ngày', 'icon' => null, 'sort_order' => 1]);
-        Statistic::create(['label' => 'Nhà ăn', 'value' => '61', 'unit' => 'nhà ăn', 'icon' => null, 'sort_order' => 2]);
-        Statistic::create(['label' => 'Công thức món ăn', 'value' => '20,000', 'unit' => 'công thức', 'icon' => null, 'sort_order' => 3]);
-        Statistic::create(['label' => 'Doanh thu', 'value' => '2,000', 'unit' => 'tỷ đồng', 'icon' => null, 'sort_order' => 4]);
+        Statistic::create(['label' => 'Năm kinh nghiệm', 'value' => '10+', 'unit' => 'năm', 'icon' => null, 'sort_order' => 0]);
+        Statistic::create(['label' => 'Khách hàng tin tưởng', 'value' => '50+', 'unit' => 'trường & doanh nghiệp', 'icon' => null, 'sort_order' => 1]);
+        Statistic::create(['label' => 'Chứng nhận ATTP', 'value' => '100%', 'unit' => 'đạt chuẩn', 'icon' => null, 'sort_order' => 2]);
+        Statistic::create(['label' => 'Hài lòng khách hàng', 'value' => '98%', 'unit' => 'đánh giá tích cực', 'icon' => null, 'sort_order' => 3]);
 
         Page::create(['title' => 'Về chúng tôi', 'slug' => 've-chung-toi', 'section' => 'aboutus', 'excerpt' => 'DAT PHAT Việt Nam hướng tới khách hàng lối sống khỏe mạnh thông qua dịch vụ ăn uống an toàn và chất lượng.', 'content' => '<p>DAT PHAT Việt Nam hướng tới khách hàng lối sống khỏe mạnh thông qua dịch vụ ăn uống an toàn và chất lượng.</p>', 'sort_order' => 0, 'meta_title' => 'Về chúng tôi - DAT PHAT Việt Nam']);
         Page::create(['title' => 'Kinh doanh bền vững', 'slug' => 'kinh-doanh-ben-vung', 'section' => 'aboutus', 'content' => '<p>DAT PHAT cam kết phát triển kinh doanh bền vững, bảo vệ môi trường.</p>', 'sort_order' => 1]);
