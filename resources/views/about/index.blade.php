@@ -39,7 +39,7 @@
                     Về <span class="text-primary">chúng tôi</span>
                 </h1>
                 <p class="text-white/75 text-lg md:text-xl max-w-2xl leading-relaxed">
-                    Hành trình hơn 10 năm kiến tạo những bữa ăn an toàn, dinh dưỡng cho hàng triệu công nhân Việt Nam.
+                    Tận tâm kiến tạo những bữa ăn an toàn, dinh dưỡng cho học sinh và người lao động.
                 </p>
             </div>
         </div>
@@ -91,9 +91,9 @@
                                 <div class="w-3 h-1 bg-primary/30 rounded-full"></div>
                             </div>
                             <p class="text-gray-600 leading-relaxed text-base mb-8">
-                                DAT PHAT là doanh nghiệp chuyên cung cấp dịch vụ suất ăn công nghiệp hàng đầu tại Việt Nam.
-                                Với hơn một thập kỷ kinh nghiệm, chúng tôi tự hào phục vụ hàng chục nghìn suất ăn mỗi ngày
-                                cho các khu công nghiệp, nhà máy và doanh nghiệp trên toàn quốc.
+                                DAT PHAT là doanh nghiệp chuyên cung cấp dịch vụ suất ăn cho trường học và doanh nghiệp.
+                                Với đội ngũ tận tâm và quy trình kiểm soát chất lượng nghiêm ngặt, chúng tôi mang đến
+                                những bữa ăn an toàn, dinh dưỡng mỗi ngày.
                             </p>
 
                             {{-- Company Info Grid --}}

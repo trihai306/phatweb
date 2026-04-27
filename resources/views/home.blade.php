@@ -113,7 +113,7 @@
                                 Điều cơ bản của ẩm thực xuất phát từ sự tươi ngon và an toàn.
                             </h1>
                             <p class="mb-10" style="font-size: 1.2rem; color: rgba(255,255,255,0.88);">
-                                DAT PHAT — Dịch vụ suất ăn công nghiệp hàng đầu Việt Nam
+                                DAT PHAT — Dịch vụ suất ăn chất lượng, an toàn
                             </p>
                             <div class="flex flex-wrap gap-4">
                                 <a href="{{ route('services.index') }}" class="btn-primary" style="font-size: 1rem; padding: 0.875rem 2rem; box-shadow: 0 4px 20px rgba(25,89,47,0.4);">

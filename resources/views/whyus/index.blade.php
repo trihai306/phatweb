@@ -66,8 +66,8 @@
                             <div class="w-3 h-1 bg-primary/30 rounded-full"></div>
                         </div>
                         <p class="text-gray-600 leading-relaxed max-w-2xl">
-                            Với hơn 10 năm kinh nghiệm trong ngành dịch vụ suất ăn công nghiệp, DAT PHAT cam kết mang đến
-                            những giá trị vượt trội và sự hài lòng tối đa cho từng khách hàng.
+                            Với nhiều năm kinh nghiệm trong ngành dịch vụ suất ăn, DAT PHAT cam kết mang đến
+                            những bữa ăn chất lượng và sự hài lòng tối đa cho từng khách hàng.
                         </p>
                     </div>
 

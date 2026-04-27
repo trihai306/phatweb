@@ -31,7 +31,7 @@
                     Dịch vụ <span class="text-primary-light">của chúng tôi</span>
                 </h1>
                 <p class="text-white/70 text-base leading-relaxed">
-                    Cung cấp giải pháp suất ăn toàn diện cho trường học, doanh nghiệp và tổ chức — phục vụ hàng nghìn khách hàng mỗi ngày trên toàn quốc.
+                    Cung cấp giải pháp suất ăn toàn diện cho trường học, doanh nghiệp và tổ chức — tận tâm phục vụ từng khách hàng.
                 </p>
             </div>
         </div>
@@ -107,7 +107,7 @@
                             <div class="w-3 h-1 bg-primary/30 rounded-full"></div>
                         </div>
                         <p class="text-gray-600 leading-relaxed mt-4 max-w-2xl text-sm">
-                            Từ suất ăn trường học đến suất ăn công nghiệp quy mô lớn, DAT PHAT cung cấp giải pháp ẩm thực chuyên nghiệp với hơn 20.000 công thức món ăn, đảm bảo an toàn vệ sinh thực phẩm theo tiêu chuẩn ISO 22000 & HACCP.
+                            Từ suất ăn trường học đến suất ăn công nghiệp, DAT PHAT cung cấp giải pháp ẩm thực chuyên nghiệp với thực đơn đa dạng, đảm bảo an toàn vệ sinh thực phẩm.
                         </p>
                     </div>
 

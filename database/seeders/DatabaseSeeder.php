@@ -48,7 +48,7 @@ class DatabaseSeeder extends Seeder
             Setting::create($setting);
         }
 
-        Slider::create(['title' => 'Điều cơ bản của ẩm thực xuất phát từ sự tươi ngon và an toàn', 'subtitle' => 'DAT PHAT - Dịch vụ suất ăn công nghiệp hàng đầu Việt Nam', 'image' => 'sliders/slide1.jpg', 'sort_order' => 0]);
+        Slider::create(['title' => 'Điều cơ bản của ẩm thực xuất phát từ sự tươi ngon và an toàn', 'subtitle' => 'DAT PHAT - Dịch vụ suất ăn chất lượng, an toàn', 'image' => 'sliders/slide1.jpg', 'sort_order' => 0]);
         Slider::create(['title' => 'Chất lượng là ưu tiên hàng đầu', 'subtitle' => 'Chúng tôi cam kết mang đến những bữa ăn ngon, sạch và an toàn', 'image' => 'sliders/slide2.jpg', 'sort_order' => 1]);
 
         Service::create([
@@ -72,14 +72,14 @@ class DatabaseSeeder extends Seeder
 
         Service::create([
             'title' => 'Suất ăn công nghiệp',
-            'description' => 'Phục vụ suất ăn quy mô lớn cho các nhà máy, khu công nghiệp trên toàn quốc với năng lực lên đến 250.000 suất ăn/ngày.',
+            'description' => 'Cung cấp suất ăn chất lượng cho các nhà máy, khu công nghiệp với quy trình ATTP nghiêm ngặt và thực đơn đa dạng.',
             'content' => '<h2>Suất ăn công nghiệp quy mô lớn</h2>
 <p>Với kinh nghiệm phục vụ tại nhiều khu công nghiệp lớn, DAT PHAT mang đến giải pháp suất ăn toàn diện cho doanh nghiệp với quy mô từ vài trăm đến hàng chục nghìn suất ăn mỗi ngày.</p>
 <h3>Năng lực phục vụ</h3>
 <ul>
-<li><strong>Quy mô:</strong> Phục vụ lên đến 250.000 suất ăn/ngày tại 61 nhà ăn trên toàn quốc</li>
-<li><strong>Đối tác tiêu biểu:</strong> Samsung, Elentec, Hyosung và nhiều tập đoàn lớn</li>
-<li><strong>Vùng phủ sóng:</strong> Bắc – Trung – Nam, đặc biệt tập trung tại các KCN lớn</li>
+<li><strong>Linh hoạt quy mô:</strong> Phục vụ từ vài trăm đến hàng nghìn suất ăn mỗi ngày theo nhu cầu</li>
+<li><strong>Đối tác:</strong> Các nhà máy, xí nghiệp tại khu vực Bắc Ninh và lân cận</li>
+<li><strong>Vùng phục vụ:</strong> Tập trung khu vực miền Bắc, đang mở rộng thêm</li>
 <li><strong>Thực đơn vùng miền:</strong> Phù hợp với đặc trưng ẩm thực từng khu vực</li>
 </ul>
 <h3>Quy trình vận hành</h3>
@@ -141,9 +141,9 @@ class DatabaseSeeder extends Seeder
 
         Service::create([
             'title' => 'Đa dạng hoá thực đơn',
-            'description' => 'Nghiên cứu và phát triển hơn 20.000 công thức món ăn, liên tục đổi mới để mang đến trải nghiệm ẩm thực phong phú.',
+            'description' => 'Liên tục nghiên cứu và đổi mới thực đơn với hàng trăm công thức món ăn, mang đến trải nghiệm ẩm thực phong phú.',
             'content' => '<h2>Đa dạng hoá thực đơn</h2>
-<p>DAT PHAT sở hữu kho tàng hơn 20.000 công thức món ăn, được nghiên cứu và phát triển bởi đội ngũ đầu bếp giàu kinh nghiệm, đảm bảo thực đơn luôn mới mẻ và hấp dẫn.</p>
+<p>DAT PHAT liên tục nghiên cứu và phát triển thực đơn mới bởi đội ngũ đầu bếp tâm huyết, đảm bảo thực đơn luôn mới mẻ và hấp dẫn.</p>
 <h3>Đặc điểm nổi bật</h3>
 <ul>
 <li><strong>Ẩm thực 3 miền:</strong> Đặc trưng Bắc – Trung – Nam, phù hợp khẩu vị từng vùng</li>
@@ -165,22 +165,21 @@ class DatabaseSeeder extends Seeder
         Strength::create(['title' => 'Hương vị thơm ngon', 'description' => 'Công thức nấu ăn vượt trội mang tính khoa học', 'content' => '<p>Công thức nấu ăn được nghiên cứu khoa học.</p>', 'image' => 'strengths/tasty.jpg', 'icon' => null, 'sort_order' => 2]);
         Strength::create(['title' => 'Dịch vụ khách hàng', 'description' => 'Nắm bắt được tâm lý khách hàng, tạo niềm vui trong từng bữa ăn', 'content' => '<p>Dịch vụ khách hàng tận tâm và chuyên nghiệp.</p>', 'image' => 'strengths/service.jpg', 'icon' => null, 'sort_order' => 3]);
 
-        Statistic::create(['label' => 'Năm kinh nghiệm', 'value' => '10+', 'unit' => 'năm', 'icon' => null, 'sort_order' => 0]);
+        Statistic::create(['label' => 'Năm kinh nghiệm', 'value' => '3+', 'unit' => 'năm', 'icon' => null, 'sort_order' => 0]);
         Statistic::create(['label' => 'Khách hàng tin tưởng', 'value' => '50+', 'unit' => 'trường & doanh nghiệp', 'icon' => null, 'sort_order' => 1]);
         Statistic::create(['label' => 'Chứng nhận ATTP', 'value' => '100%', 'unit' => 'đạt chuẩn', 'icon' => null, 'sort_order' => 2]);
         Statistic::create(['label' => 'Hài lòng khách hàng', 'value' => '98%', 'unit' => 'đánh giá tích cực', 'icon' => null, 'sort_order' => 3]);
 
         Page::create(['title' => 'Về chúng tôi', 'slug' => 've-chung-toi', 'section' => 'aboutus', 'excerpt' => 'DAT PHAT Việt Nam hướng tới khách hàng lối sống khỏe mạnh thông qua dịch vụ ăn uống an toàn và chất lượng.', 'content' => '<p>DAT PHAT Việt Nam hướng tới khách hàng lối sống khỏe mạnh thông qua dịch vụ ăn uống an toàn và chất lượng.</p>', 'sort_order' => 0, 'meta_title' => 'Về chúng tôi - DAT PHAT Việt Nam']);
         Page::create(['title' => 'Kinh doanh bền vững', 'slug' => 'kinh-doanh-ben-vung', 'section' => 'aboutus', 'content' => '<p>DAT PHAT cam kết phát triển kinh doanh bền vững, bảo vệ môi trường.</p>', 'sort_order' => 1]);
-        Page::create(['title' => 'Tầm nhìn', 'slug' => 'tam-nhin', 'section' => 'aboutus', 'content' => '<p>Trở thành công ty cung cấp dịch vụ suất ăn công nghiệp số 1 tại Việt Nam.</p>', 'sort_order' => 2]);
+        Page::create(['title' => 'Tầm nhìn', 'slug' => 'tam-nhin', 'section' => 'aboutus', 'content' => '<p>Trở thành đơn vị cung cấp dịch vụ suất ăn uy tín, được khách hàng tin tưởng lựa chọn.</p>', 'sort_order' => 2]);
         Page::create(['title' => 'Lịch sử', 'slug' => 'lich-su', 'section' => 'aboutus', 'content' => '<p>Lịch sử phát triển của DAT PHAT Việt Nam.</p>', 'sort_order' => 3]);
         Page::create(['title' => 'Chứng nhận', 'slug' => 'chung-nhan', 'section' => 'aboutus', 'content' => '<p>Các chứng nhận chất lượng và an toàn thực phẩm.</p>', 'sort_order' => 4]);
 
-        HistoryMilestone::create(['year' => '2014', 'title' => 'Thành lập công ty', 'description' => 'DAT PHAT Việt Nam chính thức được thành lập vào ngày 26/12/2014', 'sort_order' => 0]);
-        HistoryMilestone::create(['year' => '2016', 'title' => 'Mở rộng miền Bắc', 'description' => 'Mở rộng dịch vụ suất ăn tại các KCN khu vực miền Bắc', 'sort_order' => 1]);
-        HistoryMilestone::create(['year' => '2018', 'title' => 'Phát triển miền Nam', 'description' => 'Mở rộng dịch vụ vào thị trường miền Nam Việt Nam', 'sort_order' => 2]);
-        HistoryMilestone::create(['year' => '2020', 'title' => 'Doanh thu 2,000 tỷ đồng', 'description' => 'Đạt mốc doanh thu 2,000 tỷ đồng với 3,500 nhân viên', 'sort_order' => 3]);
-        HistoryMilestone::create(['year' => '2022', 'title' => 'Đạt 61 nhà ăn', 'description' => 'Vận hành 61 nhà ăn trên toàn quốc, phục vụ 250,000 suất ăn/ngày', 'sort_order' => 4]);
+        HistoryMilestone::create(['year' => '2022', 'title' => 'Thành lập công ty', 'description' => 'DAT PHAT chính thức được thành lập, bắt đầu cung cấp dịch vụ suất ăn tại Bắc Ninh', 'sort_order' => 0]);
+        HistoryMilestone::create(['year' => '2023', 'title' => 'Mở rộng khách hàng', 'description' => 'Ký hợp đồng cung cấp suất ăn cho nhiều trường học trong khu vực', 'sort_order' => 1]);
+        HistoryMilestone::create(['year' => '2024', 'title' => 'Đạt chứng nhận ATTP', 'description' => 'Hoàn thiện quy trình và đạt chứng nhận an toàn thực phẩm', 'sort_order' => 2]);
+        HistoryMilestone::create(['year' => '2025', 'title' => 'Mở rộng dịch vụ', 'description' => 'Phát triển thêm mảng suất ăn công nghiệp và sự kiện', 'sort_order' => 3]);
 
         Certificate::create(['title' => 'ISO 22000:2018', 'description' => 'Hệ thống quản lý an toàn thực phẩm', 'year' => '2019', 'sort_order' => 0]);
         Certificate::create(['title' => 'HACCP', 'description' => 'Phân tích mối nguy và điểm kiểm soát tới hạn', 'year' => '2018', 'sort_order' => 1]);

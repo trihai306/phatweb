@@ -35,8 +35,7 @@
                 Gia nhập <span class="text-primary">DAT PHAT</span>
             </h1>
             <p class="text-white/75 text-lg max-w-2xl mx-auto leading-relaxed">
-                DAT PHAT mở ra cơ hội thực hiện những ước mơ cho mọi người.
-                Cùng chúng tôi kiến tạo những bữa ăn ý nghĩa cho người lao động Việt Nam.
+                Cùng DAT PHAT mang đến những bữa ăn ngon, sạch và an toàn cho mọi người.
             </p>
         </div>
     </section>
