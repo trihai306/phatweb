@@ -334,11 +334,7 @@
                                 '<svg class="w-10 h-10" style="color:#19592F;" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"/></svg>',
                             ];
                         @endphp
-                        @if($strength->icon)
-                            <span style="font-size: 2.5rem; line-height:1;">{{ $strength->icon }}</span>
-                        @else
-                            {!! $strengthSvgs[$index % 4] !!}
-                        @endif
+                        {!! $strengthSvgs[$index % 4] !!}
                     </div>
                     <h3 class="font-bold mb-3 transition-colors duration-300 group-hover:text-orange-600"
                         style="font-size: 1.125rem; color: #333;">

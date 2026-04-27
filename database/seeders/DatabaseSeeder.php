@@ -160,16 +160,16 @@ class DatabaseSeeder extends Seeder
         FoodMenu::create(['title' => 'Thực đơn ngày', 'description' => 'Hãy cùng đến với những thực đơn thơm ngon và lành mạnh', 'image' => 'menus/daily.jpg', 'category' => 'daily', 'sort_order' => 0]);
         FoodMenu::create(['title' => 'Thực đơn đặc biệt', 'description' => 'Thực đơn đặc biệt theo mùa và sự kiện', 'image' => 'menus/special.jpg', 'category' => 'special', 'sort_order' => 1]);
 
-        Strength::create(['title' => 'Thực phẩm tươi ngon', 'description' => 'Đổi mới hệ thống ăn uống với nguyên liệu thực phẩm tươi ngon gần gũi với thiên nhiên', 'content' => '<p>Chúng tôi cam kết sử dụng nguyên liệu tươi ngon nhất.</p>', 'image' => 'strengths/fresh.jpg', 'icon' => '🥬', 'sort_order' => 0]);
-        Strength::create(['title' => 'Thực phẩm an toàn', 'description' => 'Sự an tâm có thể thấy được bằng mắt, nguyên liệu xuất xứ rõ ràng, hệ thống lành mạnh', 'content' => '<p>An toàn vệ sinh thực phẩm là ưu tiên hàng đầu.</p>', 'image' => 'strengths/safe.jpg', 'icon' => '🛡️', 'sort_order' => 1]);
-        Strength::create(['title' => 'Hương vị thơm ngon', 'description' => 'Công thức nấu ăn vượt trội mang tính khoa học', 'content' => '<p>Công thức nấu ăn được nghiên cứu khoa học.</p>', 'image' => 'strengths/tasty.jpg', 'icon' => '👨‍🍳', 'sort_order' => 2]);
-        Strength::create(['title' => 'Dịch vụ khách hàng', 'description' => 'Nắm bắt được tâm lý khách hàng, tạo niềm vui trong từng bữa ăn', 'content' => '<p>Dịch vụ khách hàng tận tâm và chuyên nghiệp.</p>', 'image' => 'strengths/service.jpg', 'icon' => '💝', 'sort_order' => 3]);
+        Strength::create(['title' => 'Thực phẩm tươi ngon', 'description' => 'Đổi mới hệ thống ăn uống với nguyên liệu thực phẩm tươi ngon gần gũi với thiên nhiên', 'content' => '<p>Chúng tôi cam kết sử dụng nguyên liệu tươi ngon nhất.</p>', 'image' => 'strengths/fresh.jpg', 'icon' => null, 'sort_order' => 0]);
+        Strength::create(['title' => 'Thực phẩm an toàn', 'description' => 'Sự an tâm có thể thấy được bằng mắt, nguyên liệu xuất xứ rõ ràng, hệ thống lành mạnh', 'content' => '<p>An toàn vệ sinh thực phẩm là ưu tiên hàng đầu.</p>', 'image' => 'strengths/safe.jpg', 'icon' => null, 'sort_order' => 1]);
+        Strength::create(['title' => 'Hương vị thơm ngon', 'description' => 'Công thức nấu ăn vượt trội mang tính khoa học', 'content' => '<p>Công thức nấu ăn được nghiên cứu khoa học.</p>', 'image' => 'strengths/tasty.jpg', 'icon' => null, 'sort_order' => 2]);
+        Strength::create(['title' => 'Dịch vụ khách hàng', 'description' => 'Nắm bắt được tâm lý khách hàng, tạo niềm vui trong từng bữa ăn', 'content' => '<p>Dịch vụ khách hàng tận tâm và chuyên nghiệp.</p>', 'image' => 'strengths/service.jpg', 'icon' => null, 'sort_order' => 3]);
 
-        Statistic::create(['label' => 'Nhân viên', 'value' => '3,500', 'unit' => 'người', 'icon' => '👥', 'sort_order' => 0]);
-        Statistic::create(['label' => 'Suất ăn mỗi ngày', 'value' => '250,000', 'unit' => 'suất ăn/ngày', 'icon' => '🍽️', 'sort_order' => 1]);
-        Statistic::create(['label' => 'Nhà ăn', 'value' => '61', 'unit' => 'nhà ăn', 'icon' => '🏢', 'sort_order' => 2]);
-        Statistic::create(['label' => 'Công thức món ăn', 'value' => '20,000', 'unit' => 'công thức', 'icon' => '📋', 'sort_order' => 3]);
-        Statistic::create(['label' => 'Doanh thu', 'value' => '2,000', 'unit' => 'tỷ đồng', 'icon' => '📊', 'sort_order' => 4]);
+        Statistic::create(['label' => 'Nhân viên', 'value' => '3,500', 'unit' => 'người', 'icon' => null, 'sort_order' => 0]);
+        Statistic::create(['label' => 'Suất ăn mỗi ngày', 'value' => '250,000', 'unit' => 'suất ăn/ngày', 'icon' => null, 'sort_order' => 1]);
+        Statistic::create(['label' => 'Nhà ăn', 'value' => '61', 'unit' => 'nhà ăn', 'icon' => null, 'sort_order' => 2]);
+        Statistic::create(['label' => 'Công thức món ăn', 'value' => '20,000', 'unit' => 'công thức', 'icon' => null, 'sort_order' => 3]);
+        Statistic::create(['label' => 'Doanh thu', 'value' => '2,000', 'unit' => 'tỷ đồng', 'icon' => null, 'sort_order' => 4]);
 
         Page::create(['title' => 'Về chúng tôi', 'slug' => 've-chung-toi', 'section' => 'aboutus', 'excerpt' => 'DAT PHAT Việt Nam hướng tới khách hàng lối sống khỏe mạnh thông qua dịch vụ ăn uống an toàn và chất lượng.', 'content' => '<p>DAT PHAT Việt Nam hướng tới khách hàng lối sống khỏe mạnh thông qua dịch vụ ăn uống an toàn và chất lượng.</p>', 'sort_order' => 0, 'meta_title' => 'Về chúng tôi - DAT PHAT Việt Nam']);
         Page::create(['title' => 'Kinh doanh bền vững', 'slug' => 'kinh-doanh-ben-vung', 'section' => 'aboutus', 'content' => '<p>DAT PHAT cam kết phát triển kinh doanh bền vững, bảo vệ môi trường.</p>', 'sort_order' => 1]);
