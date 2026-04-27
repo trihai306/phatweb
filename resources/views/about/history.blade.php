@@ -36,10 +36,10 @@
                 Hành trình phát triển
             </div>
             <h1 class="text-4xl md:text-6xl font-extrabold text-white mb-5 leading-tight">
-                Lịch sử <span class="text-primary">phát triển</span>
+                Lịch sử <span class="text-primary-light">phát triển</span>
             </h1>
             <p class="text-white/75 text-lg max-w-2xl leading-relaxed">
-                Từng bước vững chắc trên con đường xây dựng thương hiệu suất ăn công nghiệp hàng đầu Việt Nam.
+                Từng bước vững chắc trên hành trình mang đến những bữa ăn chất lượng.
             </p>
         </div>
     </section>

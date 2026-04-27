@@ -32,7 +32,7 @@
                 Thế mạnh của chúng tôi
             </div>
             <h1 class="text-4xl md:text-6xl font-extrabold text-white mb-5 leading-tight">
-                Tại sao là <span class="text-primary">DAT PHAT?</span>
+                Tại sao là <span class="text-primary-light">DAT PHAT?</span>
             </h1>
             <p class="text-white/75 text-lg max-w-2xl leading-relaxed">
                 Những giá trị cốt lõi và thế mạnh đặc biệt giúp DAT PHAT trở thành lựa chọn hàng đầu của các doanh nghiệp.

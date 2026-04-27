@@ -36,7 +36,7 @@
                     DAT PHAT Vietnam
                 </div>
                 <h1 class="text-4xl md:text-6xl font-extrabold text-white mb-5 leading-tight">
-                    Về <span class="text-primary">chúng tôi</span>
+                    Về <span class="text-primary-light">chúng tôi</span>
                 </h1>
                 <p class="text-white/75 text-lg md:text-xl max-w-2xl leading-relaxed">
                     Tận tâm kiến tạo những bữa ăn an toàn, dinh dưỡng cho học sinh và người lao động.

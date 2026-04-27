@@ -32,7 +32,7 @@
                 Cơ hội nghề nghiệp
             </div>
             <h1 class="text-4xl md:text-6xl font-extrabold text-white mb-5 leading-tight">
-                Gia nhập <span class="text-primary">DAT PHAT</span>
+                Gia nhập <span class="text-primary-light">DAT PHAT</span>
             </h1>
             <p class="text-white/75 text-lg max-w-2xl mx-auto leading-relaxed">
                 Cùng DAT PHAT mang đến những bữa ăn ngon, sạch và an toàn cho mọi người.
