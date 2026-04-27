@@ -57,9 +57,10 @@
             <div>
                 <h3 class="text-white font-semibold mb-5 text-sm uppercase tracking-wider">Dịch vụ</h3>
                 <ul class="space-y-3">
-                    <li><a href="{{ route('services.index') }}" class="text-sm hover:text-primary hover:pl-1 transition-all duration-200">Dịch vụ miền Bắc</a></li>
-                    <li><a href="{{ route('services.index') }}" class="text-sm hover:text-primary hover:pl-1 transition-all duration-200">Dịch vụ miền Nam</a></li>
-                    <li><a href="{{ route('services.index') }}" class="text-sm hover:text-primary hover:pl-1 transition-all duration-200">Dịch vụ miền Trung</a></li>
+                    <li><a href="{{ route('services.index') }}" class="text-sm hover:text-primary hover:pl-1 transition-all duration-200">Suất ăn trường học</a></li>
+                    <li><a href="{{ route('services.index') }}" class="text-sm hover:text-primary hover:pl-1 transition-all duration-200">Suất ăn công nghiệp</a></li>
+                    <li><a href="{{ route('services.index') }}" class="text-sm hover:text-primary hover:pl-1 transition-all duration-200">Suất ăn dinh dưỡng</a></li>
+                    <li><a href="{{ route('services.index') }}" class="text-sm hover:text-primary hover:pl-1 transition-all duration-200">Tiệc & sự kiện</a></li>
                     <li><a href="{{ route('services.menu') }}" class="text-sm hover:text-primary hover:pl-1 transition-all duration-200">Thực đơn</a></li>
                 </ul>
             </div>

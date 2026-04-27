@@ -13,7 +13,6 @@
 
     {{-- ===== HERO BANNER ===== --}}
     <section class="relative overflow-hidden">
-        {{-- Background --}}
         @php $firstService = $services->first(); @endphp
         @if($firstService && $firstService->image && file_exists(storage_path('app/public/' . $firstService->image)))
             <img src="{{ asset('storage/' . $firstService->image) }}"
@@ -23,8 +22,6 @@
         @else
             <div class="absolute inset-0 bg-dark"></div>
         @endif
-
-        {{-- Clean dark overlay --}}
         <div class="absolute inset-0 bg-dark/80"></div>
 
         <div class="relative container-main py-16 md:py-24">
@@ -34,7 +31,7 @@
                     Dịch vụ <span class="text-primary-light">của chúng tôi</span>
                 </h1>
                 <p class="text-white/70 text-base leading-relaxed">
-                    Suất ăn công nghiệp chuyên nghiệp, an toàn và đa dạng — phục vụ hàng nghìn khách hàng mỗi ngày trên toàn quốc.
+                    Cung cấp giải pháp suất ăn toàn diện cho trường học, doanh nghiệp và tổ chức — phục vụ hàng nghìn khách hàng mỗi ngày trên toàn quốc.
                 </p>
             </div>
         </div>
@@ -70,6 +67,26 @@
                             </svg>
                         </a>
                     </div>
+
+                    {{-- Tư vấn CTA --}}
+                    <div class="mt-6 bg-white rounded-xl shadow-sm border border-gray-100 p-5">
+                        <div class="flex items-center gap-2 mb-3">
+                            <span class="w-8 h-8 rounded-lg bg-accent flex items-center justify-center flex-shrink-0">
+                                <svg class="w-4 h-4 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                          d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"/>
+                                </svg>
+                            </span>
+                            <h3 class="font-bold text-dark text-sm">Tư vấn miễn phí</h3>
+                        </div>
+                        <p class="text-gray-500 text-sm mb-4 leading-relaxed">
+                            Liên hệ ngay để được tư vấn giải pháp suất ăn phù hợp nhất với nhu cầu của bạn.
+                        </p>
+                        <a href="{{ route('contact.inquiry') }}"
+                           class="btn-primary w-full text-sm py-2.5 px-4 rounded-lg justify-center">
+                            Hỏi trực tuyến
+                        </a>
+                    </div>
                 </div>
 
                 {{-- ── Right Content ── --}}
@@ -84,73 +101,54 @@
                          x-transition:enter-start="opacity-0 translate-y-4"
                          x-transition:enter-end="opacity-100 translate-y-0">
                         <p class="text-xs font-bold text-primary uppercase tracking-widest mb-2">Các dịch vụ</p>
-                        <h2 class="text-2xl md:text-3xl font-bold text-dark mb-3">Dịch vụ của chúng tôi</h2>
+                        <h2 class="text-2xl md:text-3xl font-bold text-dark mb-3">Giải pháp suất ăn toàn diện</h2>
                         <div class="flex items-center gap-3">
                             <div class="w-12 h-1 bg-primary rounded-full"></div>
                             <div class="w-3 h-1 bg-primary/30 rounded-full"></div>
                         </div>
                         <p class="text-gray-600 leading-relaxed mt-4 max-w-2xl text-sm">
-                            DAT PHAT cung cấp dịch vụ suất ăn công nghiệp toàn diện với thực đơn đặc trưng của từng vùng miền
-                            Bắc – Trung – Nam, đảm bảo an toàn vệ sinh thực phẩm và dinh dưỡng hợp lý cho người lao động.
+                            Từ suất ăn trường học đến suất ăn công nghiệp quy mô lớn, DAT PHAT cung cấp giải pháp ẩm thực chuyên nghiệp với hơn 20.000 công thức món ăn, đảm bảo an toàn vệ sinh thực phẩm theo tiêu chuẩn ISO 22000 & HACCP.
                         </p>
                     </div>
 
-                    {{-- ── Service Cards Grid (2 columns) ── --}}
-                    @php
-                        $gradients = [
-                            'from-emerald-700 to-emerald-900',
-                            'from-teal-600 to-teal-900',
-                            'from-green-700 to-green-900',
-                            'from-lime-600 to-lime-900',
-                            'from-cyan-600 to-cyan-900',
-                            'from-blue-600 to-blue-900',
-                        ];
-                    @endphp
-
-                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                    {{-- ── Service List (Tristar-style: image left + content right) ── --}}
+                    <div class="space-y-6">
                         @forelse($services as $index => $service)
-                            <article class="group relative rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-400 bg-white border border-gray-100 hover:border-primary/20"
+                            <article class="group bg-white rounded-2xl overflow-hidden shadow-sm border border-gray-100 hover:shadow-lg hover:border-primary/20 transition-all duration-400"
                                      x-data="{ visible: false }"
                                      x-intersect.once="visible = true">
-
-                                {{-- Card inner with scroll reveal --}}
                                 <a href="{{ route('services.show', $service->slug) }}"
-                                   class="block"
+                                   class="flex flex-col md:flex-row"
                                    x-show="visible"
                                    x-transition:enter="transition ease-out duration-500"
                                    x-transition:enter-start="opacity-0 translate-y-6"
-                                   x-transition:enter-end="opacity-100 translate-y-0"
-                                   style="transition-delay: {{ ($index % 2) * 80 }}ms">
+                                   x-transition:enter-end="opacity-100 translate-y-0">
 
-                                    {{-- Image / Gradient placeholder --}}
-                                    <div class="relative overflow-hidden h-52">
+                                    {{-- Image --}}
+                                    <div class="relative overflow-hidden md:w-80 xl:w-96 flex-shrink-0">
                                         @if($service->image && file_exists(storage_path('app/public/' . $service->image)))
                                             <img src="{{ asset('storage/' . $service->image) }}"
                                                  alt="{{ $service->title }}"
-                                                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                                                 class="w-full h-56 md:h-full object-cover group-hover:scale-105 transition-transform duration-500"
                                                  loading="lazy">
                                         @else
-                                            <div class="w-full h-full bg-gradient-to-br {{ $gradients[$index % count($gradients)] }} flex items-center justify-center group-hover:scale-105 transition-transform duration-500">
-                                                <svg class="w-16 h-16 text-white/30" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"/>
+                                            <div class="w-full h-56 md:h-full bg-gradient-to-br from-primary to-primary-dark flex items-center justify-center">
+                                                <svg class="w-16 h-16 text-white/30" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 8.25v-1.5m0 1.5c-1.355 0-2.697.056-4.024.166C6.845 8.51 6 9.473 6 10.608v2.513m6-4.871c1.355 0 2.697.056 4.024.166C17.155 8.51 18 9.473 18 10.608v2.513M15 8.25v-1.5m-6 1.5v-1.5m12 9.75l-1.5.75a3.354 3.354 0 01-3 0 3.354 3.354 0 00-3 0 3.354 3.354 0 01-3 0 3.354 3.354 0 00-3 0 3.354 3.354 0 01-3 0L3 16.5m15-3.379a48.474 48.474 0 00-6-.371c-2.032 0-4.034.126-6 .371m12 0c.39.049.777.102 1.163.16 1.07.16 1.837 1.094 1.837 2.175v5.169c0 .621-.504 1.125-1.125 1.125H4.125A1.125 1.125 0 013 20.625v-5.17c0-1.08.768-2.014 1.837-2.174A47.78 47.78 0 016 13.12"/>
                                                 </svg>
                                             </div>
                                         @endif
-
-                                        {{-- Title overlay at bottom --}}
-                                        <div class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-dark/80 via-dark/40 to-transparent pt-10 pb-4 px-5">
-                                            <h3 class="text-white font-bold text-base leading-snug drop-shadow-sm group-hover:text-primary-light transition-colors">
-                                                {{ $service->title }}
-                                            </h3>
-                                        </div>
                                     </div>
 
-                                    {{-- Card body --}}
-                                    <div class="p-5">
-                                        <p class="text-gray-500 text-sm leading-relaxed line-clamp-3">
-                                            {{ $service->description ?? 'Dịch vụ suất ăn chuyên nghiệp với thực đơn đặc trưng vùng miền, đảm bảo an toàn vệ sinh thực phẩm.' }}
+                                    {{-- Content --}}
+                                    <div class="flex-1 p-6 md:p-8 flex flex-col justify-center">
+                                        <h3 class="text-xl font-bold text-dark mb-3 group-hover:text-primary transition-colors leading-snug">
+                                            {{ $service->title }}
+                                        </h3>
+                                        <p class="text-gray-500 text-sm leading-relaxed mb-5 line-clamp-3">
+                                            {{ $service->description ?? 'Dịch vụ suất ăn chuyên nghiệp, đảm bảo an toàn vệ sinh thực phẩm.' }}
                                         </p>
-                                        <div class="mt-4 flex items-center gap-2 text-primary text-sm font-semibold group-hover:gap-3 transition-all">
+                                        <div class="flex items-center gap-2 text-primary text-sm font-semibold group-hover:gap-3 transition-all">
                                             Tìm hiểu thêm
                                             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
@@ -160,7 +158,7 @@
                                 </a>
                             </article>
                         @empty
-                            <div class="col-span-2 bg-white rounded-2xl shadow-sm p-16 text-center border border-gray-100">
+                            <div class="bg-white rounded-2xl shadow-sm p-16 text-center border border-gray-100">
                                 <div class="w-20 h-20 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-4">
                                     <svg class="w-8 h-8 text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10"/>
@@ -172,7 +170,7 @@
                         @endforelse
                     </div>
 
-                    {{-- ── CTA Banner (Tristar-style) ── --}}
+                    {{-- ── CTA Banner ── --}}
                     <div class="mt-12 rounded-2xl overflow-hidden"
                          x-data="{ visible: false }"
                          x-intersect.once="visible = true"
@@ -181,14 +179,11 @@
                          x-transition:enter-start="opacity-0 translate-y-6"
                          x-transition:enter-end="opacity-100 translate-y-0">
                         <div class="relative bg-accent border border-primary/15 rounded-2xl px-8 py-10 md:px-12 md:py-12 overflow-hidden">
-
-                            {{-- Decorative background circles --}}
                             <div class="absolute -top-10 -right-10 w-48 h-48 bg-primary/8 rounded-full pointer-events-none"></div>
                             <div class="absolute -bottom-8 -left-8 w-36 h-36 bg-primary/6 rounded-full pointer-events-none"></div>
 
                             <div class="relative flex flex-col md:flex-row md:items-center md:justify-between gap-6">
                                 <div class="flex-1">
-                                    {{-- Green accent bar --}}
                                     <div class="flex items-center gap-3 mb-4">
                                         <div class="w-8 h-1 bg-primary rounded-full"></div>
                                         <div class="w-4 h-1 bg-primary/40 rounded-full"></div>
@@ -250,8 +245,8 @@
                                                  loading="lazy">
                                         @else
                                             <div class="w-full h-36 bg-gradient-to-br from-accent to-gray-100 flex items-center justify-center">
-                                                <svg class="w-10 h-10 text-primary/30" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"/>
+                                                <svg class="w-10 h-10 text-primary/30" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 8.25v-1.5m0 1.5c-1.355 0-2.697.056-4.024.166C6.845 8.51 6 9.473 6 10.608v2.513m6-4.871c1.355 0 2.697.056 4.024.166C17.155 8.51 18 9.473 18 10.608v2.513M15 8.25v-1.5m-6 1.5v-1.5m12 9.75l-1.5.75a3.354 3.354 0 01-3 0 3.354 3.354 0 00-3 0 3.354 3.354 0 01-3 0 3.354 3.354 0 00-3 0 3.354 3.354 0 01-3 0L3 16.5m15-3.379a48.474 48.474 0 00-6-.371c-2.032 0-4.034.126-6 .371m12 0c.39.049.777.102 1.163.16 1.07.16 1.837 1.094 1.837 2.175v5.169c0 .621-.504 1.125-1.125 1.125H4.125A1.125 1.125 0 013 20.625v-5.17c0-1.08.768-2.014 1.837-2.174A47.78 47.78 0 016 13.12"/>
                                                 </svg>
                                             </div>
                                         @endif
@@ -266,9 +261,9 @@
                         </div>
                     @endif
 
-                </div>{{-- end right content --}}
-            </div>{{-- end flex row --}}
-        </div>{{-- end container --}}
+                </div>
+            </div>
+        </div>
     </section>
 
 @endsection

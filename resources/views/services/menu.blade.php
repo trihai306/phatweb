@@ -81,7 +81,9 @@
                                  class="w-full aspect-square object-cover group-hover:scale-110 transition-transform duration-500"
                                  loading="lazy">
                         @else
-                            <div class="w-full aspect-square bg-accent flex items-center justify-center text-4xl">🍱</div>
+                            <div class="w-full aspect-square bg-accent flex items-center justify-center">
+                                <svg class="w-16 h-16" style="color:#19592F;" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M20.25 7.5l-.625 10.632a2.25 2.25 0 01-2.247 2.118H6.622a2.25 2.25 0 01-2.247-2.118L3.75 7.5M10 11.25h4M3.375 7.5h17.25c.621 0 1.125-.504 1.125-1.125v-1.5c0-.621-.504-1.125-1.125-1.125H3.375c-.621 0-1.125.504-1.125 1.125v1.5c0 .621.504 1.125 1.125 1.125z"/></svg>
+                            </div>
                         @endif
                         <div class="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors"></div>
                         <div class="absolute inset-0 flex items-end p-3 opacity-0 group-hover:opacity-100 transition-opacity">
@@ -132,7 +134,9 @@
                 @endif
             @empty
                 <div class="bg-white rounded-2xl shadow-sm p-16 text-center">
-                    <div class="text-6xl mb-4">🍽️</div>
+                    <div class="mb-4 flex justify-center">
+                        <svg class="w-16 h-16 text-gray-300" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8.25v-1.5m0 1.5c-1.355 0-2.697.056-4.024.166C6.845 8.51 6 9.473 6 10.608v2.513m6-4.871c1.355 0 2.697.056 4.024.166C17.155 8.51 18 9.473 18 10.608v2.513M15 8.25v-1.5m-6 1.5v-1.5m12 9.75l-1.5.75a3.354 3.354 0 01-3 0 3.354 3.354 0 00-3 0 3.354 3.354 0 01-3 0 3.354 3.354 0 00-3 0 3.354 3.354 0 01-3 0L3 16.5m15-3.379a48.474 48.474 0 00-6-.371c-2.032 0-4.034.126-6 .371m12 0c.39.049.777.102 1.163.16 1.07.16 1.837 1.094 1.837 2.175v5.169c0 .621-.504 1.125-1.125 1.125H4.125A1.125 1.125 0 013 20.625v-5.17c0-1.08.768-2.014 1.837-2.174A47.78 47.78 0 016 13.12"/></svg>
+                    </div>
                     <p class="text-gray-400 text-base">Thực đơn đang được cập nhật...</p>
                 </div>
             @endforelse

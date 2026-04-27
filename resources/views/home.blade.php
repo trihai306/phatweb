@@ -199,7 +199,7 @@
                 </h2>
                 <div style="width:48px; height:4px; background: linear-gradient(90deg, #19592F, #7FBF3F); border-radius:2px; margin: 1.25rem 0 1.5rem;"></div>
                 <p class="leading-relaxed mb-8" style="color:#555; font-size:1.0625rem; line-height:1.75;">
-                    Chúng tôi cung cấp dịch vụ và những bữa ăn chất lượng cao với các thực đơn phù hợp với đặc trưng của từng vùng miền, đảm bảo dinh dưỡng và vệ sinh an toàn thực phẩm.
+                    Từ suất ăn trường học đến suất ăn công nghiệp, chúng tôi mang đến giải pháp ẩm thực toàn diện với thực đơn dinh dưỡng, nguyên liệu tươi sạch và quy trình ATTP nghiêm ngặt.
                 </p>
                 <a href="{{ route('services.index') }}" class="btn-primary" style="display:inline-flex; gap:0.5rem; align-items:center;">
                     Xem tất cả dịch vụ
@@ -211,7 +211,9 @@
                 {{-- Decorative element --}}
                 <div class="mt-16 hidden lg:block" style="width:180px; height:180px; border-radius:50%; background: linear-gradient(135deg, rgba(25,89,47,0.08), rgba(25,89,47,0.08)); position:relative;">
                     <div style="position:absolute; top:20px; left:20px; right:20px; bottom:20px; border-radius:50%; border: 2px dashed rgba(25,89,47,0.2);"></div>
-                    <span style="position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); font-size:3rem;">🍽️</span>
+                    <span style="position:absolute; top:50%; left:50%; transform:translate(-50%,-50%);">
+                        <svg class="w-12 h-12" style="color:#19592F;" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8.25v-1.5m0 1.5c-1.355 0-2.697.056-4.024.166C6.845 8.51 6 9.473 6 10.608v2.513m6-4.871c1.355 0 2.697.056 4.024.166C17.155 8.51 18 9.473 18 10.608v2.513M15 8.25v-1.5m-6 1.5v-1.5m12 9.75l-1.5.75a3.354 3.354 0 01-3 0 3.354 3.354 0 00-3 0 3.354 3.354 0 01-3 0 3.354 3.354 0 00-3 0 3.354 3.354 0 01-3 0L3 16.5m15-3.379a48.474 48.474 0 00-6-.371c-2.032 0-4.034.126-6 .371m12 0c.39.049.777.102 1.163.16 1.07.16 1.837 1.094 1.837 2.175v5.169c0 .621-.504 1.125-1.125 1.125H4.125A1.125 1.125 0 013 20.625v-5.17c0-1.08.768-2.014 1.837-2.174A47.78 47.78 0 016 13.12"/></svg>
+                    </span>
                 </div>
             </div>
 
@@ -227,7 +229,14 @@
                             'linear-gradient(135deg, #12472A, #19592F)',
                         ];
                         $grad = $gradients[$index % 4];
-                        $emojis = ['🍱', '🥗', '🍲', '🥘', '🍛', '🥙'];
+                        $serviceSvgs = [
+                            '<svg class="w-16 h-16 text-white/90" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M20.25 7.5l-.625 10.632a2.25 2.25 0 01-2.247 2.118H6.622a2.25 2.25 0 01-2.247-2.118L3.75 7.5M10 11.25h4M3.375 7.5h17.25c.621 0 1.125-.504 1.125-1.125v-1.5c0-.621-.504-1.125-1.125-1.125H3.375c-.621 0-1.125.504-1.125 1.125v1.5c0 .621.504 1.125 1.125 1.125z"/></svg>',
+                            '<svg class="w-16 h-16 text-white/90" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8.25v-1.5m0 1.5c-1.355 0-2.697.056-4.024.166C6.845 8.51 6 9.473 6 10.608v2.513m6-4.871c1.355 0 2.697.056 4.024.166C17.155 8.51 18 9.473 18 10.608v2.513M15 8.25v-1.5m-6 1.5v-1.5m12 9.75l-1.5.75a3.354 3.354 0 01-3 0 3.354 3.354 0 00-3 0 3.354 3.354 0 01-3 0 3.354 3.354 0 00-3 0 3.354 3.354 0 01-3 0L3 16.5m15-3.379a48.474 48.474 0 00-6-.371c-2.032 0-4.034.126-6 .371m12 0c.39.049.777.102 1.163.16 1.07.16 1.837 1.094 1.837 2.175v5.169c0 .621-.504 1.125-1.125 1.125H4.125A1.125 1.125 0 013 20.625v-5.17c0-1.08.768-2.014 1.837-2.174A47.78 47.78 0 016 13.12"/></svg>',
+                            '<svg class="w-16 h-16 text-white/90" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15.362 5.214A8.252 8.252 0 0112 21 8.25 8.25 0 016.038 7.048 8.287 8.287 0 009 9.6a8.983 8.983 0 013.361-6.867 8.21 8.21 0 003 2.48z"/><path stroke-linecap="round" stroke-linejoin="round" d="M12 18a3.75 3.75 0 00.495-7.467 5.99 5.99 0 00-1.925 3.546 5.974 5.974 0 01-2.133-1A3.75 3.75 0 0012 18z"/></svg>',
+                            '<svg class="w-16 h-16 text-white/90" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.455 2.456L21.75 6l-1.036.259a3.375 3.375 0 00-2.455 2.456zM16.894 20.567L16.5 21.75l-.394-1.183a2.25 2.25 0 00-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 001.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 001.423 1.423l1.183.394-1.183.394a2.25 2.25 0 00-1.423 1.423z"/></svg>',
+                            '<svg class="w-16 h-16 text-white/90" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M8.25 18.75a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h6m-9 0H3.375a1.125 1.125 0 01-1.125-1.125V14.25m17.25 4.5a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0H21M3.375 14.25h-.375a3 3 0 013-3h.75m0 0h10.5m-10.5 0V6.375a3 3 0 013-3h7.5a3 3 0 013 3v4.875m0 0h.375a3 3 0 013 3V18"/></svg>',
+                            '<svg class="w-16 h-16 text-white/90" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"/></svg>',
+                        ];
                     @endphp
                     <a href="{{ route('services.show', $service->slug) }}"
                        class="group block"
@@ -245,7 +254,7 @@
                                      loading="lazy">
                             @else
                                 <div class="w-full h-full flex items-center justify-center" style="background: {{ $grad }};">
-                                    <span style="font-size: 4rem;">{{ $emojis[$index % count($emojis)] }}</span>
+                                    {!! $serviceSvgs[$index % count($serviceSvgs)] !!}
                                 </div>
                             @endif
                             {{-- Gradient overlay on image --}}
@@ -317,7 +326,19 @@
                     {{-- Icon circle --}}
                     <div class="mx-auto mb-6 flex items-center justify-center transition-transform duration-300 group-hover:scale-110"
                          style="width:88px; height:88px; border-radius:50%; background: linear-gradient(135deg, rgba(25,89,47,0.12), rgba(25,89,47,0.12));">
-                        <span style="font-size: 2.5rem; line-height:1;">{{ $strength->icon ?? ['🥬', '🛡️', '👨‍🍳', '💝'][$index % 4] }}</span>
+                        @php
+                            $strengthSvgs = [
+                                '<svg class="w-10 h-10" style="color:#19592F;" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z"/></svg>',
+                                '<svg class="w-10 h-10" style="color:#19592F;" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z"/></svg>',
+                                '<svg class="w-10 h-10" style="color:#19592F;" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19.128a9.38 9.38 0 002.625.372 9.337 9.337 0 004.121-.952 4.125 4.125 0 00-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 018.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0111.964-3.07M12 6.375a3.375 3.375 0 11-6.75 0 3.375 3.375 0 016.75 0zm8.25 2.25a2.625 2.625 0 11-5.25 0 2.625 2.625 0 015.25 0z"/></svg>',
+                                '<svg class="w-10 h-10" style="color:#19592F;" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"/></svg>',
+                            ];
+                        @endphp
+                        @if($strength->icon)
+                            <span style="font-size: 2.5rem; line-height:1;">{{ $strength->icon }}</span>
+                        @else
+                            {!! $strengthSvgs[$index % 4] !!}
+                        @endif
                     </div>
                     <h3 class="font-bold mb-3 transition-colors duration-300 group-hover:text-orange-600"
                         style="font-size: 1.125rem; color: #333;">
@@ -365,7 +386,7 @@
                 </p>
                 <div class="flex items-center gap-4">
                     <div style="width:56px; height:56px; border-radius:50%; background:rgba(127,191,63,0.2); display:flex; align-items:center; justify-content:center;">
-                        <span style="font-size:1.75rem;">🌿</span>
+                        <svg class="w-7 h-7 text-white" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z"/></svg>
                     </div>
                     <div>
                         <div class="font-bold text-white" style="font-size:1.125rem;">Chứng nhận ATTP</div>
@@ -378,10 +399,10 @@
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
                 @php
                     $coreValues = [
-                        ['icon' => '🤝', 'title' => 'Tận tâm phục vụ', 'desc' => 'Đội ngũ nhỏ, chăm sóc từng khách hàng như gia đình'],
-                        ['icon' => '🥗', 'title' => 'Nguyên liệu tươi sạch', 'desc' => 'Lựa chọn kỹ lưỡng, nguồn gốc rõ ràng mỗi ngày'],
-                        ['icon' => '⏰', 'title' => 'Đúng giờ, đúng cam kết', 'desc' => 'Giao suất ăn đúng lịch, không để khách hàng chờ đợi'],
-                        ['icon' => '💚', 'title' => 'Giá cả hợp lý', 'desc' => 'Chi phí tối ưu nhờ quy trình tinh gọn, không trung gian'],
+                        ['icon' => '<svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19.128a9.38 9.38 0 002.625.372 9.337 9.337 0 004.121-.952 4.125 4.125 0 00-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 018.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0111.964-3.07M12 6.375a3.375 3.375 0 11-6.75 0 3.375 3.375 0 016.75 0zm8.25 2.25a2.625 2.625 0 11-5.25 0 2.625 2.625 0 015.25 0z"/></svg>', 'title' => 'Tận tâm phục vụ', 'desc' => 'Đội ngũ nhỏ, chăm sóc từng khách hàng như gia đình'],
+                        ['icon' => '<svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z"/></svg>', 'title' => 'Nguyên liệu tươi sạch', 'desc' => 'Lựa chọn kỹ lưỡng, nguồn gốc rõ ràng mỗi ngày'],
+                        ['icon' => '<svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>', 'title' => 'Đúng giờ, đúng cam kết', 'desc' => 'Giao suất ăn đúng lịch, không để khách hàng chờ đợi'],
+                        ['icon' => '<svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"/></svg>', 'title' => 'Giá cả hợp lý', 'desc' => 'Chi phí tối ưu nhờ quy trình tinh gọn, không trung gian'],
                     ];
                 @endphp
                 @foreach($coreValues as $index => $value)
@@ -390,7 +411,7 @@
                          x-data="{}"
                          @mouseenter="$el.style.background='rgba(255,255,255,0.14)'; $el.style.transform='translateY(-4px)'"
                          @mouseleave="$el.style.background='rgba(255,255,255,0.08)'; $el.style.transform=''">
-                        <div class="mb-4" style="font-size:2rem;">{{ $value['icon'] }}</div>
+                        <div class="mb-4">{!! $value['icon'] !!}</div>
                         <h3 class="font-bold text-white mb-2" style="font-size:1.0625rem;">{{ $value['title'] }}</h3>
                         <p style="color:rgba(255,255,255,0.65); font-size:0.875rem; line-height:1.6;">{{ $value['desc'] }}</p>
                     </div>
@@ -575,7 +596,9 @@
                 {{-- Quick info banner --}}
                 <div style="border-radius: 1.25rem; overflow:hidden; background: linear-gradient(135deg, #19592F, #7FBF3F); padding: 1.75rem 2rem; box-shadow: 0 4px 20px rgba(25,89,47,0.25);">
                     <div class="flex items-center gap-4">
-                        <div style="font-size:2.25rem; flex-shrink:0;">🌿</div>
+                        <div class="flex-shrink-0">
+                            <svg class="w-9 h-9 text-white" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z"/></svg>
+                        </div>
                         <div class="text-white">
                             <div class="font-bold text-lg mb-0.5">Vệ sinh an toàn thực phẩm</div>
                             <div style="color:rgba(255,255,255,0.8); font-size:0.9rem;">Chứng nhận ISO & HACCP — Cam kết chất lượng tuyệt đối</div>

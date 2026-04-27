@@ -51,9 +51,111 @@ class DatabaseSeeder extends Seeder
         Slider::create(['title' => 'Điều cơ bản của ẩm thực xuất phát từ sự tươi ngon và an toàn', 'subtitle' => 'DAT PHAT - Dịch vụ suất ăn công nghiệp hàng đầu Việt Nam', 'image' => 'sliders/slide1.jpg', 'sort_order' => 0]);
         Slider::create(['title' => 'Chất lượng là ưu tiên hàng đầu', 'subtitle' => 'Chúng tôi cam kết mang đến những bữa ăn ngon, sạch và an toàn', 'image' => 'sliders/slide2.jpg', 'sort_order' => 1]);
 
-        Service::create(['title' => 'Miền Bắc', 'description' => 'Với tổng số 61 nhà ăn, chúng tôi đang cung cấp dịch vụ ăn uống với quy mô 250 nghìn suất ăn mỗi ngày.', 'content' => '<p>Dịch vụ ăn uống miền Bắc với các bếp ăn đại diện tại công ty điện tử Samsung, Elentec, Hyosung.</p>', 'image' => 'services/north.jpg', 'sort_order' => 0]);
-        Service::create(['title' => 'Miền Nam', 'description' => 'Chúng tôi cũng đã xây dựng góc ẩm thực phù hợp với đặc trưng văn hóa ẩm thực Nam Bộ.', 'content' => '<p>Dịch vụ ăn uống miền Nam phù hợp văn hóa ẩm thực Nam Bộ.</p>', 'image' => 'services/south.jpg', 'sort_order' => 1]);
-        Service::create(['title' => 'Miền Trung', 'description' => 'Chúng tôi sẽ liên tục nghiên cứu và phát triển để cung cấp dịch vụ ăn uống tốt nhất.', 'content' => '<p>Dịch vụ ăn uống miền Trung chuyên biệt theo vùng miền.</p>', 'image' => 'services/central.jpg', 'sort_order' => 2]);
+        Service::create([
+            'title' => 'Suất ăn trường học',
+            'description' => 'Cung cấp bữa ăn dinh dưỡng, an toàn cho học sinh các cấp từ mầm non đến THPT, đảm bảo sự phát triển toàn diện cho trẻ.',
+            'content' => '<h2>Giải pháp suất ăn trường học chuyên nghiệp</h2>
+<p>DAT PHAT hiểu rằng bữa ăn tại trường không chỉ đơn thuần là cung cấp năng lượng mà còn ảnh hưởng trực tiếp đến sức khỏe, sự phát triển và khả năng học tập của các em học sinh.</p>
+<h3>Đặc điểm dịch vụ</h3>
+<ul>
+<li><strong>Thực đơn cân bằng dinh dưỡng:</strong> Được xây dựng bởi chuyên gia dinh dưỡng, phù hợp với từng lứa tuổi từ mầm non đến THPT</li>
+<li><strong>Nguyên liệu tươi sạch:</strong> 100% nguyên liệu có nguồn gốc xuất xứ rõ ràng, kiểm tra chất lượng hàng ngày</li>
+<li><strong>Quy trình ATTP nghiêm ngặt:</strong> Tuân thủ tiêu chuẩn ISO 22000 & HACCP, kiểm soát từ khâu nhập liệu đến khi phục vụ</li>
+<li><strong>Đa dạng thực đơn:</strong> Thay đổi theo tuần, tháng, mùa để các em không nhàm chán</li>
+<li><strong>Phục vụ tận nơi:</strong> Giao suất ăn đúng giờ, đảm bảo nhiệt độ và chất lượng</li>
+</ul>
+<h3>Cam kết của chúng tôi</h3>
+<p>Mỗi bữa ăn đều được giám sát chặt chẽ bởi đội ngũ quản lý chất lượng. Phụ huynh hoàn toàn yên tâm khi gửi gắm bữa ăn của con em mình cho DAT PHAT.</p>',
+            'image' => 'services/school.jpg',
+            'sort_order' => 0,
+        ]);
+
+        Service::create([
+            'title' => 'Suất ăn công nghiệp',
+            'description' => 'Phục vụ suất ăn quy mô lớn cho các nhà máy, khu công nghiệp trên toàn quốc với năng lực lên đến 250.000 suất ăn/ngày.',
+            'content' => '<h2>Suất ăn công nghiệp quy mô lớn</h2>
+<p>Với kinh nghiệm phục vụ tại nhiều khu công nghiệp lớn, DAT PHAT mang đến giải pháp suất ăn toàn diện cho doanh nghiệp với quy mô từ vài trăm đến hàng chục nghìn suất ăn mỗi ngày.</p>
+<h3>Năng lực phục vụ</h3>
+<ul>
+<li><strong>Quy mô:</strong> Phục vụ lên đến 250.000 suất ăn/ngày tại 61 nhà ăn trên toàn quốc</li>
+<li><strong>Đối tác tiêu biểu:</strong> Samsung, Elentec, Hyosung và nhiều tập đoàn lớn</li>
+<li><strong>Vùng phủ sóng:</strong> Bắc – Trung – Nam, đặc biệt tập trung tại các KCN lớn</li>
+<li><strong>Thực đơn vùng miền:</strong> Phù hợp với đặc trưng ẩm thực từng khu vực</li>
+</ul>
+<h3>Quy trình vận hành</h3>
+<p>Hệ thống bếp ăn được trang bị hiện đại, vận hành theo quy trình khép kín từ khâu thu mua, chế biến, bảo quản đến phục vụ, đảm bảo tiêu chuẩn ATTP nghiêm ngặt nhất.</p>',
+            'image' => 'services/industrial.jpg',
+            'sort_order' => 1,
+        ]);
+
+        Service::create([
+            'title' => 'Suất ăn dinh dưỡng',
+            'description' => 'Thực đơn dinh dưỡng được thiết kế bởi chuyên gia, phù hợp với thể trạng và nhu cầu sức khỏe từng đối tượng.',
+            'content' => '<h2>Suất ăn dinh dưỡng theo yêu cầu</h2>
+<p>Hiểu được tính chất đặc biệt của suất ăn dinh dưỡng, DAT PHAT xây dựng thực đơn cân bằng dinh dưỡng, an toàn và phục hồi sức khỏe một cách nhanh chóng.</p>
+<h3>Đối tượng phục vụ</h3>
+<ul>
+<li><strong>Bệnh nhân:</strong> Thực đơn phù hợp với từng bệnh lý (tiểu đường, huyết áp, tim mạch...)</li>
+<li><strong>Người cao tuổi:</strong> Dễ tiêu hóa, giàu dinh dưỡng, phù hợp thể trạng</li>
+<li><strong>Vận động viên:</strong> Giàu protein, năng lượng cao, hỗ trợ phục hồi cơ bắp</li>
+<li><strong>Phụ nữ mang thai:</strong> Đảm bảo đầy đủ vi chất cho mẹ và bé</li>
+</ul>
+<h3>Quy trình xây dựng thực đơn</h3>
+<p>Mỗi thực đơn đều được chuyên gia dinh dưỡng tư vấn và xây dựng, đảm bảo phù hợp với thể chất và thể trạng từng người, nhằm mang đến bữa ăn tốt nhất.</p>',
+            'image' => 'services/nutrition.jpg',
+            'sort_order' => 2,
+        ]);
+
+        Service::create([
+            'title' => 'Tiệc & sự kiện',
+            'description' => 'Dịch vụ tiệc buffet, hội nghị, sự kiện với thực đơn phong phú, trang trí chuyên nghiệp và phục vụ tận tâm.',
+            'content' => '<h2>Dịch vụ tiệc & sự kiện chuyên nghiệp</h2>
+<p>DAT PHAT cung cấp dịch vụ tiệc trọn gói cho các sự kiện doanh nghiệp, hội nghị, tiệc cưới và các dịp đặc biệt với chất lượng ẩm thực cao cấp.</p>
+<h3>Các loại hình tiệc</h3>
+<ul>
+<li><strong>Tiệc buffet:</strong> Đa dạng món ăn, phù hợp sự kiện quy mô lớn</li>
+<li><strong>Tiệc hội nghị:</strong> Set menu chuyên nghiệp, phục vụ nhanh gọn</li>
+<li><strong>Tiệc kỷ niệm:</strong> Thực đơn đặc biệt cho các dịp lễ, kỷ niệm công ty</li>
+<li><strong>Tea break:</strong> Bánh ngọt, trà, cà phê cho các buổi họp và hội thảo</li>
+</ul>',
+            'image' => 'services/event.jpg',
+            'sort_order' => 3,
+        ]);
+
+        Service::create([
+            'title' => 'Cung ứng thực phẩm sạch',
+            'description' => 'Cung cấp nguồn thực phẩm tươi sạch, có truy xuất nguồn gốc rõ ràng cho nhà hàng, bếp ăn tập thể.',
+            'content' => '<h2>Cung ứng thực phẩm sạch</h2>
+<p>Với chuỗi cung ứng khép kín và hệ thống kiểm soát chất lượng nghiêm ngặt, DAT PHAT cung cấp nguồn thực phẩm tươi sạch, đảm bảo truy xuất nguồn gốc cho mọi đối tác.</p>
+<h3>Sản phẩm cung ứng</h3>
+<ul>
+<li><strong>Rau củ quả:</strong> Thu mua từ các vùng trồng an toàn, kiểm tra dư lượng thuốc BVTV</li>
+<li><strong>Thịt, cá, hải sản:</strong> Nguồn gốc rõ ràng, bảo quản lạnh đúng tiêu chuẩn</li>
+<li><strong>Gia vị, nguyên liệu khô:</strong> Nhập từ các nhà cung cấp uy tín, có chứng nhận ATTP</li>
+</ul>
+<h3>Hệ thống truy xuất nguồn gốc</h3>
+<p>Mỗi lô hàng đều có mã truy xuất, giúp đối tác và người tiêu dùng hoàn toàn yên tâm về chất lượng và an toàn thực phẩm.</p>',
+            'image' => 'services/supply.jpg',
+            'sort_order' => 4,
+        ]);
+
+        Service::create([
+            'title' => 'Đa dạng hoá thực đơn',
+            'description' => 'Nghiên cứu và phát triển hơn 20.000 công thức món ăn, liên tục đổi mới để mang đến trải nghiệm ẩm thực phong phú.',
+            'content' => '<h2>Đa dạng hoá thực đơn</h2>
+<p>DAT PHAT sở hữu kho tàng hơn 20.000 công thức món ăn, được nghiên cứu và phát triển bởi đội ngũ đầu bếp giàu kinh nghiệm, đảm bảo thực đơn luôn mới mẻ và hấp dẫn.</p>
+<h3>Đặc điểm nổi bật</h3>
+<ul>
+<li><strong>Ẩm thực 3 miền:</strong> Đặc trưng Bắc – Trung – Nam, phù hợp khẩu vị từng vùng</li>
+<li><strong>Món Á – Âu:</strong> Đa dạng phong cách ẩm thực quốc tế</li>
+<li><strong>Món theo mùa:</strong> Tận dụng nguyên liệu theo mùa, tươi ngon nhất</li>
+<li><strong>Món đặc biệt:</strong> Thực đơn cho các dịp lễ, Tết, sự kiện đặc biệt</li>
+</ul>
+<h3>Đội ngũ R&D</h3>
+<p>Bộ phận nghiên cứu và phát triển liên tục sáng tạo công thức mới, khảo sát ý kiến thực khách để cải tiến thực đơn, mang đến sự hài lòng tối đa cho khách hàng.</p>',
+            'image' => 'services/diverse.jpg',
+            'sort_order' => 5,
+        ]);
 
         FoodMenu::create(['title' => 'Thực đơn ngày', 'description' => 'Hãy cùng đến với những thực đơn thơm ngon và lành mạnh', 'image' => 'menus/daily.jpg', 'category' => 'daily', 'sort_order' => 0]);
         FoodMenu::create(['title' => 'Thực đơn đặc biệt', 'description' => 'Thực đơn đặc biệt theo mùa và sự kiện', 'image' => 'menus/special.jpg', 'category' => 'special', 'sort_order' => 1]);
