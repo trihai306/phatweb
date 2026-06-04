@@ -49,7 +49,7 @@ class DatabaseSeeder extends Seeder
         }
 
         Slider::create(['title' => 'Kiến tạo nền tảng sức khỏe người Việt bằng dinh dưỡng sạch mỗi ngày', 'subtitle' => null, 'image' => 'sliders/slide1.jpg', 'sort_order' => 0]);
-        Slider::create(['title' => 'Chất lượng là ưu tiên hàng đầu', 'subtitle' => 'Dinh dưỡng an toàn là gốc rễ cho thể chất khỏe mạnh của người Việt', 'image' => 'sliders/slide2.jpg', 'sort_order' => 1]);
+        Slider::create(['title' => 'Dinh dưỡng an toàn là gốc rễ cho thể chất khỏe mạnh của người Việt', 'subtitle' => null, 'image' => 'sliders/slide2.jpg', 'sort_order' => 1]);
 
         Service::create([
             'title' => 'Suất ăn trường học',
