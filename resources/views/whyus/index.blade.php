@@ -168,11 +168,11 @@
                                     @foreach($statistics as $si => $stat)
                                         <div class="text-center group">
                                             <div class="flex justify-center mb-3">{!! $whyStatSvgs[$si % count($whyStatSvgs)] !!}</div>
-                                            <div class="text-4xl md:text-5xl font-black text-primary mb-1 tabular-nums">
+                                            <div class="text-4xl md:text-5xl font-black text-white mb-1 tabular-nums">
                                                 {{ $stat->value ?? '' }}
                                             </div>
                                             @if(isset($stat->unit) && $stat->unit)
-                                                <div class="text-white/50 text-xs font-semibold uppercase tracking-wide mb-1">{{ $stat->unit }}</div>
+                                                <div class="text-white/70 text-xs font-semibold uppercase tracking-wide mb-1">{{ $stat->unit }}</div>
                                             @endif
                                             <div class="text-white/80 text-sm font-semibold">{{ $stat->label ?? '' }}</div>
                                         </div>

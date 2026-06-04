@@ -60,7 +60,7 @@ class DatabaseSeeder extends Seeder
 <ul>
 <li><strong>Thực đơn cân bằng dinh dưỡng:</strong> Được xây dựng bởi chuyên gia dinh dưỡng, phù hợp với từng lứa tuổi từ mầm non đến THPT</li>
 <li><strong>Nguyên liệu tươi sạch:</strong> 100% nguyên liệu có nguồn gốc xuất xứ rõ ràng, kiểm tra chất lượng hàng ngày</li>
-<li><strong>Quy trình ATTP nghiêm ngặt:</strong> Tuân thủ tiêu chuẩn ISO 22000 & HACCP, kiểm soát từ khâu nhập liệu đến khi phục vụ</li>
+<li><strong>Quy trình ATTP nghiêm ngặt:</strong> Tuân thủ tiêu chuẩn ATTP nghiêm ngặt, kiểm soát từ khâu nhập liệu đến khi phục vụ</li>
 <li><strong>Đa dạng thực đơn:</strong> Thay đổi theo tuần, tháng, mùa để các em không nhàm chán</li>
 <li><strong>Phục vụ tận nơi:</strong> Giao suất ăn đúng giờ, đảm bảo nhiệt độ và chất lượng</li>
 </ul>
