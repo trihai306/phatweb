@@ -60,7 +60,7 @@
                             {{-- Eyebrow label --}}
                             <div class="flex items-center gap-3 mb-6" style="opacity: 0; animation: slideUpFade 0.8s ease forwards 0.2s;">
                                 <div style="width: 40px; height: 2px; background: #19592F;"></div>
-                                <span class="text-sm font-semibold tracking-widest uppercase" style="color: #7FBF3F;">DAT PHAT Việt Nam</span>
+                                <span class="text-sm font-semibold tracking-widest uppercase" style="color: #7FBF3F;">DAT PHAT NUTRITION</span>
                             </div>
 
                             <h1 class="font-bold leading-tight mb-6"
@@ -75,23 +75,15 @@
                                 </p>
                             @endif
 
+                            @if($index === 0)
                             <div class="flex flex-wrap gap-4" style="opacity: 0; animation: slideUpFade 0.8s ease forwards 0.8s;">
-                                @if($slider->link)
-                                    <a href="{{ $slider->link }}"
-                                       class="btn-primary"
-                                       style="font-size: 1rem; padding: 0.875rem 2rem; border-radius: 0.5rem; box-shadow: 0 4px 20px rgba(25,89,47,0.4);">
-                                        Tìm hiểu thêm
-                                        <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
-                                        </svg>
-                                    </a>
-                                @endif
                                 <a href="{{ route('services.index') }}"
                                    class="btn-outline"
                                    style="font-size: 1rem; padding: 0.875rem 2rem; border-radius: 0.5rem; border-color: rgba(255,255,255,0.6); color: white; background: rgba(255,255,255,0.08); backdrop-filter: blur(8px);">
                                     Dịch vụ của chúng tôi
                                 </a>
                             </div>
+                            @endif
                         </div>
                     </div>
                 </div>
@@ -107,7 +99,7 @@
                         <div class="max-w-3xl text-white" style="padding-top: 80px;">
                             <div class="flex items-center gap-3 mb-6">
                                 <div style="width: 40px; height: 2px; background: #19592F;"></div>
-                                <span class="text-sm font-semibold tracking-widest uppercase" style="color: #7FBF3F;">DAT PHAT Việt Nam</span>
+                                <span class="text-sm font-semibold tracking-widest uppercase" style="color: #7FBF3F;">DAT PHAT NUTRITION</span>
                             </div>
                             <h1 class="font-bold leading-tight mb-6" style="font-size: clamp(2rem, 5vw, 4rem); text-shadow: 0 2px 20px rgba(0,0,0,0.3);">
                                 Điều cơ bản của ẩm thực xuất phát từ sự tươi ngon và an toàn.
@@ -477,7 +469,7 @@
                             </div>
                             <div>
                                 <div class="text-xs font-semibold uppercase tracking-wider mb-1" style="color:#999;">Địa chỉ</div>
-                                <div style="color:#444; font-size:0.9375rem;">{{ $companyInfo['address'] ?? 'Số 21, Đường 8, KCN VSIP Bắc Ninh II' }}</div>
+                                <div style="color:#444; font-size:0.9375rem;">{{ $companyInfo['address'] ?? 'Thôn Vọng Đông, xã Yên Trung, tỉnh Bắc Ninh' }}</div>
                             </div>
                         </div>
                         {{-- Phone --}}
@@ -489,9 +481,9 @@
                             </div>
                             <div>
                                 <div class="text-xs font-semibold uppercase tracking-wider mb-1" style="color:#999;">Điện thoại</div>
-                                <a href="tel:{{ $companyInfo['phone'] ?? '02223699930' }}" class="transition-colors"
+                                <a href="tel:{{ $companyInfo['phone'] ?? '0914026138' }}" class="transition-colors"
                                    style="color:#19592F; font-size:0.9375rem; font-weight:600;">
-                                    {{ $companyInfo['phone'] ?? '0222-369-9930' }}
+                                    {{ $companyInfo['phone'] ?? '0914026138 - 0389985150' }}
                                 </a>
                             </div>
                         </div>
@@ -504,9 +496,9 @@
                             </div>
                             <div>
                                 <div class="text-xs font-semibold uppercase tracking-wider mb-1" style="color:#999;">Email</div>
-                                <a href="mailto:{{ $companyInfo['email'] ?? 'info@phatfood.vn' }}"
+                                <a href="mailto:{{ $companyInfo['email'] ?? 'datphatnutrition@gmail.com' }}"
                                    class="transition-colors" style="color:#19592F; font-size:0.9375rem; font-weight:600;">
-                                    {{ $companyInfo['email'] ?? 'info@phatfood.vn' }}
+                                    {{ $companyInfo['email'] ?? 'datphatnutrition@gmail.com' }}
                                 </a>
                             </div>
                         </div>
@@ -546,7 +538,7 @@
                                 Tuyển dụng
                             </h3>
                             <p class="leading-relaxed" style="color:#666; font-size:0.9375rem;">
-                                DAT PHAT Việt Nam mở ra cơ hội thực hiện những ước mơ đến với mọi người. Hãy cùng chúng tôi tạo nên những bữa ăn ý nghĩa.
+                                DAT PHAT NUTRITION mở ra cơ hội thực hiện những ước mơ đến với mọi người. Hãy cùng chúng tôi tạo nên những bữa ăn ý nghĩa.
                             </p>
                         </div>
                         <div class="flex-shrink-0 self-center transition-all duration-300 group-hover:translate-x-1" style="color:#19592F;">
@@ -597,7 +589,7 @@
                         </div>
                         <div class="text-white">
                             <div class="font-bold text-lg mb-0.5">Vệ sinh an toàn thực phẩm</div>
-                            <div style="color:rgba(255,255,255,0.8); font-size:0.9rem;">Chứng nhận ISO & HACCP — Cam kết chất lượng tuyệt đối</div>
+                            <div style="color:rgba(255,255,255,0.8); font-size:0.9rem;">Đảm bảo vệ sinh an toàn thực phẩm theo chuẩn</div>
                         </div>
                     </div>
                 </div>

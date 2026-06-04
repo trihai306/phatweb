@@ -78,8 +78,8 @@
                                 </div>
                                 <div>
                                     <p class="text-xs font-bold text-primary uppercase tracking-widest mb-1">Giám đốc điều hành</p>
-                                    <h2 class="text-xl md:text-2xl font-bold text-dark">Nguyễn Văn Phát</h2>
-                                    <p class="text-gray-500 text-sm mt-1">Thành lập DAT PHAT từ năm 2013</p>
+                                    <h2 class="text-xl md:text-2xl font-bold text-dark">PHÙNG TUẤN ĐẠT</h2>
+                                    <p class="text-gray-500 text-sm mt-1">Thành lập DAT PHAT từ năm 2019</p>
                                 </div>
                             </div>
 
@@ -116,12 +116,12 @@
                                     @endforeach
                                 @else
                                     @foreach([
-                                        ['icon' => 'M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z', 'label' => 'CEO', 'value' => 'Nguyễn Văn Phát'],
-                                        ['icon' => 'M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z', 'label' => 'Thành lập', 'value' => '2013'],
+                                        ['icon' => 'M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z', 'label' => 'Giám đốc', 'value' => 'PHÙNG TUẤN ĐẠT'],
+                                        ['icon' => 'M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z', 'label' => 'Thành lập', 'value' => '2019'],
                                         ['icon' => 'M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z', 'label' => 'Địa chỉ', 'value' => 'Bắc Ninh, Việt Nam'],
-                                        ['icon' => 'M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z', 'label' => 'Điện thoại', 'value' => '0222-369-9930'],
-                                        ['icon' => 'M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z', 'label' => 'Email', 'value' => 'info@phatfood.vn'],
-                                        ['icon' => 'M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9', 'label' => 'Website', 'value' => 'www.phatfood.vn'],
+                                        ['icon' => 'M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z', 'label' => 'Điện thoại', 'value' => '0914026138 - 0389985150'],
+                                        ['icon' => 'M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z', 'label' => 'Email', 'value' => 'datphatnutrition@gmail.com'],
+                                        ['icon' => 'M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9', 'label' => 'Website', 'value' => 'datphatnutrition.com'],
                                     ] as $info)
                                         <div class="group flex items-start gap-4 p-5 bg-accent rounded-xl border border-gray-100 hover:border-primary/30 hover:shadow-sm transition-all duration-200">
                                             <div class="w-10 h-10 bg-primary/10 group-hover:bg-primary/20 rounded-xl flex items-center justify-center flex-shrink-0 transition-colors">
@@ -169,11 +169,11 @@
                                     @foreach($statistics as $statIdx => $stat)
                                         <div class="text-center group" x-data="{ counted: false }" x-intersect="counted = true">
                                             <div class="flex justify-center mb-3">{!! $statSvgs[$statIdx % count($statSvgs)] !!}</div>
-                                            <div class="text-4xl md:text-5xl font-black text-primary mb-1 tabular-nums">
+                                            <div class="text-4xl md:text-5xl font-black text-white mb-1 tabular-nums">
                                                 {{ $stat->value ?? '' }}
                                             </div>
                                             @if(isset($stat->unit) && $stat->unit)
-                                                <div class="text-white/50 text-xs font-medium uppercase tracking-wide mb-1">{{ $stat->unit }}</div>
+                                                <div class="text-white/70 text-xs font-medium uppercase tracking-wide mb-1">{{ $stat->unit }}</div>
                                             @endif
                                             <div class="text-white/80 text-sm font-semibold">{{ $stat->label ?? '' }}</div>
                                         </div>
@@ -195,8 +195,10 @@
                             <h3 class="text-lg font-bold text-dark mb-3">Sứ mệnh</h3>
                             <div class="w-8 h-0.5 bg-primary mb-4"></div>
                             <p class="text-gray-600 text-sm leading-relaxed">
-                                Cung cấp những bữa ăn an toàn, ngon lành và đầy đủ dinh dưỡng, góp phần nâng cao chất lượng cuộc sống
-                                cho người lao động Việt Nam.
+                                Cung cấp những giải pháp thực phẩm an toàn, ổn định và chất lượng cao cho các hệ thống bếp ăn tập thể, bằng năng lực vận hành chuyên nghiệp, sự minh bạch trong nguồn gốc sản phẩm và tinh thần trách nhiệm đối với sức khỏe cộng đồng.
+                            </p>
+                            <p class="text-gray-600 text-sm leading-relaxed mt-2">
+                                Đạt Phát cam kết không ngừng nâng cao tiêu chuẩn dịch vụ, tối ưu chuỗi cung ứng và xây dựng niềm tin bằng chất lượng thực tế trong từng bữa ăn.
                             </p>
                         </div>
 
@@ -211,8 +213,10 @@
                             <h3 class="text-lg font-bold text-dark mb-3">Tầm nhìn</h3>
                             <div class="w-8 h-0.5 bg-secondary mb-4"></div>
                             <p class="text-gray-600 text-sm leading-relaxed">
-                                Trở thành doanh nghiệp dẫn đầu trong lĩnh vực dịch vụ suất ăn công nghiệp tại Việt Nam,
-                                mở rộng quy mô và nâng cao tiêu chuẩn phục vụ trên toàn quốc.
+                                Trở thành thương hiệu dẫn đầu trong lĩnh vực cung cấp thực phẩm và giải pháp bếp ăn tập thể tại Việt Nam, tiên phong xây dựng hệ sinh thái thực phẩm an toàn, hiện đại và phát triển bền vững.
+                            </p>
+                            <p class="text-gray-600 text-sm leading-relaxed mt-2">
+                                Đạt Phát hướng đến vị thế đối tác chiến lược được tin cậy bởi các tổ chức giáo dục, doanh nghiệp và hệ thống bếp ăn trên toàn quốc thông qua năng lực vận hành, uy tín thương hiệu và cam kết lâu dài về chất lượng.
                             </p>
                         </div>
                     </div>

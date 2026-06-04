@@ -251,7 +251,7 @@
 
                 {{-- Contact Quick Links --}}
                 <div class="mt-6 grid grid-cols-1 sm:grid-cols-3 gap-4">
-                    <a href="tel:{{ $companyInfo['phone'] ?? '02223699930' }}"
+                    <a href="tel:{{ $companyInfo['phone'] ?? '0914026138' }}"
                        class="bg-white rounded-2xl shadow-sm p-5 flex items-center gap-3 hover:shadow-md transition-shadow group">
                         <div class="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center group-hover:bg-primary/20 transition-colors">
                             <svg class="w-5 h-5 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -260,11 +260,11 @@
                         </div>
                         <div>
                             <p class="text-xs text-gray-500">Gọi điện</p>
-                            <p class="text-sm font-semibold text-dark group-hover:text-primary transition-colors">{{ $companyInfo['phone'] ?? '0222-369-9930' }}</p>
+                            <p class="text-sm font-semibold text-dark group-hover:text-primary transition-colors">{{ $companyInfo['phone'] ?? '0914026138 - 0389985150' }}</p>
                         </div>
                     </a>
 
-                    <a href="mailto:{{ $companyInfo['email'] ?? 'info@phatfood.vn' }}"
+                    <a href="mailto:{{ $companyInfo['email'] ?? 'datphatnutrition@gmail.com' }}"
                        class="bg-white rounded-2xl shadow-sm p-5 flex items-center gap-3 hover:shadow-md transition-shadow group">
                         <div class="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center group-hover:bg-primary/20 transition-colors">
                             <svg class="w-5 h-5 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -273,7 +273,7 @@
                         </div>
                         <div>
                             <p class="text-xs text-gray-500">Email</p>
-                            <p class="text-sm font-semibold text-dark group-hover:text-primary transition-colors truncate">{{ $companyInfo['email'] ?? 'info@phatfood.vn' }}</p>
+                            <p class="text-sm font-semibold text-dark group-hover:text-primary transition-colors truncate">{{ $companyInfo['email'] ?? 'datphatnutrition@gmail.com' }}</p>
                         </div>
                     </a>
 

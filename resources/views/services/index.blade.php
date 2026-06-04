@@ -50,24 +50,6 @@
                         currentSlug=""
                     />
 
-                    {{-- "Xem thực đơn" CTA card --}}
-                    <div class="mt-6 bg-gradient-to-br from-primary to-primary-dark rounded-2xl p-6 text-white shadow-lg shadow-primary/20">
-                        <div class="w-10 h-10 bg-white/20 rounded-xl flex items-center justify-center mb-4">
-                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"/>
-                            </svg>
-                        </div>
-                        <h3 class="font-bold text-base mb-2">Xem thực đơn</h3>
-                        <p class="text-white/75 text-xs leading-relaxed mb-4">Khám phá các thực đơn phong phú, đa dạng vùng miền của DAT PHAT.</p>
-                        <a href="{{ route('services.menu') }}"
-                           class="inline-flex items-center gap-2 text-sm font-bold bg-white text-primary px-4 py-2.5 rounded-xl hover:bg-accent transition-colors w-full justify-center">
-                            Xem thực đơn
-                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
-                            </svg>
-                        </a>
-                    </div>
-
                     {{-- Tư vấn CTA --}}
                     <div class="mt-6 bg-white rounded-xl shadow-sm border border-gray-100 p-5">
                         <div class="flex items-center gap-2 mb-3">

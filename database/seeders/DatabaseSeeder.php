@@ -48,8 +48,8 @@ class DatabaseSeeder extends Seeder
             Setting::create($setting);
         }
 
-        Slider::create(['title' => 'Điều cơ bản của ẩm thực xuất phát từ sự tươi ngon và an toàn', 'subtitle' => 'DAT PHAT - Dịch vụ suất ăn chất lượng, an toàn', 'image' => 'sliders/slide1.jpg', 'sort_order' => 0]);
-        Slider::create(['title' => 'Chất lượng là ưu tiên hàng đầu', 'subtitle' => 'Chúng tôi cam kết mang đến những bữa ăn ngon, sạch và an toàn', 'image' => 'sliders/slide2.jpg', 'sort_order' => 1]);
+        Slider::create(['title' => 'Chất lượng là ưu tiên hàng đầu', 'subtitle' => 'Dinh dưỡng an toàn là gốc rễ cho thể chất khỏe mạnh của người Việt', 'image' => 'sliders/slide1.jpg', 'sort_order' => 0]);
+        Slider::create(['title' => 'Điều cơ bản của ẩm thực xuất phát từ sự tươi ngon và an toàn', 'subtitle' => 'Kiến tạo nền tảng sức khỏe người Việt bằng dinh dưỡng sạch mỗi ngày', 'image' => 'sliders/slide2.jpg', 'sort_order' => 1]);
 
         Service::create([
             'title' => 'Suất ăn trường học',
@@ -107,22 +107,6 @@ class DatabaseSeeder extends Seeder
         ]);
 
         Service::create([
-            'title' => 'Tiệc & sự kiện',
-            'description' => 'Dịch vụ tiệc buffet, hội nghị, sự kiện với thực đơn phong phú, trang trí chuyên nghiệp và phục vụ tận tâm.',
-            'content' => '<h2>Dịch vụ tiệc & sự kiện chuyên nghiệp</h2>
-<p>DAT PHAT cung cấp dịch vụ tiệc trọn gói cho các sự kiện doanh nghiệp, hội nghị, tiệc cưới và các dịp đặc biệt với chất lượng ẩm thực cao cấp.</p>
-<h3>Các loại hình tiệc</h3>
-<ul>
-<li><strong>Tiệc buffet:</strong> Đa dạng món ăn, phù hợp sự kiện quy mô lớn</li>
-<li><strong>Tiệc hội nghị:</strong> Set menu chuyên nghiệp, phục vụ nhanh gọn</li>
-<li><strong>Tiệc kỷ niệm:</strong> Thực đơn đặc biệt cho các dịp lễ, kỷ niệm công ty</li>
-<li><strong>Tea break:</strong> Bánh ngọt, trà, cà phê cho các buổi họp và hội thảo</li>
-</ul>',
-            'image' => 'services/event.jpg',
-            'sort_order' => 3,
-        ]);
-
-        Service::create([
             'title' => 'Cung ứng thực phẩm sạch',
             'description' => 'Cung cấp nguồn thực phẩm tươi sạch, có truy xuất nguồn gốc rõ ràng cho nhà hàng, bếp ăn tập thể.',
             'content' => '<h2>Cung ứng thực phẩm sạch</h2>
@@ -165,7 +149,7 @@ class DatabaseSeeder extends Seeder
         Strength::create(['title' => 'Hương vị thơm ngon', 'description' => 'Công thức nấu ăn vượt trội mang tính khoa học', 'content' => '<p>Công thức nấu ăn được nghiên cứu khoa học.</p>', 'image' => 'strengths/tasty.jpg', 'icon' => null, 'sort_order' => 2]);
         Strength::create(['title' => 'Dịch vụ khách hàng', 'description' => 'Nắm bắt được tâm lý khách hàng, tạo niềm vui trong từng bữa ăn', 'content' => '<p>Dịch vụ khách hàng tận tâm và chuyên nghiệp.</p>', 'image' => 'strengths/service.jpg', 'icon' => null, 'sort_order' => 3]);
 
-        Statistic::create(['label' => 'Năm kinh nghiệm', 'value' => '3+', 'unit' => 'năm', 'icon' => null, 'sort_order' => 0]);
+        Statistic::create(['label' => 'Năm kinh nghiệm', 'value' => '8+', 'unit' => 'năm', 'icon' => null, 'sort_order' => 0]);
         Statistic::create(['label' => 'Khách hàng tin tưởng', 'value' => '50+', 'unit' => 'trường & doanh nghiệp', 'icon' => null, 'sort_order' => 1]);
         Statistic::create(['label' => 'Chứng nhận ATTP', 'value' => '100%', 'unit' => 'đạt chuẩn', 'icon' => null, 'sort_order' => 2]);
         Statistic::create(['label' => 'Hài lòng khách hàng', 'value' => '98%', 'unit' => 'đánh giá tích cực', 'icon' => null, 'sort_order' => 3]);

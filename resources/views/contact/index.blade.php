@@ -67,7 +67,7 @@
                         <div>
                             <p class="text-xs text-gray-400 font-bold uppercase tracking-wider mb-1.5">Địa chỉ</p>
                             <p class="text-sm text-dark font-semibold leading-relaxed">
-                                {{ $companyInfo['address'] ?? 'Số 21, Đường 8, KCN VSIP Bắc Ninh II, Phường Phù Chẩn, Thị xã Từ Sơn, Bắc Ninh' }}
+                                {{ $companyInfo['address'] ?? 'Thôn Vọng Đông, xã Yên Trung, tỉnh Bắc Ninh, Phường Phù Chẩn, Thị xã Từ Sơn, Bắc Ninh' }}
                             </p>
                         </div>
                     </div>
@@ -81,9 +81,9 @@
                         </div>
                         <div>
                             <p class="text-xs text-gray-400 font-bold uppercase tracking-wider mb-1.5">Điện thoại</p>
-                            <a href="tel:{{ preg_replace('/\D/', '', $companyInfo['phone'] ?? '02223699930') }}"
+                            <a href="tel:{{ preg_replace('/\D/', '', $companyInfo['phone'] ?? '0914026138') }}"
                                class="text-sm text-dark font-bold hover:text-primary transition-colors">
-                                {{ $companyInfo['phone'] ?? '0222-369-9930' }}
+                                {{ $companyInfo['phone'] ?? '0914026138 - 0389985150' }}
                             </a>
                         </div>
                     </div>
@@ -97,9 +97,9 @@
                         </div>
                         <div>
                             <p class="text-xs text-gray-400 font-bold uppercase tracking-wider mb-1.5">Email</p>
-                            <a href="mailto:{{ $companyInfo['email'] ?? 'info@phatfood.vn' }}"
+                            <a href="mailto:{{ $companyInfo['email'] ?? 'datphatnutrition@gmail.com' }}"
                                class="text-sm text-dark font-bold hover:text-primary transition-colors break-all">
-                                {{ $companyInfo['email'] ?? 'info@phatfood.vn' }}
+                                {{ $companyInfo['email'] ?? 'datphatnutrition@gmail.com' }}
                             </a>
                         </div>
                     </div>
@@ -155,7 +155,7 @@
                                 </svg>
                             </div>
                             <p class="text-sm text-gray-600 font-medium leading-snug">
-                                {{ $companyInfo['address'] ?? 'Số 21, Đường 8, KCN VSIP Bắc Ninh II, Bắc Ninh' }}
+                                {{ $companyInfo['address'] ?? 'Thôn Vọng Đông, xã Yên Trung, tỉnh Bắc Ninh, Bắc Ninh' }}
                             </p>
                         </div>
                     </div>

@@ -11,9 +11,9 @@
                     Liên hệ ngay
                     <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
                 </a>
-                <a href="tel:{{ App\Models\CompanyInfo::getValue('phone', '0222-369-9930') }}" class="inline-flex items-center justify-center px-7 py-3.5 border-2 border-white text-white font-semibold rounded-xl hover:bg-white hover:text-primary transition-all duration-300 whitespace-nowrap">
+                <a href="tel:{{ App\Models\CompanyInfo::getValue('phone', '0914026138 - 0389985150') }}" class="inline-flex items-center justify-center px-7 py-3.5 border-2 border-white text-white font-semibold rounded-xl hover:bg-white hover:text-primary transition-all duration-300 whitespace-nowrap">
                     <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
-                    {{ App\Models\CompanyInfo::getValue('phone', '0222-369-9930') }}
+                    {{ App\Models\CompanyInfo::getValue('phone', '0914026138 - 0389985150') }}
                 </a>
             </div>
         </div>
@@ -60,8 +60,7 @@
                     <li><a href="{{ route('services.index') }}" class="text-sm hover:text-primary hover:pl-1 transition-all duration-200">Suất ăn trường học</a></li>
                     <li><a href="{{ route('services.index') }}" class="text-sm hover:text-primary hover:pl-1 transition-all duration-200">Suất ăn công nghiệp</a></li>
                     <li><a href="{{ route('services.index') }}" class="text-sm hover:text-primary hover:pl-1 transition-all duration-200">Suất ăn dinh dưỡng</a></li>
-                    <li><a href="{{ route('services.index') }}" class="text-sm hover:text-primary hover:pl-1 transition-all duration-200">Tiệc & sự kiện</a></li>
-                    <li><a href="{{ route('services.menu') }}" class="text-sm hover:text-primary hover:pl-1 transition-all duration-200">Thực đơn</a></li>
+                    <li><a href="{{ route('services.index') }}" class="text-sm hover:text-primary hover:pl-1 transition-all duration-200">Cung ứng thực phẩm sạch</a></li>
                 </ul>
             </div>
 
@@ -72,19 +71,19 @@
                         <span class="w-8 h-8 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0 mt-0.5">
                             <svg class="w-4 h-4 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
                         </span>
-                        <span class="text-sm leading-relaxed">{{ App\Models\CompanyInfo::getValue('address', 'Số 21, Đường 8, KCN VSIP Bắc Ninh II') }}</span>
+                        <span class="text-sm leading-relaxed">{{ App\Models\CompanyInfo::getValue('address', 'Thôn Vọng Đông, xã Yên Trung, tỉnh Bắc Ninh') }}</span>
                     </li>
                     <li class="flex items-center gap-3">
                         <span class="w-8 h-8 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
                             <svg class="w-4 h-4 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
                         </span>
-                        <a href="tel:{{ App\Models\CompanyInfo::getValue('phone', '0222-369-9930') }}" class="text-sm hover:text-primary transition-colors">{{ App\Models\CompanyInfo::getValue('phone', '0222-369-9930') }}</a>
+                        <a href="tel:{{ App\Models\CompanyInfo::getValue('phone', '0914026138 - 0389985150') }}" class="text-sm hover:text-primary transition-colors">{{ App\Models\CompanyInfo::getValue('phone', '0914026138 - 0389985150') }}</a>
                     </li>
                     <li class="flex items-center gap-3">
                         <span class="w-8 h-8 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
                             <svg class="w-4 h-4 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
                         </span>
-                        <a href="mailto:{{ App\Models\CompanyInfo::getValue('email', 'info@phatfood.vn') }}" class="text-sm hover:text-primary transition-colors">{{ App\Models\CompanyInfo::getValue('email', 'info@phatfood.vn') }}</a>
+                        <a href="mailto:{{ App\Models\CompanyInfo::getValue('email', 'datphatnutrition@gmail.com') }}" class="text-sm hover:text-primary transition-colors">{{ App\Models\CompanyInfo::getValue('email', 'datphatnutrition@gmail.com') }}</a>
                     </li>
                 </ul>
             </div>
