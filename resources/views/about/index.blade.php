@@ -33,7 +33,7 @@
                 {{-- Tag --}}
                 <div class="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/20 text-white/90 text-xs font-semibold px-4 py-2 rounded-full mb-6 uppercase tracking-widest">
                     <span class="w-2 h-2 bg-primary rounded-full animate-pulse"></span>
-                    DAT PHAT Vietnam
+                    DAT PHAT NUTRITION
                 </div>
                 <h1 class="text-4xl md:text-6xl font-extrabold text-white mb-5 leading-tight">
                     Về <span class="text-primary-light">chúng tôi</span>

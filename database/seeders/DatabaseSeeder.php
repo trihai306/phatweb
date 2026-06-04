@@ -27,7 +27,7 @@ class DatabaseSeeder extends Seeder
         ]);
 
         $companyInfos = [
-            ['key' => 'company_name', 'value' => 'DAT PHAT Việt Nam', 'group' => 'general'],
+            ['key' => 'company_name', 'value' => 'DAT PHAT NUTRITION', 'group' => 'general'],
             ['key' => 'ceo', 'value' => 'PARK HAN SOON', 'group' => 'general'],
             ['key' => 'founded', 'value' => '26.12.2014', 'group' => 'general'],
             ['key' => 'revenue', 'value' => '2,000 tỷ đồng (Năm 2020)', 'group' => 'general'],
@@ -40,7 +40,7 @@ class DatabaseSeeder extends Seeder
         }
 
         $settings = [
-            ['key' => 'site_name', 'value' => 'DAT PHAT Việt Nam', 'group' => 'general'],
+            ['key' => 'site_name', 'value' => 'DAT PHAT NUTRITION', 'group' => 'general'],
             ['key' => 'site_description', 'value' => 'Dịch vụ suất ăn công nghiệp hàng đầu Việt Nam', 'group' => 'seo'],
             ['key' => 'site_keywords', 'value' => 'suất ăn công nghiệp, dịch vụ ăn uống, DAT PHAT', 'group' => 'seo'],
         ];
@@ -154,10 +154,10 @@ class DatabaseSeeder extends Seeder
         Statistic::create(['label' => 'Chứng nhận ATTP', 'value' => '100%', 'unit' => 'đạt chuẩn', 'icon' => null, 'sort_order' => 2]);
         Statistic::create(['label' => 'Hài lòng khách hàng', 'value' => '98%', 'unit' => 'đánh giá tích cực', 'icon' => null, 'sort_order' => 3]);
 
-        Page::create(['title' => 'Về chúng tôi', 'slug' => 've-chung-toi', 'section' => 'aboutus', 'excerpt' => 'DAT PHAT Việt Nam hướng tới khách hàng lối sống khỏe mạnh thông qua dịch vụ ăn uống an toàn và chất lượng.', 'content' => '<p>DAT PHAT Việt Nam hướng tới khách hàng lối sống khỏe mạnh thông qua dịch vụ ăn uống an toàn và chất lượng.</p>', 'sort_order' => 0, 'meta_title' => 'Về chúng tôi - DAT PHAT Việt Nam']);
+        Page::create(['title' => 'Về chúng tôi', 'slug' => 've-chung-toi', 'section' => 'aboutus', 'excerpt' => 'DAT PHAT NUTRITION hướng tới khách hàng lối sống khỏe mạnh thông qua dịch vụ ăn uống an toàn và chất lượng.', 'content' => '<p>DAT PHAT NUTRITION hướng tới khách hàng lối sống khỏe mạnh thông qua dịch vụ ăn uống an toàn và chất lượng.</p>', 'sort_order' => 0, 'meta_title' => 'Về chúng tôi - DAT PHAT NUTRITION']);
         Page::create(['title' => 'Kinh doanh bền vững', 'slug' => 'kinh-doanh-ben-vung', 'section' => 'aboutus', 'content' => '<p>DAT PHAT cam kết phát triển kinh doanh bền vững, bảo vệ môi trường.</p>', 'sort_order' => 1]);
         Page::create(['title' => 'Tầm nhìn', 'slug' => 'tam-nhin', 'section' => 'aboutus', 'content' => '<p>Trở thành đơn vị cung cấp dịch vụ suất ăn uy tín, được khách hàng tin tưởng lựa chọn.</p>', 'sort_order' => 2]);
-        Page::create(['title' => 'Lịch sử', 'slug' => 'lich-su', 'section' => 'aboutus', 'content' => '<p>Lịch sử phát triển của DAT PHAT Việt Nam.</p>', 'sort_order' => 3]);
+        Page::create(['title' => 'Lịch sử', 'slug' => 'lich-su', 'section' => 'aboutus', 'content' => '<p>Lịch sử phát triển của DAT PHAT NUTRITION.</p>', 'sort_order' => 3]);
         Page::create(['title' => 'Chứng nhận', 'slug' => 'chung-nhan', 'section' => 'aboutus', 'content' => '<p>Các chứng nhận chất lượng và an toàn thực phẩm.</p>', 'sort_order' => 4]);
 
         HistoryMilestone::create(['year' => '2022', 'title' => 'Thành lập công ty', 'description' => 'DAT PHAT chính thức được thành lập, bắt đầu cung cấp dịch vụ suất ăn tại Bắc Ninh', 'sort_order' => 0]);

@@ -14,7 +14,7 @@ class ServiceController extends Controller
     public function index()
     {
         $brandName = CompanyInfo::getValue('brand_name', 'DAT PHAT');
-        SEOMeta::setTitle("Dịch vụ - {$brandName} Việt Nam");
+        SEOMeta::setTitle("Dịch vụ - {$brandName} NUTRITION");
         SEOMeta::setDescription(Setting::get('seo_description', 'DAT PHAT cung cấp dịch vụ suất ăn công nghiệp chất lượng cao, an toàn vệ sinh thực phẩm với thực đơn phù hợp đặc trưng từng vùng miền.'));
         OpenGraph::setTitle("Dịch vụ - {$brandName}");
 
@@ -40,7 +40,7 @@ class ServiceController extends Controller
     public function menu()
     {
         $brandName = CompanyInfo::getValue('brand_name', 'DAT PHAT');
-        SEOMeta::setTitle("Thực đơn - {$brandName} Việt Nam");
+        SEOMeta::setTitle("Thực đơn - {$brandName} NUTRITION");
         SEOMeta::setDescription(Setting::get('seo_description', 'DAT PHAT cung cấp dịch vụ suất ăn công nghiệp chất lượng cao, an toàn vệ sinh thực phẩm với thực đơn phù hợp đặc trưng từng vùng miền.'));
 
         return view('services.menu', [

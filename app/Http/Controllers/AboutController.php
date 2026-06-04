@@ -16,7 +16,7 @@ class AboutController extends Controller
     public function index()
     {
         $brandName = CompanyInfo::getValue('brand_name', 'DAT PHAT');
-        SEOMeta::setTitle("Về chúng tôi - {$brandName} Việt Nam");
+        SEOMeta::setTitle("Về chúng tôi - {$brandName} NUTRITION");
         SEOMeta::setDescription(Setting::get('seo_description', 'DAT PHAT cung cấp dịch vụ suất ăn công nghiệp chất lượng cao, an toàn vệ sinh thực phẩm với thực đơn phù hợp đặc trưng từng vùng miền.'));
         OpenGraph::setTitle("Về chúng tôi - {$brandName}");
 

@@ -14,7 +14,7 @@ class ContactController extends Controller
     public function index()
     {
         $brandName = CompanyInfo::getValue('brand_name', 'DAT PHAT');
-        SEOMeta::setTitle("Liên lạc với chúng tôi - {$brandName} Việt Nam");
+        SEOMeta::setTitle("Liên lạc với chúng tôi - {$brandName} NUTRITION");
         SEOMeta::setDescription(Setting::get('seo_description', 'DAT PHAT cung cấp dịch vụ suất ăn công nghiệp chất lượng cao, an toàn vệ sinh thực phẩm với thực đơn phù hợp đặc trưng từng vùng miền.'));
         OpenGraph::setTitle("Liên lạc - {$brandName}");
 
@@ -26,7 +26,7 @@ class ContactController extends Controller
     public function inquiry()
     {
         $brandName = CompanyInfo::getValue('brand_name', 'DAT PHAT');
-        SEOMeta::setTitle("Hỏi trực tuyến - {$brandName} Việt Nam");
+        SEOMeta::setTitle("Hỏi trực tuyến - {$brandName} NUTRITION");
         SEOMeta::setDescription(Setting::get('seo_description', 'DAT PHAT cung cấp dịch vụ suất ăn công nghiệp chất lượng cao, an toàn vệ sinh thực phẩm với thực đơn phù hợp đặc trưng từng vùng miền.'));
 
         return view('contact.inquiry');

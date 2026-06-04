@@ -26,7 +26,7 @@
 
         <div class="relative container-main py-16 md:py-24">
             <div class="max-w-2xl">
-                <p class="text-primary-light text-xs font-bold uppercase tracking-widest mb-3">DAT PHAT Vietnam</p>
+                <p class="text-primary-light text-xs font-bold uppercase tracking-widest mb-3">DAT PHAT NUTRITION</p>
                 <h1 class="text-4xl md:text-5xl font-extrabold text-white mb-4 leading-tight">
                     Dịch vụ <span class="text-primary-light">của chúng tôi</span>
                 </h1>
