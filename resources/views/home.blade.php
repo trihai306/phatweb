@@ -75,7 +75,7 @@
                                 </p>
                             @endif
 
-                            @if($index === 0)
+                            @if($slider->subtitle)
                             <div class="flex flex-wrap gap-4" style="opacity: 0; animation: slideUpFade 0.8s ease forwards 0.8s;">
                                 <a href="{{ route('services.index') }}"
                                    class="btn-outline"
