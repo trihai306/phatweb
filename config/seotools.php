@@ -28,7 +28,7 @@ return [
             'description' => 'Cung cấp dịch vụ suất ăn công nghiệp chất lượng cao trên toàn quốc Việt Nam.',
             'url'         => null,
             'type'        => 'website',
-            'site_name'   => 'DAT PHAT Việt Nam',
+            'site_name'   => 'DAT PHAT NUTRITION',
             'images'      => [],
         ],
     ],

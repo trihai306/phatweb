@@ -90,7 +90,7 @@
         </div>
 
         <div class="border-t border-gray-800/50 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
-            <p class="text-gray-600 text-sm">&copy; {{ date('Y') }} {{ App\Models\CompanyInfo::getValue('brand_name', 'DAT PHAT') }} Việt Nam. All rights reserved.</p>
+            <p class="text-gray-600 text-sm">&copy; {{ date('Y') }} {{ App\Models\CompanyInfo::getValue('brand_name', 'DAT PHAT') }} NUTRITION. All rights reserved.</p>
             <div class="flex gap-6 text-sm text-gray-600">
                 <a href="#" class="hover:text-primary transition-colors">Chính sách bảo mật</a>
                 <a href="#" class="hover:text-primary transition-colors">Điều khoản sử dụng</a>
