@@ -52,9 +52,15 @@
 
                 {{-- Sidebar --}}
                 <div class="lg:w-64 xl:w-72 flex-shrink-0">
+                    @php
+                        $sidebarItems = $sidebarPages->map(function ($p) {
+                            $p->url = route('about.show', $p->slug);
+                            return $p;
+                        });
+                    @endphp
                     <x-sidebar
                         title="Về chúng tôi"
-                        :items="$sidebarPages"
+                        :items="$sidebarItems"
                         currentSlug=""
                     />
                 </div>

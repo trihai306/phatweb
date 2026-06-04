@@ -47,9 +47,15 @@
 
                 {{-- Sidebar --}}
                 <div class="lg:w-64 xl:w-72 flex-shrink-0">
+                    @php
+                        $sidebarStrengths = $strengths->map(function ($s) {
+                            $s->url = route('whyus.show', $s->slug);
+                            return $s;
+                        });
+                    @endphp
                     <x-sidebar
                         title="Thế mạnh"
-                        :items="$strengths"
+                        :items="$sidebarStrengths"
                         currentSlug=""
                     />
                 </div>

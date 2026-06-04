@@ -44,9 +44,15 @@
 
                 {{-- ── Left Sidebar ── --}}
                 <div class="lg:w-72 xl:w-80 flex-shrink-0">
+                    @php
+                        $sidebarServices = $services->map(function ($s) {
+                            $s->url = route('services.show', $s->slug);
+                            return $s;
+                        });
+                    @endphp
                     <x-sidebar
                         title="Dịch vụ"
-                        :items="$services"
+                        :items="$sidebarServices"
                         currentSlug=""
                     />
 
