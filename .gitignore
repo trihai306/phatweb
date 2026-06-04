@@ -27,3 +27,5 @@ Thumbs.db
 /.mcp.json
 /scraper/node_modules
 /database/database.sqlite
+*.png
+Feedback.pdf
