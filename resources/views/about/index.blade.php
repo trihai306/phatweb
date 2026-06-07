@@ -90,7 +90,7 @@
                             </div>
 
                             <h2 class="text-2xl md:text-3xl font-bold text-dark mb-3">
-                                Công ty TNHH Dịch vụ Thực phẩm <span class="text-primary">DAT PHAT</span>
+                                Công ty TNHH Thực phẩm <span class="text-primary">DAT PHAT</span>
                             </h2>
                             <div class="flex items-center gap-3 mb-6">
                                 <div class="w-12 h-1 bg-primary rounded-full"></div>
