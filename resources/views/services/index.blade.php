@@ -158,6 +158,50 @@
                         @endforelse
                     </div>
 
+                    {{-- ── Photo Showcase ── --}}
+                    <div class="mt-12 mb-8"
+                         x-data="{ visible: false }"
+                         x-intersect.once="visible = true"
+                         x-show="visible"
+                         x-transition:enter="transition ease-out duration-500"
+                         x-transition:enter-start="opacity-0 translate-y-4"
+                         x-transition:enter-end="opacity-100 translate-y-0">
+                        <div class="mb-6">
+                            <p class="text-xs font-bold text-primary uppercase tracking-widest mb-1">Hình ảnh thực tế</p>
+                            <h2 class="text-2xl font-bold text-dark">Quy trình & Sản phẩm</h2>
+                            <div class="flex items-center gap-2 mt-2">
+                                <div class="w-10 h-1 bg-primary rounded-full"></div>
+                                <div class="w-3 h-1 bg-primary/30 rounded-full"></div>
+                            </div>
+                        </div>
+                        <div class="grid grid-cols-2 md:grid-cols-4 gap-3">
+                            @php
+                                $serviceImages = [
+                                    ['src' => 'images/anhweb/day-chuyen-dong-suat-an.jpg', 'alt' => 'Dây chuyền đóng suất ăn'],
+                                    ['src' => 'images/anhweb/suat-an-hang-loat.jpg', 'alt' => 'Suất ăn hàng loạt'],
+                                    ['src' => 'images/anhweb/suat-an-cong-nghiep.jpg', 'alt' => 'Suất ăn công nghiệp'],
+                                    ['src' => 'images/anhweb/hoc-sinh-an-trua.jpg', 'alt' => 'Học sinh ăn trưa'],
+                                    ['src' => 'images/anhweb/suat-an-truong-hoc.jpg', 'alt' => 'Suất ăn trường học'],
+                                    ['src' => 'images/anhweb/cong-nhan-an-trua.jpg', 'alt' => 'Công nhân ăn trưa'],
+                                    ['src' => 'images/anhweb/suat-an-dong-hop.jpg', 'alt' => 'Suất ăn đóng hộp'],
+                                    ['src' => 'images/anhweb/bua-an-dinh-duong.jpg', 'alt' => 'Bữa ăn dinh dưỡng'],
+                                    ['src' => 'images/anhweb/nha-may-che-bien.jpg', 'alt' => 'Nhà máy chế biến'],
+                                    ['src' => 'images/anhweb/day-chuyen-san-xuat.jpg', 'alt' => 'Dây chuyền sản xuất'],
+                                    ['src' => 'images/anhweb/tre-em-an-trua.jpg', 'alt' => 'Trẻ em vui vẻ bữa trưa'],
+                                    ['src' => 'images/anhweb/tre-em-hoc-nau.jpg', 'alt' => 'Trẻ em học nấu ăn'],
+                                ];
+                            @endphp
+                            @foreach($serviceImages as $img)
+                                <div class="group relative overflow-hidden rounded-xl bg-gray-100" style="height: 160px;">
+                                    <img src="{{ asset($img['src']) }}" alt="{{ $img['alt'] }}" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" loading="lazy">
+                                    <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                        <p class="absolute bottom-2 left-3 right-3 text-white text-xs font-semibold">{{ $img['alt'] }}</p>
+                                    </div>
+                                </div>
+                            @endforeach
+                        </div>
+                    </div>
+
                     {{-- ── CTA Banner ── --}}
                     <div class="mt-12 rounded-2xl overflow-hidden"
                          x-data="{ visible: false }"

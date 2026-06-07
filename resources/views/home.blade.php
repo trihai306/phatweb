@@ -286,6 +286,57 @@
 
 
 {{-- ═══════════════════════════════════════════════════════════
+    GALLERY — Showcase food & operations
+═══════════════════════════════════════════════════════════ --}}
+<section class="py-20" style="background: #f9f9f7;">
+    <div class="container-main">
+        <div class="text-center mb-12">
+            <div class="flex items-center justify-center gap-3 mb-4">
+                <div style="width:32px; height:3px; background:#19592F; border-radius:2px;"></div>
+                <span class="text-sm font-semibold tracking-widest uppercase" style="color:#19592F;">Hình ảnh</span>
+                <div style="width:32px; height:3px; background:#19592F; border-radius:2px;"></div>
+            </div>
+            <h2 class="section-title" style="font-size: clamp(1.75rem, 3vw, 2.75rem);">
+                Hoạt động <span style="color:#19592F;">DAT PHAT</span>
+            </h2>
+            <p class="section-subtitle mx-auto mt-4" style="max-width: 560px; color:#666;">
+                Từ khâu chọn nguyên liệu đến chế biến và phục vụ — mỗi bước đều được kiểm soát chặt chẽ.
+            </p>
+        </div>
+
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+            @php
+                $galleryImages = [
+                    ['src' => 'images/anhweb/kiem-tra-nguyen-lieu.jpg', 'alt' => 'Kiểm tra nguyên liệu đầu vào'],
+                    ['src' => 'images/anhweb/rau-cu-tuoi.jpg', 'alt' => 'Rau củ tươi sạch mỗi ngày'],
+                    ['src' => 'images/anhweb/day-chuyen-dong-suat-an.jpg', 'alt' => 'Dây chuyền đóng suất ăn'],
+                    ['src' => 'images/anhweb/suat-an-cong-nghiep.jpg', 'alt' => 'Suất ăn công nghiệp'],
+                    ['src' => 'images/anhweb/can-do-thuc-pham.jpg', 'alt' => 'Cân đo thực phẩm chuẩn xác'],
+                    ['src' => 'images/anhweb/giam-sat-che-bien.jpg', 'alt' => 'Giám sát chế biến'],
+                    ['src' => 'images/anhweb/tre-em-an-trua.jpg', 'alt' => 'Trẻ em vui vẻ bữa trưa'],
+                    ['src' => 'images/anhweb/meal-prep-7-ngay.jpg', 'alt' => 'Thực đơn dinh dưỡng 7 ngày'],
+                ];
+            @endphp
+            @foreach($galleryImages as $idx => $img)
+                <div class="group relative overflow-hidden rounded-xl {{ $idx === 0 || $idx === 5 ? 'row-span-2' : '' }}"
+                     style="min-height: {{ $idx === 0 || $idx === 5 ? '320px' : '200px' }};">
+                    <img src="{{ asset($img['src']) }}"
+                         alt="{{ $img['alt'] }}"
+                         class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                         loading="lazy">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        <div class="absolute bottom-0 left-0 right-0 p-4">
+                            <p class="text-white text-sm font-semibold">{{ $img['alt'] }}</p>
+                        </div>
+                    </div>
+                </div>
+            @endforeach
+        </div>
+    </div>
+</section>
+
+
+{{-- ═══════════════════════════════════════════════════════════
     WHY US / STRENGTHS — Cream background, lift cards
 ═══════════════════════════════════════════════════════════ --}}
 <section class="py-24" style="background: #F5F0E1;">
@@ -383,7 +434,10 @@
                 </div>
             </div>
 
-            {{-- Right: Value cards --}}
+            {{-- Right: Image + Value cards --}}
+            <div class="mb-6 rounded-2xl overflow-hidden shadow-lg" style="height: 240px;">
+                <img src="{{ asset('images/anhweb/khu-tiep-nhan-thuc-pham.jpg') }}" alt="Khu tiếp nhận thực phẩm DAT PHAT" class="w-full h-full object-cover" loading="lazy">
+            </div>
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
                 @php
                     $coreValues = [

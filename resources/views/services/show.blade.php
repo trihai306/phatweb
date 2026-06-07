@@ -125,6 +125,36 @@
                         @endforeach
                     </div>
 
+                    {{-- Photo Gallery --}}
+                    <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 md:p-8 mb-8"
+                         x-data x-intersect="$el.classList.add('animate-fade-up')">
+                        <h3 class="text-lg font-bold text-dark mb-2">Hình ảnh thực tế</h3>
+                        <div class="w-8 h-0.5 bg-primary mb-5"></div>
+                        <div class="grid grid-cols-2 md:grid-cols-3 gap-3">
+                            @php
+                                $showImages = [
+                                    ['src' => 'images/anhweb/meal-prep-salad.jpg', 'alt' => 'Suất ăn salad dinh dưỡng'],
+                                    ['src' => 'images/anhweb/meal-prep-da-dang.jpg', 'alt' => 'Thực đơn đa dạng'],
+                                    ['src' => 'images/anhweb/dia-com-dinh-duong-1.jpg', 'alt' => 'Đĩa cơm dinh dưỡng'],
+                                    ['src' => 'images/anhweb/dia-com-dinh-duong-2.jpg', 'alt' => 'Bữa ăn lành mạnh'],
+                                    ['src' => 'images/anhweb/dia-com-dinh-duong-3.jpg', 'alt' => 'Suất ăn cân bằng'],
+                                    ['src' => 'images/anhweb/hop-suat-an-cao-cap.jpg', 'alt' => 'Hộp suất ăn cao cấp'],
+                                    ['src' => 'images/anhweb/ca-hoi-tuoi.jpg', 'alt' => 'Cá hồi tươi nguyên liệu'],
+                                    ['src' => 'images/anhweb/thit-heo-tuoi.jpg', 'alt' => 'Thịt heo tươi chất lượng'],
+                                    ['src' => 'images/anhweb/tre-em-hoc-nau-2.jpg', 'alt' => 'Hoạt động nấu ăn cho trẻ'],
+                                ];
+                            @endphp
+                            @foreach($showImages as $img)
+                                <div class="group relative overflow-hidden rounded-xl bg-gray-100" style="height: 140px;">
+                                    <img src="{{ asset($img['src']) }}" alt="{{ $img['alt'] }}" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" loading="lazy">
+                                    <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                        <p class="absolute bottom-2 left-3 right-3 text-white text-xs font-semibold">{{ $img['alt'] }}</p>
+                                    </div>
+                                </div>
+                            @endforeach
+                        </div>
+                    </div>
+
                     {{-- CTA Banner --}}
                     <div class="rounded-2xl overflow-hidden mb-10"
                          x-data x-intersect="$el.classList.add('animate-fade-up')">

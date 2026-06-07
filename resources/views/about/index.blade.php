@@ -189,6 +189,37 @@
                         </div>
                     @endif
 
+                    {{-- ── Photo Gallery ── --}}
+                    <div class="bg-white rounded-2xl shadow-sm overflow-hidden">
+                        <div class="p-8">
+                            <h3 class="text-lg font-bold text-dark mb-2">Hoạt động thực tế</h3>
+                            <div class="w-8 h-0.5 bg-primary mb-6"></div>
+                            <div class="grid grid-cols-2 md:grid-cols-3 gap-3">
+                                @php
+                                    $aboutImages = [
+                                        ['src' => 'images/anhweb/kiem-tra-nguyen-lieu.jpg', 'alt' => 'Kiểm tra nguyên liệu đầu vào'],
+                                        ['src' => 'images/anhweb/can-do-thuc-pham.jpg', 'alt' => 'Cân đo thực phẩm chuẩn xác'],
+                                        ['src' => 'images/anhweb/giam-sat-che-bien.jpg', 'alt' => 'Giám sát quy trình chế biến'],
+                                        ['src' => 'images/anhweb/khu-tiep-nhan-thuc-pham.jpg', 'alt' => 'Khu tiếp nhận thực phẩm'],
+                                        ['src' => 'images/anhweb/nguyen-lieu-ca-thit.jpg', 'alt' => 'Nguyên liệu cá thịt tươi sống'],
+                                        ['src' => 'images/anhweb/rau-cu-tuoi.jpg', 'alt' => 'Rau củ tươi sạch mỗi ngày'],
+                                        ['src' => 'images/anhweb/nong-trai-rau.jpg', 'alt' => 'Nông trại rau sạch'],
+                                        ['src' => 'images/anhweb/nong-trai-rau-2.jpg', 'alt' => 'Vùng trồng rau nguyên liệu'],
+                                        ['src' => 'images/anhweb/che-bien-thuc-pham.jpg', 'alt' => 'Dây chuyền chế biến thực phẩm'],
+                                    ];
+                                @endphp
+                                @foreach($aboutImages as $img)
+                                    <div class="group relative overflow-hidden rounded-xl" style="height: 160px;">
+                                        <img src="{{ asset($img['src']) }}" alt="{{ $img['alt'] }}" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" loading="lazy">
+                                        <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                            <p class="absolute bottom-2 left-3 right-3 text-white text-xs font-semibold">{{ $img['alt'] }}</p>
+                                        </div>
+                                    </div>
+                                @endforeach
+                            </div>
+                        </div>
+                    </div>
+
                     {{-- ── Mission & Vision ── --}}
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                         {{-- Mission --}}
