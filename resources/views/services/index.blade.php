@@ -160,12 +160,8 @@
 
                     {{-- ── Photo Showcase ── --}}
                     <div class="mt-12 mb-8"
-                         x-data="{ visible: false }"
-                         x-intersect.once="visible = true"
-                         x-show="visible"
-                         x-transition:enter="transition ease-out duration-500"
-                         x-transition:enter-start="opacity-0 translate-y-4"
-                         x-transition:enter-end="opacity-100 translate-y-0">
+                         x-data
+                         x-intersect="$el.classList.add('animate-fade-up')"
                         <div class="mb-6">
                             <p class="text-xs font-bold text-primary uppercase tracking-widest mb-1">Hình ảnh thực tế</p>
                             <h2 class="text-2xl font-bold text-dark">Quy trình & Sản phẩm</h2>
