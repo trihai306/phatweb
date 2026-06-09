@@ -7,6 +7,7 @@ use App\Http\Controllers\ServiceController;
 use App\Http\Controllers\WhyUsController;
 use App\Http\Controllers\CareerController;
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\PartnerController;
 use App\Http\Controllers\SitemapController;
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
@@ -32,6 +33,8 @@ Route::prefix('tuyen-dung')->name('careers.')->group(function () {
     Route::get('/', [CareerController::class, 'index'])->name('index');
     Route::get('/{slug}', [CareerController::class, 'show'])->name('show');
 });
+
+Route::get('/doi-tac', [PartnerController::class, 'index'])->name('partners.index');
 
 Route::prefix('lien-lac')->name('contact.')->group(function () {
     Route::get('/', [ContactController::class, 'index'])->name('index');

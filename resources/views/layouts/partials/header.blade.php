@@ -15,6 +15,7 @@
                         ['route' => 'services.index', 'label' => 'Dịch vụ', 'match' => 'dich-vu*'],
                         ['route' => 'whyus.index', 'label' => 'Tại sao là chúng tôi', 'match' => 'tai-sao-chung-toi*'],
                         ['route' => 'careers.index', 'label' => 'Tuyển dụng', 'match' => 'tuyen-dung*'],
+                        ['route' => 'partners.index', 'label' => 'Đối tác', 'match' => 'doi-tac*'],
                     ];
                 @endphp
                 @foreach($navItems as $item)
