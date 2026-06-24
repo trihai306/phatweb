@@ -146,15 +146,32 @@
                                 </div>
 
                                 @if($partner['cert_pages'])
-                                    <div class="flex items-center gap-3 p-3 bg-primary/5 rounded-xl border border-primary/10">
+                                    @php preg_match_all('/\d+/', $partner['cert_pages'], $certMatch); $certPages = $certMatch[0]; @endphp
+                                    <div class="flex items-start gap-3 p-3 bg-primary/5 rounded-xl border border-primary/10">
                                         <div class="w-8 h-8 bg-primary/15 rounded-lg flex items-center justify-center flex-shrink-0">
                                             <svg class="w-4 h-4 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
                                             </svg>
                                         </div>
-                                        <p class="text-sm text-primary font-medium">
-                                            Giấy chứng nhận: {{ $partner['cert_pages'] }}
-                                        </p>
+                                        <div class="min-w-0">
+                                            <p class="text-sm text-primary font-semibold" style="margin-bottom:0.4rem;">Giấy chứng nhận an toàn thực phẩm</p>
+                                            <div class="flex flex-wrap gap-2">
+                                                @foreach($certPages as $pg)
+                                                    <a href="{{ asset('docs/giay-chung-nhan-doi-tac.pdf') }}#page={{ $pg }}"
+                                                       target="_blank" rel="noopener"
+                                                       title="Xem giấy chứng nhận — trang {{ $pg }}"
+                                                       style="display:inline-flex; align-items:center; gap:0.3rem; padding:0.28rem 0.65rem; background:#ffffff; border:1px solid rgba(25,89,47,0.35); color:#19592F; font-size:0.78rem; font-weight:600; border-radius:0.55rem; text-decoration:none; transition:all 0.2s ease;"
+                                                       onmouseover="this.style.background='#19592F'; this.style.color='#ffffff'; this.style.borderColor='#19592F';"
+                                                       onmouseout="this.style.background='#ffffff'; this.style.color='#19592F'; this.style.borderColor='rgba(25,89,47,0.35)';">
+                                                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" style="width:0.9rem; height:0.9rem;">
+                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z"/>
+                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 3v6h6"/>
+                                                        </svg>
+                                                        Trang {{ $pg }}
+                                                    </a>
+                                                @endforeach
+                                            </div>
+                                        </div>
                                     </div>
                                 @endif
                             </div>
