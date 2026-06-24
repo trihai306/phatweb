@@ -358,9 +358,14 @@
 
     @php
         $partnerLogos = [
-            ['img' => 'images/partners/mobase.svg', 'name' => 'Mobase'],
             ['img' => 'images/partners/samsung.svg', 'name' => 'Samsung'],
             ['img' => 'images/partners/orion.svg', 'name' => 'Orion'],
+            ['img' => 'images/partners/mobase.svg', 'name' => 'Mobase'],
+            ['img' => 'images/partners/mam-non-long-chau.jpg', 'name' => 'Trường Mầm Non Long Châu'],
+            ['img' => 'images/partners/mam-non-dong-phong.png', 'name' => 'Trường Mầm Non Đông Phong'],
+            ['img' => 'images/partners/mam-non-tam-giang.png', 'name' => 'Trường Mầm Non Tam Giang'],
+            ['img' => 'images/partners/tieu-hoc-thuy-hoa.png', 'name' => 'Trường Tiểu học Thụy Hoà'],
+            ['img' => 'images/partners/tieu-hoc-tam-giang.png', 'name' => 'Trường Tiểu học Tam Giang'],
             ['img' => 'images/partners/mam-non-thuy-hoa.png', 'fallback' => 'images/partners/mam-non-thuy-hoa.svg', 'name' => 'Trường Mầm Non Thụy Hoà'],
         ];
     @endphp
