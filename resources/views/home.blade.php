@@ -762,13 +762,10 @@
         width: auto;
         height: auto;
         object-fit: contain;
-        filter: grayscale(100%);
-        opacity: 0.55;
-        transition: filter 0.35s ease, opacity 0.35s ease, transform 0.35s ease;
+        opacity: 1;
+        transition: transform 0.35s ease;
     }
     .logo-cell:hover img {
-        filter: grayscale(0);
-        opacity: 1;
         transform: scale(1.06);
     }
     .logo-fallback {
