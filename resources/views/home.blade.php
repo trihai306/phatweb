@@ -337,6 +337,58 @@
 
 
 {{-- ═══════════════════════════════════════════════════════════
+    PARTNERS / CLIENTS — Auto-scrolling logo carousel (social proof)
+═══════════════════════════════════════════════════════════ --}}
+<section class="py-16 bg-white" style="border-top:1px solid #eee; border-bottom:1px solid #eee;">
+    <div class="container-main">
+        <div class="text-center mb-10">
+            <div class="flex items-center justify-center gap-3 mb-4">
+                <div style="width:32px; height:3px; background:#19592F; border-radius:2px;"></div>
+                <span class="text-sm font-semibold tracking-widest uppercase" style="color:#19592F;">Đồng hành</span>
+                <div style="width:32px; height:3px; background:#19592F; border-radius:2px;"></div>
+            </div>
+            <h2 class="section-title" style="font-size: clamp(1.75rem, 3vw, 2.75rem);">
+                Khách hàng <span style="color:#19592F;">hợp tác</span>
+            </h2>
+            <p class="section-subtitle mx-auto mt-4" style="max-width: 560px; color:#666;">
+                Niềm tin từ các doanh nghiệp và đơn vị đã và đang đồng hành cùng DAT PHAT mỗi ngày.
+            </p>
+        </div>
+    </div>
+
+    @php
+        $partnerLogos = [
+            ['img' => 'images/partners/mobase.svg', 'name' => 'Mobase'],
+            ['img' => 'images/partners/samsung.svg', 'name' => 'Samsung'],
+            ['img' => 'images/partners/orion.svg', 'name' => 'Orion'],
+            ['img' => 'images/partners/mam-non-thuy-hoa.png', 'fallback' => 'images/partners/mam-non-thuy-hoa.svg', 'name' => 'Trường Mầm Non Thụy Hoà'],
+        ];
+    @endphp
+
+    {{-- Infinite marquee: logos rendered in 4 identical copies → seamless -50% loop --}}
+    <div class="logo-marquee">
+        <div class="logo-track">
+            @for($copy = 0; $copy < 4; $copy++)
+                @foreach($partnerLogos as $p)
+                    @php
+                        $src = (isset($p['img']) && file_exists(public_path($p['img']))) ? $p['img']
+                             : ((isset($p['fallback']) && file_exists(public_path($p['fallback']))) ? $p['fallback'] : null);
+                    @endphp
+                    <div class="logo-cell" {{ $copy > 0 ? 'aria-hidden=true' : '' }}>
+                        @if($src)
+                            <img src="{{ asset($src) }}" alt="{{ $p['name'] }}" loading="lazy">
+                        @else
+                            <span class="logo-fallback">{{ $p['name'] }}</span>
+                        @endif
+                    </div>
+                @endforeach
+            @endfor
+        </div>
+    </div>
+</section>
+
+
+{{-- ═══════════════════════════════════════════════════════════
     WHY US / STRENGTHS — Cream background, lift cards
 ═══════════════════════════════════════════════════════════ --}}
 <section class="py-24" style="background: #F5F0E1;">
@@ -679,6 +731,60 @@
 
     /* Hero slide display fix — x-show overrides the :style binding */
     [x-cloak] { display: none !important; }
+
+    /* ── Partner / client logo marquee ───────────────────────── */
+    .logo-marquee {
+        position: relative;
+        overflow: hidden;
+        padding: 0.5rem 0;
+        -webkit-mask-image: linear-gradient(90deg, transparent, #000 6%, #000 94%, transparent);
+                mask-image: linear-gradient(90deg, transparent, #000 6%, #000 94%, transparent);
+    }
+    .logo-track {
+        display: flex;
+        align-items: center;
+        width: max-content;
+        animation: logoScroll 32s linear infinite;
+    }
+    .logo-marquee:hover .logo-track { animation-play-state: paused; }
+    .logo-cell {
+        flex: 0 0 auto;
+        width: 200px;
+        height: 96px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 1.5rem;
+    }
+    .logo-cell img {
+        max-height: 72px;
+        max-width: 160px;
+        width: auto;
+        height: auto;
+        object-fit: contain;
+        filter: grayscale(100%);
+        opacity: 0.55;
+        transition: filter 0.35s ease, opacity 0.35s ease, transform 0.35s ease;
+    }
+    .logo-cell:hover img {
+        filter: grayscale(0);
+        opacity: 1;
+        transform: scale(1.06);
+    }
+    .logo-fallback {
+        font-weight: 800;
+        font-size: 1rem;
+        color: #19592F;
+        text-align: center;
+        opacity: 0.6;
+    }
+    @keyframes logoScroll {
+        from { transform: translateX(0); }
+        to   { transform: translateX(-50%); }
+    }
+    @media (prefers-reduced-motion: reduce) {
+        .logo-track { animation: none; flex-wrap: wrap; justify-content: center; }
+    }
 </style>
 @endpush
 
