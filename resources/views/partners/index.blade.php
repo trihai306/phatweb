@@ -145,8 +145,7 @@
                                     </p>
                                 </div>
 
-                                @if($partner['cert_pages'])
-                                    @php preg_match_all('/\d+/', $partner['cert_pages'], $certMatch); $certPages = $certMatch[0]; @endphp
+                                @if(!empty($partner['cert_docs']))
                                     <div class="flex items-start gap-3 p-3 bg-primary/5 rounded-xl border border-primary/10">
                                         <div class="w-8 h-8 bg-primary/15 rounded-lg flex items-center justify-center flex-shrink-0">
                                             <svg class="w-4 h-4 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -154,20 +153,20 @@
                                             </svg>
                                         </div>
                                         <div class="min-w-0">
-                                            <p class="text-sm text-primary font-semibold" style="margin-bottom:0.4rem;">Giấy chứng nhận an toàn thực phẩm</p>
+                                            <p class="text-sm text-primary font-semibold" style="margin-bottom:0.45rem;">Hồ sơ pháp lý &amp; chứng nhận</p>
                                             <div class="flex flex-wrap gap-2">
-                                                @foreach($certPages as $pg)
-                                                    <a href="{{ asset('docs/giay-chung-nhan-doi-tac.pdf') }}#page={{ $pg }}"
+                                                @foreach($partner['cert_docs'] as $doc)
+                                                    <a href="{{ asset($doc['file']) }}"
                                                        target="_blank" rel="noopener"
-                                                       title="Xem giấy chứng nhận — trang {{ $pg }}"
-                                                       style="display:inline-flex; align-items:center; gap:0.3rem; padding:0.28rem 0.65rem; background:#ffffff; border:1px solid rgba(25,89,47,0.35); color:#19592F; font-size:0.78rem; font-weight:600; border-radius:0.55rem; text-decoration:none; transition:all 0.2s ease;"
+                                                       title="Xem {{ $doc['label'] }}"
+                                                       style="display:inline-flex; align-items:center; gap:0.35rem; padding:0.3rem 0.7rem; background:#ffffff; border:1px solid rgba(25,89,47,0.35); color:#19592F; font-size:0.8rem; font-weight:600; border-radius:0.55rem; text-decoration:none; transition:all 0.2s ease;"
                                                        onmouseover="this.style.background='#19592F'; this.style.color='#ffffff'; this.style.borderColor='#19592F';"
                                                        onmouseout="this.style.background='#ffffff'; this.style.color='#19592F'; this.style.borderColor='rgba(25,89,47,0.35)';">
-                                                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" style="width:0.9rem; height:0.9rem;">
+                                                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" style="width:0.95rem; height:0.95rem; flex-shrink:0;">
                                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z"/>
                                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 3v6h6"/>
                                                         </svg>
-                                                        Trang {{ $pg }}
+                                                        {{ $doc['label'] }}
                                                     </a>
                                                 @endforeach
                                             </div>
