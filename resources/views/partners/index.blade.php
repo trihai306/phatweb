@@ -42,7 +42,7 @@
         <div class="container-main py-8">
             <div class="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8">
                 <div class="text-center" x-data x-intersect.once="$el.classList.add('animate-fade-up')">
-                    <p class="text-3xl md:text-4xl font-extrabold text-primary">{{ count($partners) }}</p>
+                    <p class="text-3xl md:text-4xl font-extrabold text-primary">50+</p>
                     <p class="text-sm text-gray-500 mt-1">Đối tác liên kết</p>
                 </div>
                 <div class="text-center" x-data x-intersect.once="$el.classList.add('animate-fade-up')" style="animation-delay:100ms">

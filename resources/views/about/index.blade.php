@@ -113,9 +113,9 @@
                                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
                                                     </svg>
                                                 </div>
-                                                <div>
+                                                <div class="min-w-0">
                                                     <p class="text-xs text-gray-400 font-semibold uppercase tracking-wider mb-1">{{ $info['label'] }}</p>
-                                                    <p class="text-sm font-bold text-dark">{{ $info['value'] }}</p>
+                                                    <p class="text-sm font-bold text-dark break-words">{{ $info['value'] }}</p>
                                                 </div>
                                             </div>
                                         @endif
@@ -135,9 +135,9 @@
                                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="{{ $info['icon'] }}"/>
                                                 </svg>
                                             </div>
-                                            <div>
+                                            <div class="min-w-0">
                                                 <p class="text-xs text-gray-400 font-semibold uppercase tracking-wider mb-1">{{ $info['label'] }}</p>
-                                                <p class="text-sm font-bold text-dark">{{ $info['value'] }}</p>
+                                                <p class="text-sm font-bold text-dark break-words">{{ $info['value'] }}</p>
                                             </div>
                                         </div>
                                     @endforeach

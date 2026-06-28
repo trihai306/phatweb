@@ -305,7 +305,7 @@
 
                                 <p class="text-center text-xs text-gray-400 mt-2">
                                     Bằng cách gửi form, bạn đồng ý với
-                                    <a href="#" class="text-primary hover:underline">chính sách bảo mật</a> của chúng tôi.
+                                    <a href="{{ route('legal.privacy') }}" class="text-primary hover:underline">chính sách bảo mật</a> của chúng tôi.
                                 </p>
                             </form>
                         </div>

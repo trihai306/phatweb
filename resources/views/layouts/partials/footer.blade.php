@@ -90,10 +90,10 @@
         </div>
 
         <div class="border-t border-gray-800/50 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
-            <p class="text-gray-600 text-sm">&copy; {{ date('Y') }} {{ App\Models\CompanyInfo::getValue('brand_name', 'DAT PHAT') }} NUTRITION. All rights reserved.</p>
-            <div class="flex gap-6 text-sm text-gray-600">
-                <a href="#" class="hover:text-primary transition-colors">Chính sách bảo mật</a>
-                <a href="#" class="hover:text-primary transition-colors">Điều khoản sử dụng</a>
+            <p class="text-gray-400 text-sm">&copy; {{ date('Y') }} {{ App\Models\CompanyInfo::getValue('brand_name', 'DAT PHAT') }} NUTRITION. All rights reserved.</p>
+            <div class="flex gap-6 text-sm text-gray-400">
+                <a href="{{ route('legal.privacy') }}" class="hover:text-primary transition-colors">Chính sách bảo mật</a>
+                <a href="{{ route('legal.terms') }}" class="hover:text-primary transition-colors">Điều khoản sử dụng</a>
             </div>
         </div>
     </div>

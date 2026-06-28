@@ -41,3 +41,6 @@ Route::prefix('lien-lac')->name('contact.')->group(function () {
     Route::get('/hoi-truc-tuyen', [ContactController::class, 'inquiry'])->name('inquiry');
     Route::post('/gui', [ContactController::class, 'store'])->name('store');
 });
+
+Route::view('/chinh-sach-bao-mat', 'legal.privacy')->name('legal.privacy');
+Route::view('/dieu-khoan-su-dung', 'legal.terms')->name('legal.terms');

@@ -28,8 +28,8 @@
         </div>
         <div class="container-main relative">
             <h1 class="text-3xl md:text-4xl font-extrabold text-white mb-3">{{ $page->title ?? 'Về chúng tôi' }}</h1>
-            @if(isset($page->description) && $page->description)
-                <p class="text-white/80 text-base max-w-2xl">{{ $page->description }}</p>
+            @if(!empty($page->excerpt))
+                <p class="text-white/80 text-base max-w-2xl">{{ $page->excerpt }}</p>
             @endif
         </div>
     </section>
