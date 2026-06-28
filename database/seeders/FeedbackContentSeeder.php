@@ -5,6 +5,7 @@ namespace Database\Seeders;
 use App\Models\Page;
 use App\Models\Statistic;
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\DB;
 
 /**
  * Idempotent content updates from client feedback (26.6).
@@ -43,17 +44,24 @@ class FeedbackContentSeeder extends Seeder
             ]
         );
 
-        Page::updateOrCreate(
-            ['slug' => 'tam-nhin'],
-            [
-                'title' => 'Tầm nhìn & Sứ mệnh',
-                'section' => 'aboutus',
-                'excerpt' => 'Kiến tạo giá trị từ những điều thiết yếu nhất.',
-                'content' => self::visionContent(),
-                'sort_order' => 2,
-                'is_active' => true,
-            ]
-        );
+        // The Page model auto-generates slug from title (Spatie HasSlug). Because the
+        // title "Tầm nhìn & Sứ mệnh" would regenerate the slug to "tam-nhin-su-menh" on
+        // update, we match by either slug and force the canonical slug back afterwards
+        // so routing (/ve-chung-toi/tam-nhin) stays stable and the seeder is idempotent.
+        $tamNhin = Page::where('section', 'aboutus')
+            ->whereIn('slug', ['tam-nhin', 'tam-nhin-su-menh'])
+            ->first() ?? new Page();
+        $tamNhin->fill([
+            'title' => 'Tầm nhìn & Sứ mệnh',
+            'section' => 'aboutus',
+            'excerpt' => 'Kiến tạo giá trị từ những điều thiết yếu nhất.',
+            'content' => self::visionContent(),
+            'sort_order' => 2,
+            'is_active' => true,
+        ]);
+        $tamNhin->slug = 'tam-nhin';
+        $tamNhin->save();
+        DB::table('pages')->where('id', $tamNhin->id)->update(['slug' => 'tam-nhin']);
 
         // Feedback mục 5: "Lịch sử công ty: BỎ"
         Page::where('slug', 'lich-su')->where('section', 'aboutus')->delete();
