@@ -38,6 +38,9 @@ class AboutController extends Controller
         $view = match ($slug) {
             'lich-su' => 'about.history',
             'chung-nhan' => 'about.certificates',
+            've-chung-toi' => 'about.aboutus',
+            'kinh-doanh-ben-vung' => 'about.sustainability',
+            'tam-nhin' => 'about.vision',
             default => 'about.show',
         };
 
