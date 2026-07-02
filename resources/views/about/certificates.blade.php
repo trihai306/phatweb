@@ -52,7 +52,7 @@
                 <article class="flex-1 min-w-0">
                     @forelse($certificates as $certificate)
                         @if($loop->first)
-                            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                            <div class="{{ $certificates->count() === 1 ? 'max-w-md mx-auto' : 'grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6' }}">
                         @endif
 
                         <div class="bg-white rounded-2xl shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group"
@@ -61,7 +61,7 @@
                             <div class="relative aspect-[3/4] bg-gray-50 overflow-hidden cursor-pointer"
                                  @click="lightbox = true">
                                 @if(isset($certificate->image) && $certificate->image)
-                                    <img src="{{ asset('storage/' . $certificate->image) }}"
+                                    <img src="{{ $certificate->image_url }}"
                                          alt="{{ $certificate->title }}"
                                          class="w-full h-full object-contain p-4 group-hover:scale-105 transition-transform duration-500"
                                          loading="lazy">
@@ -88,6 +88,9 @@
                                 @if(isset($certificate->issuer) && $certificate->issuer)
                                     <p class="text-xs text-gray-500">{{ $certificate->issuer }}</p>
                                 @endif
+                                @if(isset($certificate->description) && $certificate->description)
+                                    <p class="text-xs text-gray-500 mt-1">{{ $certificate->description }}</p>
+                                @endif
                                 @if(isset($certificate->year) && $certificate->year)
                                     <span class="inline-block mt-2 text-xs text-primary font-semibold bg-primary/10 px-2 py-0.5 rounded-full">{{ $certificate->year }}</span>
                                 @endif
@@ -103,7 +106,7 @@
                                      @click.self="lightbox = false"
                                      @keydown.escape.window="lightbox = false">
                                     <div class="relative max-w-2xl w-full">
-                                        <img src="{{ asset('storage/' . $certificate->image) }}"
+                                        <img src="{{ $certificate->image_url }}"
                                              alt="{{ $certificate->title }}"
                                              class="w-full h-auto rounded-xl shadow-2xl max-h-[90vh] object-contain">
                                         <button @click="lightbox = false"

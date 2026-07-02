@@ -294,9 +294,7 @@ HTML;
         HistoryMilestone::create(['year' => '2024', 'title' => 'Đạt chứng nhận ATTP', 'description' => 'Hoàn thiện quy trình và đạt chứng nhận an toàn thực phẩm', 'sort_order' => 2]);
         HistoryMilestone::create(['year' => '2025', 'title' => 'Mở rộng dịch vụ', 'description' => 'Phát triển thêm mảng suất ăn công nghiệp và sự kiện', 'sort_order' => 3]);
 
-        Certificate::create(['title' => 'ISO 22000:2018', 'description' => 'Hệ thống quản lý an toàn thực phẩm', 'year' => '2019', 'sort_order' => 0]);
-        Certificate::create(['title' => 'HACCP', 'description' => 'Phân tích mối nguy và điểm kiểm soát tới hạn', 'year' => '2018', 'sort_order' => 1]);
-        Certificate::create(['title' => 'ISO 9001:2015', 'description' => 'Hệ thống quản lý chất lượng', 'year' => '2020', 'sort_order' => 2]);
+        $this->call(CertificateContentSeeder::class);
 
         Career::create(['title' => 'Nhân viên bếp', 'department' => 'Sản xuất', 'location' => 'Bắc Ninh', 'description' => '<p>Tuyển nhân viên bếp cho các nhà ăn tại KCN Bắc Ninh.</p>', 'requirements' => '<p>Có kinh nghiệm nấu ăn ít nhất 1 năm.</p>', 'benefits' => '<p>Lương cạnh tranh, bảo hiểm đầy đủ.</p>', 'salary_range' => '8-12 triệu', 'deadline' => now()->addMonths(2)]);
         Career::create(['title' => 'Quản lý nhà ăn', 'department' => 'Quản lý', 'location' => 'Hà Nội', 'description' => '<p>Quản lý vận hành nhà ăn công nghiệp.</p>', 'requirements' => '<p>Kinh nghiệm quản lý F&B ít nhất 3 năm.</p>', 'benefits' => '<p>Lương thưởng hấp dẫn, cơ hội thăng tiến.</p>', 'salary_range' => '15-25 triệu', 'deadline' => now()->addMonths(3)]);

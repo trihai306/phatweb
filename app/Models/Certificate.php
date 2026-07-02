@@ -25,6 +25,24 @@ class Certificate extends Model
         ];
     }
 
+    // Accessors
+
+    /**
+     * Resolve the public URL for the certificate image. Images seeded from
+     * the client's PDF live in public/images/... (committed to git), while
+     * Filament uploads live on the public storage disk.
+     */
+    public function getImageUrlAttribute(): ?string
+    {
+        if (! $this->image) {
+            return null;
+        }
+
+        return str_starts_with($this->image, 'images/')
+            ? asset($this->image)
+            : asset('storage/' . $this->image);
+    }
+
     // Scopes
 
     public function scopeActive(Builder $query): Builder
