@@ -141,7 +141,7 @@
                                     ['src' => 'images/anhweb/hop-suat-an-cao-cap.jpg', 'alt' => 'Hộp suất ăn cao cấp'],
                                     ['src' => 'images/anhweb/ca-hoi-tuoi.jpg', 'alt' => 'Cá hồi tươi nguyên liệu'],
                                     ['src' => 'images/anhweb/thit-heo-tuoi.jpg', 'alt' => 'Thịt heo tươi chất lượng'],
-                                    ['src' => 'images/anhweb/tre-em-hoc-nau-2.jpg', 'alt' => 'Hoạt động nấu ăn cho trẻ'],
+                                    ['src' => 'images/anhweb/be-trai-nghiem-vat-cam.jpg', 'alt' => 'Hoạt động trải nghiệm nấu ăn cho trẻ'],
                                 ];
                             @endphp
                             @foreach($showImages as $img)

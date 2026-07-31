@@ -100,8 +100,8 @@
                             </div>
                             <div class="w-full md:w-72 flex-shrink-0">
                                 <img
-                                    src="{{ asset('images/anhweb/kiem-tra-nguyen-lieu.jpg') }}"
-                                    alt="Kiểm tra nguyên liệu tại Đạt Phát"
+                                    src="{{ asset('images/anhweb/giao-nhan-thuc-pham-dat-phat.jpg') }}"
+                                    alt="Nhân viên Đạt Phát giao nhận và kiểm đếm thực phẩm tại bếp ăn khách hàng"
                                     loading="lazy"
                                     class="w-full h-52 md:h-64 object-cover rounded-xl shadow-md"
                                 >

@@ -304,26 +304,30 @@
             </p>
         </div>
 
-        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+        {{-- Masonry: ảnh dọc chiếm 2 hàng, ảnh ngang 1 hàng → không cắt cúp méo hình --}}
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4"
+             style="grid-auto-rows: clamp(130px, 14vw, 180px); grid-auto-flow: row dense;">
             @php
+                // 'tall' = ảnh khổ dọc → cell cao gấp đôi để giữ đúng bố cục ảnh
                 $galleryImages = [
-                    ['src' => 'images/anhweb/kiem-tra-nguyen-lieu.jpg', 'alt' => 'Kiểm tra nguyên liệu đầu vào'],
+                    ['src' => 'images/anhweb/dong-goi-suat-an-phong-sach.jpg', 'alt' => 'Đóng gói suất ăn trong khu vực sạch', 'tall' => true],
+                    ['src' => 'images/anhweb/giao-nhan-thuc-pham-dat-phat.jpg', 'alt' => 'Giao nhận thực phẩm tại bếp trường'],
                     ['src' => 'images/anhweb/rau-cu-tuoi.jpg', 'alt' => 'Rau củ tươi sạch mỗi ngày'],
-                    ['src' => 'images/anhweb/day-chuyen-dong-suat-an.jpg', 'alt' => 'Dây chuyền đóng suất ăn'],
-                    ['src' => 'images/anhweb/suat-an-cong-nghiep.jpg', 'alt' => 'Suất ăn công nghiệp'],
-                    ['src' => 'images/anhweb/can-do-thuc-pham.jpg', 'alt' => 'Cân đo thực phẩm chuẩn xác'],
+                    ['src' => 'images/anhweb/kiem-tra-nguyen-lieu.jpg', 'alt' => 'Kiểm tra nguyên liệu đầu vào'],
+                    ['src' => 'images/anhweb/be-trai-nghiem-vat-cam.jpg', 'alt' => 'Bé trải nghiệm vắt cam tại trường'],
+                    ['src' => 'images/anhweb/chia-suat-an-bep-cong-nghiep.jpg', 'alt' => 'Chia suất ăn tại bếp công nghiệp', 'tall' => true],
+                    ['src' => 'images/anhweb/nguyen-lieu-dinh-duong.jpg', 'alt' => 'Nguyên liệu cân bằng dinh dưỡng'],
                     ['src' => 'images/anhweb/giam-sat-che-bien.jpg', 'alt' => 'Giám sát chế biến'],
-                    ['src' => 'images/anhweb/tre-em-an-trua.jpg', 'alt' => 'Trẻ em vui vẻ bữa trưa'],
+                    ['src' => 'images/anhweb/suat-an-cong-nghiep.jpg', 'alt' => 'Suất ăn công nghiệp'],
                     ['src' => 'images/anhweb/meal-prep-7-ngay.jpg', 'alt' => 'Thực đơn dinh dưỡng 7 ngày'],
                 ];
             @endphp
-            @foreach($galleryImages as $idx => $img)
-                <div class="group relative overflow-hidden rounded-xl {{ $idx === 0 || $idx === 5 ? 'row-span-2' : '' }}"
-                     style="min-height: {{ $idx === 0 || $idx === 5 ? '320px' : '200px' }};">
+            @foreach($galleryImages as $img)
+                <div class="group relative overflow-hidden rounded-xl bg-gray-100 {{ ($img['tall'] ?? false) ? 'row-span-2' : '' }}">
                     <img src="{{ asset($img['src']) }}"
                          alt="{{ $img['alt'] }}"
                          class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-                         loading="lazy">
+                         loading="lazy" decoding="async">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                         <div class="absolute bottom-0 left-0 right-0 p-4">
                             <p class="text-white text-sm font-semibold">{{ $img['alt'] }}</p>
@@ -493,7 +497,7 @@
 
             {{-- Right: Image + Value cards --}}
             <div class="mb-6 rounded-2xl overflow-hidden shadow-lg" style="height: 240px;">
-                <img src="{{ asset('images/anhweb/khu-tiep-nhan-thuc-pham.jpg') }}" alt="Khu tiếp nhận thực phẩm DAT PHAT" class="w-full h-full object-cover" loading="lazy">
+                <img src="{{ asset('images/anhweb/tiep-nhan-thuc-pham-truong-hoc.jpg') }}" alt="Nhân viên DAT PHAT tiếp nhận và cân kiểm thực phẩm đầu vào tại bếp trường" class="w-full h-full object-cover" loading="lazy" decoding="async">
             </div>
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
                 @php
