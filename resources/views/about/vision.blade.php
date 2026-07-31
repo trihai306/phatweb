@@ -101,8 +101,8 @@
                             {{-- Image panel --}}
                             <div class="md:w-2/5 flex-shrink-0">
                                 <img
-                                    src="{{ asset('images/anhweb/hoc-sinh-an-trua.jpg') }}"
-                                    alt="Học sinh thưởng thức bữa ăn dinh dưỡng"
+                                    src="{{ asset('images/anhweb/be-dau-bep-nhi.jpg') }}"
+                                    alt="Bé hào hứng trong hoạt động trải nghiệm nấu ăn tại trường"
                                     class="w-full h-56 md:h-full object-cover"
                                     loading="lazy"
                                 >
@@ -141,8 +141,8 @@
                             {{-- Top image strip --}}
                             <div class="h-44 overflow-hidden">
                                 <img
-                                    src="{{ asset('images/anhweb/dia-com-dinh-duong-1.jpg') }}"
-                                    alt="Đĩa cơm dinh dưỡng chuẩn chất lượng"
+                                    src="{{ asset('images/anhweb/nguyen-lieu-dinh-duong.jpg') }}"
+                                    alt="Nguyên liệu tươi sạch, cân bằng dinh dưỡng"
                                     class="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                                     loading="lazy"
                                 >
@@ -184,12 +184,12 @@
                             {{-- Top image strip --}}
                             <div class="h-44 overflow-hidden relative">
                                 <img
-                                    src="{{ asset('images/anhweb/nong-trai-rau.jpg') }}"
-                                    alt="Trang trại rau sạch – hướng tới hệ sinh thái thực phẩm bền vững"
-                                    class="w-full h-full object-cover opacity-70 hover:scale-105 transition-transform duration-500"
+                                    src="{{ asset('images/anhweb/dinh-duong-khoa-hoc.jpg') }}"
+                                    alt="Chuỗi dinh dưỡng từ rau củ quả – hướng tới hệ sinh thái thực phẩm bền vững"
+                                    class="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                                     loading="lazy"
                                 >
-                                <div class="absolute inset-0 bg-gradient-to-t from-secondary/60 to-transparent"></div>
+                                <div class="absolute inset-0 bg-gradient-to-t from-secondary via-secondary/25 to-transparent"></div>
                             </div>
 
                             <div class="p-7 flex flex-col flex-1">

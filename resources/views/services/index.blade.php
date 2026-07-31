@@ -176,15 +176,15 @@
                                     ['src' => 'images/anhweb/day-chuyen-dong-suat-an.jpg', 'alt' => 'Dây chuyền đóng suất ăn'],
                                     ['src' => 'images/anhweb/suat-an-hang-loat.jpg', 'alt' => 'Suất ăn hàng loạt'],
                                     ['src' => 'images/anhweb/suat-an-cong-nghiep.jpg', 'alt' => 'Suất ăn công nghiệp'],
-                                    ['src' => 'images/anhweb/hoc-sinh-an-trua.jpg', 'alt' => 'Học sinh ăn trưa'],
+                                    ['src' => 'images/anhweb/be-trai-nghiem-vat-cam.jpg', 'alt' => 'Bé trải nghiệm vắt cam tại trường'],
                                     ['src' => 'images/anhweb/suat-an-truong-hoc.jpg', 'alt' => 'Suất ăn trường học'],
                                     ['src' => 'images/anhweb/cong-nhan-an-trua.jpg', 'alt' => 'Công nhân ăn trưa'],
                                     ['src' => 'images/anhweb/suat-an-dong-hop.jpg', 'alt' => 'Suất ăn đóng hộp'],
                                     ['src' => 'images/anhweb/bua-an-dinh-duong.jpg', 'alt' => 'Bữa ăn dinh dưỡng'],
-                                    ['src' => 'images/anhweb/nha-may-che-bien.jpg', 'alt' => 'Nhà máy chế biến'],
+                                    ['src' => 'images/anhweb/tiep-nhan-thuc-pham-truong-hoc.jpg', 'alt' => 'Tiếp nhận & cân kiểm thực phẩm đầu vào'],
                                     ['src' => 'images/anhweb/day-chuyen-san-xuat.jpg', 'alt' => 'Dây chuyền sản xuất'],
                                     ['src' => 'images/anhweb/tre-em-an-trua.jpg', 'alt' => 'Trẻ em vui vẻ bữa trưa'],
-                                    ['src' => 'images/anhweb/tre-em-hoc-nau.jpg', 'alt' => 'Trẻ em học nấu ăn'],
+                                    ['src' => 'images/anhweb/giao-nhan-thuc-pham-dat-phat.jpg', 'alt' => 'Giao nhận thực phẩm tại bếp trường'],
                                 ];
                             @endphp
                             @foreach($serviceImages as $img)

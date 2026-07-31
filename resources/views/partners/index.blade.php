@@ -13,8 +13,8 @@
 
     {{-- ===== HERO BANNER ===== --}}
     <section class="relative overflow-hidden bg-dark">
-        <img src="{{ asset('images/anhweb/kiem-tra-nguyen-lieu.jpg') }}"
-             alt="Đối tác DAT PHAT"
+        <img src="{{ asset('images/anhweb/giao-nhan-thuc-pham-dat-phat.jpg') }}"
+             alt="DAT PHAT giao nhận thực phẩm cùng đối tác trường học"
              class="absolute inset-0 w-full h-full object-cover opacity-30"
              loading="eager">
         <div class="absolute inset-0 bg-gradient-to-br from-dark via-dark/85 to-primary-dark/60"></div>
