@@ -1,5 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 90" role="img" aria-label="Mobase">
-  <text x="130" y="45" dy=".34em" text-anchor="middle" fill="#0B5FA5"
-        font-family="Arial, Helvetica, sans-serif" font-weight="800" font-size="36" letter-spacing="2.5">MOBASE</text>
-  <rect x="34" y="64" width="192" height="4" rx="2" fill="#0B5FA5"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" aria-label="Mobase" role="img" viewBox="0 0 260 90"><text x="130" y="45" fill="#0B5FA5" dy=".34em" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="800" letter-spacing="2.5" text-anchor="middle">MOBASE</text><rect width="192" height="4" x="34" y="64" fill="#0B5FA5" rx="2"/></svg>
