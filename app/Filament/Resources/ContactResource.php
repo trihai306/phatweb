@@ -3,6 +3,7 @@
 namespace App\Filament\Resources;
 
 use App\Filament\Resources\ContactResource\Pages;
+use App\Http\Controllers\ContactController;
 use App\Models\Contact;
 use Filament\Schemas\Schema;
 use Filament\Resources\Resource;
@@ -53,8 +54,14 @@ class ContactResource extends Resource
                         TextEntry::make('phone')
                             ->label('Số điện thoại'),
 
+                        TextEntry::make('company')
+                            ->label('Công ty / Tổ chức')
+                            ->placeholder('—'),
+
                         TextEntry::make('subject')
-                            ->label('Chủ đề'),
+                            ->label('Chủ đề')
+                            ->formatStateUsing(fn ($state) => self::subjectLabel($state))
+                            ->placeholder('—'),
 
                         TextEntry::make('is_read')
                             ->label('Trạng thái')
@@ -93,9 +100,17 @@ class ContactResource extends Resource
                 TextColumn::make('phone')
                     ->label('Điện thoại'),
 
+                TextColumn::make('company')
+                    ->label('Công ty')
+                    ->searchable()
+                    ->limit(30)
+                    ->placeholder('—'),
+
                 TextColumn::make('subject')
                     ->label('Chủ đề')
-                    ->limit(40),
+                    ->formatStateUsing(fn ($state) => self::subjectLabel($state))
+                    ->limit(40)
+                    ->placeholder('—'),
 
                 ToggleColumn::make('is_read')
                     ->label('Đã đọc'),
@@ -122,6 +137,14 @@ class ContactResource extends Resource
                     DeleteBulkAction::make()->label('Xóa đã chọn'),
                 ]),
             ]);
+    }
+
+    /**
+     * Liên hệ cũ được lưu dưới dạng slug ("bao-gia"); đổi sang nhãn tiếng Việt khi hiển thị.
+     */
+    protected static function subjectLabel(?string $state): ?string
+    {
+        return ContactController::SUBJECTS[$state] ?? $state;
     }
 
     public static function getRelations(): array

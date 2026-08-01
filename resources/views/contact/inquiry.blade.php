@@ -44,12 +44,12 @@
                     loading: false,
                     errors: {},
                     form: {
-                        name: '{{ old('name', '') }}',
-                        email: '{{ old('email', '') }}',
-                        phone: '{{ old('phone', '') }}',
-                        company: '{{ old('company', '') }}',
-                        subject: '{{ old('subject', request('subject', '')) }}',
-                        message: '{{ old('message', '') }}'
+                        name: @js(old('name', '')),
+                        email: @js(old('email', '')),
+                        phone: @js(old('phone', '')),
+                        company: @js(old('company', '')),
+                        subject: @js($selectedSubject),
+                        message: @js(old('message', ''))
                     }
                  }">
 
@@ -94,7 +94,8 @@
                         </div>
                     </div>
 
-                    <form action="{{ route('contact.store') }}" method="POST" class="space-y-6">
+                    <form action="{{ route('contact.store') }}" method="POST" class="space-y-6"
+                          @submit="loading = true">
                         @csrf
 
                         {{-- Row 1: Name + Phone --}}
@@ -184,12 +185,9 @@
                                     x-model="form.subject"
                                     class="w-full px-4 py-3 border border-gray-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-primary/30 focus:border-primary transition-colors bg-white @error('subject') border-red-400 bg-red-50 @enderror">
                                 <option value="">-- Chọn chủ đề --</option>
-                                <option value="dich-vu" {{ old('subject', request('subject')) === 'dich-vu' ? 'selected' : '' }}>Tư vấn dịch vụ</option>
-                                <option value="bao-gia" {{ old('subject') === 'bao-gia' ? 'selected' : '' }}>Yêu cầu báo giá</option>
-                                <option value="tuyen-dung" {{ str_contains(request('subject', ''), 'Ứng tuyển') ? 'selected' : '' }}>Tuyển dụng</option>
-                                <option value="hop-tac" {{ old('subject') === 'hop-tac' ? 'selected' : '' }}>Hợp tác kinh doanh</option>
-                                <option value="khieu-nai" {{ old('subject') === 'khieu-nai' ? 'selected' : '' }}>Khiếu nại / Phản hồi</option>
-                                <option value="khac" {{ old('subject') === 'khac' ? 'selected' : '' }}>Khác</option>
+                                @foreach($subjects as $value => $label)
+                                    <option value="{{ $value }}" {{ $selectedSubject === $value ? 'selected' : '' }}>{{ $label }}</option>
+                                @endforeach
                             </select>
                             @error('subject')
                                 <p class="text-red-500 text-xs mt-1.5">{{ $message }}</p>
@@ -219,7 +217,7 @@
                                 @else
                                     <span></span>
                                 @enderror
-                                <span class="text-xs text-gray-400" x-text="form.message.length + '/1000 ký tự'"></span>
+                                <span class="text-xs text-gray-400" x-text="form.message.length + '/5000 ký tự'"></span>
                             </div>
                         </div>
 
@@ -234,7 +232,6 @@
                         {{-- Submit --}}
                         <button type="submit"
                                 :disabled="loading"
-                                @click="loading = true"
                                 class="btn-primary w-full justify-center text-base py-4 disabled:opacity-70 disabled:cursor-not-allowed">
                             <svg x-show="loading"
                                  x-cloak
