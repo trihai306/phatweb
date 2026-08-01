@@ -88,7 +88,11 @@ class CertificateResource extends Resource
     {
         return $table
             ->columns([
-                ImageColumn::make('image')
+                // Dùng accessor image_url: ảnh seed từ PDF của khách nằm trong
+                // public/images/... (commit vào git), còn ảnh upload qua Filament
+                // nằm trên disk public. Accessor trả về URL tuyệt đối nên
+                // ImageColumn dùng thẳng, không qua bước kiểm tra disk.
+                ImageColumn::make('image_url')
                     ->label('Hình ảnh')
                     ->square()
                     ->size(60),
