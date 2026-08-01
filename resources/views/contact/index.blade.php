@@ -163,12 +163,12 @@
                     {{-- Quick Contact Form --}}
                     <div class="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden"
                          x-data="{
-                             submitted: false,
                              loading: false,
-                             form: { name: '', email: '', phone: '', message: '' },
-                             async submit(e) {
-                                 this.loading = true;
-                                 e.target.submit();
+                             form: {
+                                 name: @js(old('name', '')),
+                                 email: @js(old('email', '')),
+                                 phone: @js(old('phone', '')),
+                                 message: @js(old('message', ''))
                              }
                          }">
 
@@ -209,7 +209,7 @@
                             <form action="{{ route('contact.store') }}"
                                   method="POST"
                                   class="space-y-5"
-                                  @submit="submit($event)">
+                                  @submit="loading = true">
                                 @csrf
 
                                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
