@@ -14,6 +14,7 @@ class Slider extends Model
         'subtitle',
         'image',
         'link',
+        'show_overlay',
         'sort_order',
         'is_active',
     ];
@@ -21,7 +22,8 @@ class Slider extends Model
     protected function casts(): array
     {
         return [
-            'is_active' => 'boolean',
+            'show_overlay' => 'boolean',
+            'is_active'    => 'boolean',
         ];
     }
 

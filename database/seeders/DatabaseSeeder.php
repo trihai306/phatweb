@@ -48,8 +48,10 @@ class DatabaseSeeder extends Seeder
             Setting::create($setting);
         }
 
-        Slider::create(['title' => 'Kiến tạo nền tảng sức khỏe người Việt bằng dinh dưỡng sạch mỗi ngày', 'subtitle' => null, 'image' => 'sliders/slide1.jpg', 'sort_order' => 0]);
-        Slider::create(['title' => 'Dinh dưỡng an toàn là gốc rễ cho thể chất khỏe mạnh của người Việt', 'subtitle' => null, 'image' => 'sliders/slide2.jpg', 'sort_order' => 1]);
+        // Slide 1 là ảnh bìa thiết kế sẵn (đã có tiêu đề, logo, thanh liên hệ in trong ảnh)
+        // nên tắt lớp chữ đè để không bị chồng hai tầng tiêu đề.
+        Slider::create(['title' => 'Kiến tạo nền tảng sức khỏe người Việt bằng dinh dưỡng sạch mỗi ngày', 'subtitle' => null, 'image' => 'sliders/hero-vung-vang-tuong-lai.jpg', 'show_overlay' => false, 'sort_order' => 0]);
+        Slider::create(['title' => 'Dinh dưỡng an toàn là gốc rễ cho thể chất khỏe mạnh của người Việt', 'subtitle' => null, 'image' => 'sliders/hero-dna-dinh-duong.jpg', 'sort_order' => 1]);
 
         Service::create([
             'title' => 'Suất ăn trường học',
