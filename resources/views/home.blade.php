@@ -7,10 +7,9 @@
 ═══════════════════════════════════════════════════════════ --}}
 <section
     x-data="slider"
-    class="relative overflow-hidden bg-dark"
+    class="relative overflow-hidden bg-dark hero-slider"
     @mouseenter="stopAutoplay"
     @mouseleave="startAutoplay"
-    style="height: 100vh; min-height: 600px; max-height: 900px;"
 >
     {{-- Slides container --}}
     <div x-ref="slides" class="absolute inset-0">
@@ -31,13 +30,17 @@
                 @endphp
 
                 @if($imageExists)
-                    {{-- Ken Burns zoom effect via CSS animation --}}
+                    {{-- Ken Burns zoom effect via CSS animation.
+                         Bỏ zoom với ảnh bìa thiết kế sẵn (show_overlay = false) vì zoom sẽ
+                         cắt mất logo và thanh liên hệ in trong ảnh. --}}
                     <div class="absolute inset-0 overflow-hidden">
                         <img
                             src="{{ asset('storage/' . $imagePath) }}"
                             alt="{{ $slider->title }}"
-                            class="w-full h-full object-cover"
-                            style="transform-origin: center; animation: heroZoom 8s ease-in-out infinite alternate;"
+                            class="w-full h-full object-cover {{ $slider->show_overlay ? '' : 'hero-banner' }}"
+                            @if($slider->show_overlay)
+                                style="transform-origin: center; animation: heroZoom 8s ease-in-out infinite alternate;"
+                            @endif
                             loading="{{ $index === 0 ? 'eager' : 'lazy' }}"
                         >
                     </div>
@@ -49,6 +52,7 @@
                     </div>
                 @endif
 
+                @if($slider->show_overlay)
                 {{-- Multi-layer gradient overlay for text readability --}}
                 <div class="absolute inset-0" style="background: linear-gradient(90deg, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.45) 50%, rgba(0,0,0,0.1) 100%);"></div>
                 <div class="absolute inset-0" style="background: linear-gradient(0deg, rgba(0,0,0,0.4) 0%, transparent 50%);"></div>
@@ -87,6 +91,7 @@
                         </div>
                     </div>
                 </div>
+                @endif
             </div>
         @empty
             {{-- Fallback slide when no sliders exist --}}
@@ -722,6 +727,28 @@
     @keyframes heroZoom {
         from { transform: scale(1.0); }
         to   { transform: scale(1.08); }
+    }
+
+    .hero-slider {
+        height: 100vh;
+        min-height: 600px;
+        max-height: 900px;
+    }
+
+    /* Ảnh bìa thiết kế sẵn (show_overlay = false): logo, tiêu đề và thanh liên hệ
+       nằm sát 4 mép ảnh, nên object-cover trên màn hẹp sẽ cắt cụt mất nội dung.
+       Trên mobile hiện trọn khung ảnh, đồng thời hạ chiều cao hero để ảnh ngang
+       không bị lọt thỏm giữa một vùng nền trống. */
+    @media (max-width: 767px) {
+        .hero-slider {
+            height: 60vh;
+            min-height: 420px;
+        }
+
+        .hero-banner {
+            object-fit: contain;
+            background: #f4f8fb;
+        }
     }
 
     /* Slide-up + fade entrance for hero text */

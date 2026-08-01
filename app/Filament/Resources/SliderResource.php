@@ -83,6 +83,12 @@ class SliderResource extends Resource
                         Toggle::make('is_active')
                             ->label('Kích hoạt')
                             ->default(true),
+
+                        Toggle::make('show_overlay')
+                            ->label('Hiển thị chữ đè lên ảnh')
+                            ->helperText('Tắt khi ảnh đã có sẵn tiêu đề/logo in trong ảnh (ảnh bìa thiết kế sẵn).')
+                            ->default(true)
+                            ->columnSpan(2),
                     ]),
                 ]),
         ]);
