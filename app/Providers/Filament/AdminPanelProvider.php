@@ -30,6 +30,7 @@ class AdminPanelProvider extends PanelProvider
             ->path('admin')
             ->login()
             ->brandName('DAT PHAT Admin')
+            ->favicon(asset('favicon/favicon-32x32.png'))
             ->colors([
                 'primary' => Color::Orange,
             ])

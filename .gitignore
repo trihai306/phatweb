@@ -28,4 +28,7 @@ Thumbs.db
 /scraper/node_modules
 /database/database.sqlite
 *.png
+# Ảnh asset của website phải được commit (ghi đè rule *.png ở trên)
+!/public/images/**
+!/public/favicon/**
 Feedback.pdf
