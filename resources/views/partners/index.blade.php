@@ -146,7 +146,8 @@
                                 </div>
 
                                 @if(!empty($partner['cert_file']))
-                                    <div class="flex items-start gap-3 p-3 bg-primary/5 rounded-xl border border-primary/10">
+                                    @php($qrSvg = \App\Support\QrCode::svg(asset($partner['cert_file']), 98))
+                                    <div x-data="{ qrOpen: false }" class="flex items-start gap-3 p-3 bg-primary/5 rounded-xl border border-primary/10">
                                         <div class="w-8 h-8 bg-primary/15 rounded-lg flex items-center justify-center flex-shrink-0">
                                             <svg class="w-4 h-4 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
@@ -155,11 +156,13 @@
                                         <div class="min-w-0 flex-1">
                                             <p class="text-sm text-primary font-semibold" style="margin-bottom:0.45rem;">Hồ sơ pháp lý &amp; chứng nhận</p>
                                             <div class="flex items-center gap-3">
-                                                <div style="width:108px; height:108px; padding:5px; background:#ffffff; border:1px solid rgba(25,89,47,0.25); border-radius:0.5rem; flex-shrink:0;"
-                                                     role="img"
-                                                     aria-label="Mã QR xem hồ sơ pháp lý của {{ $partner['name'] }}">
-                                                    {!! \App\Support\QrCode::svg(asset($partner['cert_file']), 98) !!}
-                                                </div>
+                                                <button type="button" @click="qrOpen = true"
+                                                        class="qr-code hover:border-primary/60 transition-colors duration-200"
+                                                        style="width:108px; height:108px; padding:5px; background:#ffffff; border:1px solid rgba(25,89,47,0.25); border-radius:0.5rem; flex-shrink:0;"
+                                                        title="Phóng to mã QR hồ sơ pháp lý"
+                                                        aria-label="Phóng to mã QR xem hồ sơ pháp lý của {{ $partner['name'] }}">
+                                                    {!! $qrSvg !!}
+                                                </button>
                                                 <div class="min-w-0">
                                                     <p class="text-xs font-semibold text-gray-700" style="margin-bottom:0.25rem;">Quét mã QR để xem hồ sơ</p>
                                                     @if(!empty($partner['cert_labels']))
@@ -168,6 +171,25 @@
                                                 </div>
                                             </div>
                                         </div>
+
+                                        {{-- Phóng to mã QR để quét bằng máy khác; teleport ra body vì thẻ cha có transform --}}
+                                        <template x-teleport="body">
+                                            <div x-cloak x-show="qrOpen" x-transition.opacity
+                                                 @click="qrOpen = false" @keydown.escape.window="qrOpen = false"
+                                                 class="fixed inset-0 z-50 flex items-center justify-center p-5 bg-black/60 backdrop-blur-sm">
+                                                <div @click.stop class="bg-white rounded-2xl shadow-2xl p-6 w-full max-w-xs text-center">
+                                                    <p class="text-sm font-bold text-gray-900 leading-snug">{{ $partner['short_name'] }}</p>
+                                                    <p class="text-xs text-gray-500 mt-1 mb-4">Quét mã QR bằng camera điện thoại để xem hồ sơ pháp lý &amp; chứng nhận.</p>
+                                                    <div class="qr-code mx-auto w-52 h-52 p-2 bg-white rounded-xl border border-gray-200">
+                                                        {!! $qrSvg !!}
+                                                    </div>
+                                                    <button type="button" @click="qrOpen = false"
+                                                            class="mt-5 w-full py-2.5 bg-primary text-white text-sm font-semibold rounded-xl hover:bg-primary-dark transition-colors duration-200">
+                                                        Đóng
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </template>
                                     </div>
                                 @endif
                             </div>
