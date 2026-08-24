@@ -23,11 +23,8 @@ class PartnerController extends Controller
                 'mst' => '2300345626',
                 'category' => 'Thực phẩm chế biến & Trứng',
                 'products' => ['Trứng gà', 'Xúc xích', 'Chả cá', 'Chả lụa'],
-                'cert_docs' => [
-                    ['file' => 'docs/certs/dabaco-attp.pdf', 'label' => 'Giấy chứng nhận ATTP'],
-                    ['file' => 'docs/certs/dabaco-dkkd.pdf', 'label' => 'Giấy ĐKKD doanh nghiệp'],
-                    ['file' => 'docs/certs/dabaco-vietgap.pdf', 'label' => 'Chứng nhận VietGAP'],
-                ],
+                'cert_file' => 'docs/certs/dabaco-ho-so.pdf',
+                'cert_labels' => ['Giấy chứng nhận ATTP', 'Giấy ĐKKD doanh nghiệp', 'Chứng nhận VietGAP'],
             ],
             [
                 'name' => 'Công ty Cổ phần Kinh doanh Thực phẩm CIDU Việt Nam',
@@ -36,10 +33,8 @@ class PartnerController extends Controller
                 'mst' => '0108946064',
                 'category' => 'Gia cầm',
                 'products' => ['Gà ta', 'Gà công nghiệp', 'Lườn gà', 'Tỏi đùi gà', 'Cánh gà', 'Chim bồ câu', 'Ngan'],
-                'cert_docs' => [
-                    ['file' => 'docs/certs/cidu-attp.pdf', 'label' => 'Giấy chứng nhận ATTP'],
-                    ['file' => 'docs/certs/cidu-dkkd.pdf', 'label' => 'Giấy ĐKKD doanh nghiệp'],
-                ],
+                'cert_file' => 'docs/certs/cidu-ho-so.pdf',
+                'cert_labels' => ['Giấy chứng nhận ATTP', 'Giấy ĐKKD doanh nghiệp'],
             ],
             [
                 'name' => 'Công ty TNHH Cung cấp Thực phẩm sạch Minh Ngọc',
@@ -48,10 +43,8 @@ class PartnerController extends Controller
                 'mst' => '2301294276',
                 'category' => 'Thịt lợn & Bò',
                 'products' => ['Xương (ống/cục/hom)', 'Sườn', 'Nạc (vai/thăn/mông)', 'Sấn', 'Ba rọi', 'Móng giò', 'Mỡ', 'Tim lợn', 'Bò vai', 'Bò mông', 'Bò thăn', 'Bò bắp', 'Bò dẻ sườn'],
-                'cert_docs' => [
-                    ['file' => 'docs/certs/minh-ngoc-attp.pdf', 'label' => 'Giấy chứng nhận ATTP'],
-                    ['file' => 'docs/certs/minh-ngoc-dkkd.pdf', 'label' => 'Giấy ĐKKD doanh nghiệp'],
-                ],
+                'cert_file' => 'docs/certs/minh-ngoc-ho-so.pdf',
+                'cert_labels' => ['Giấy chứng nhận ATTP', 'Giấy ĐKKD doanh nghiệp'],
             ],
             [
                 'name' => 'Hộ kinh doanh Phương Lan',
@@ -60,7 +53,8 @@ class PartnerController extends Controller
                 'mst' => '2301390029',
                 'category' => 'Thịt lợn',
                 'products' => ['Xương (ống/cục/hom)', 'Sườn', 'Nạc (vai/thăn/mông)', 'Sấn', 'Ba rọi', 'Móng giò', 'Mỡ', 'Tim lợn'],
-                'cert_docs' => [],
+                'cert_file' => null,
+                'cert_labels' => [],
             ],
             [
                 'name' => 'Hộ kinh doanh Mẫn Xuân Thế',
@@ -69,10 +63,8 @@ class PartnerController extends Controller
                 'mst' => '027070002360',
                 'category' => 'Rau củ & Gia vị',
                 'products' => ['Bắp cải', 'Bí xanh', 'Bí đỏ', 'Cà chua', 'Cà rốt', 'Khoai tây', 'Súp lơ', 'Rau muống', 'Rau cải', 'Gia vị các loại', 'Hoa quả tươi'],
-                'cert_docs' => [
-                    ['file' => 'docs/certs/man-xuan-the-cam-ket.pdf', 'label' => 'Bản cam kết ATTP'],
-                    ['file' => 'docs/certs/man-xuan-the-dkkd.pdf', 'label' => 'Giấy ĐKKD hộ kinh doanh'],
-                ],
+                'cert_file' => 'docs/certs/man-xuan-the-ho-so.pdf',
+                'cert_labels' => ['Bản cam kết ATTP', 'Giấy ĐKKD hộ kinh doanh'],
             ],
             [
                 'name' => 'Hộ kinh doanh Nguyễn Mỹ Linh 3',
@@ -81,9 +73,8 @@ class PartnerController extends Controller
                 'mst' => '017191001120',
                 'category' => 'Thực phẩm chế biến',
                 'products' => ['Giò lụa', 'Chả lụa'],
-                'cert_docs' => [
-                    ['file' => 'docs/certs/nguyen-my-linh-3-dkkd.pdf', 'label' => 'Giấy ĐKKD hộ kinh doanh'],
-                ],
+                'cert_file' => 'docs/certs/nguyen-my-linh-3-ho-so.pdf',
+                'cert_labels' => ['Giấy ĐKKD hộ kinh doanh'],
             ],
             [
                 'name' => 'Công ty TNHH Lương thực Thực phẩm Mến Bưởi',
@@ -92,10 +83,8 @@ class PartnerController extends Controller
                 'mst' => '2300678329',
                 'category' => 'Lương thực',
                 'products' => ['Gạo BC', 'Gạo nếp cái hoa vàng'],
-                'cert_docs' => [
-                    ['file' => 'docs/certs/men-buoi-attp.pdf', 'label' => 'Giấy chứng nhận ATTP'],
-                    ['file' => 'docs/certs/men-buoi-dkkd.pdf', 'label' => 'Giấy ĐKKD doanh nghiệp'],
-                ],
+                'cert_file' => 'docs/certs/men-buoi-ho-so.pdf',
+                'cert_labels' => ['Giấy chứng nhận ATTP', 'Giấy ĐKKD doanh nghiệp'],
             ],
             [
                 'name' => 'Hộ kinh doanh Ngô Thị Hương',
@@ -104,7 +93,8 @@ class PartnerController extends Controller
                 'mst' => '027187013418',
                 'category' => 'Khác',
                 'products' => [],
-                'cert_docs' => [],
+                'cert_file' => null,
+                'cert_labels' => [],
             ],
         ];
 
